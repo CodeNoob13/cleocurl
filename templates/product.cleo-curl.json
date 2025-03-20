@@ -1,0 +1,324 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "f1e7abc9-a4b1-4ff4-b275-f0a8fb626999": {
+          "type": "product_variations",
+          "settings": {
+            "option_name": "",
+            "option_value_metafield": "",
+            "products": [],
+            "color_mode": "color"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "checkmark_points_8wc7XU": {
+          "type": "checkmark_points",
+          "disabled": true,
+          "settings": {
+            "svg": "<svg width=\"187\" height=\"114\" viewbox=\"0 0 287 214\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M129.913 204.24C116.901 217.253 95.7881 217.253 82.7823 204.24L9.75904 131.206C-3.25301 118.199 -3.25301 97.0826 9.75904 84.075C22.7648 71.0612 43.878 71.0612 56.8901 84.075L100.398 127.582C103.682 130.861 109.014 130.861 112.304 127.582L230.11 9.76039C243.116 -3.25346 264.229 -3.25346 277.241 9.76039C283.49 16.0098 287 24.4889 287 33.326C287 42.1631 283.49 50.6422 277.241 56.8916L129.913 204.24Z\" fill=\"#B3A950\"></path>\n</svg>",
+            "text": "Perfect for curls with hair type 3A - 4C"
+          }
+        },
+        "checkmark_points_iAgMze": {
+          "type": "checkmark_points",
+          "disabled": true,
+          "settings": {
+            "svg": "<svg width=\"187\" height=\"114\" viewbox=\"0 0 287 214\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M129.913 204.24C116.901 217.253 95.7881 217.253 82.7823 204.24L9.75904 131.206C-3.25301 118.199 -3.25301 97.0826 9.75904 84.075C22.7648 71.0612 43.878 71.0612 56.8901 84.075L100.398 127.582C103.682 130.861 109.014 130.861 112.304 127.582L230.11 9.76039C243.116 -3.25346 264.229 -3.25346 277.241 9.76039C283.49 16.0098 287 24.4889 287 33.326C287 42.1631 283.49 50.6422 277.241 56.8916L129.913 204.24Z\" fill=\"#B3A950\"></path>\n</svg>",
+            "text": "Premium ingredients (mango oil, olive oil, aloe vera & more)"
+          }
+        },
+        "text_BGMcr9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✓ CG proof<br/>✓ Best for hair type 3a - 4c<br/>✓ Premium ingredients<br/>✓ Nourishes & hydrates your hair</p>"
+          }
+        },
+        "checkmark_points_rfHDzY": {
+          "type": "checkmark_points",
+          "disabled": true,
+          "settings": {
+            "svg": "<svg width=\"187\" height=\"114\" viewbox=\"0 0 287 214\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M129.913 204.24C116.901 217.253 95.7881 217.253 82.7823 204.24L9.75904 131.206C-3.25301 118.199 -3.25301 97.0826 9.75904 84.075C22.7648 71.0612 43.878 71.0612 56.8901 84.075L100.398 127.582C103.682 130.861 109.014 130.861 112.304 127.582L230.11 9.76039C243.116 -3.25346 264.229 -3.25346 277.241 9.76039C283.49 16.0098 287 24.4889 287 33.326C287 42.1631 283.49 50.6422 277.241 56.8916L129.913 204.24Z\" fill=\"#B3A950\"></path>\n</svg>",
+            "text": "Free from silicons, mineral oils and dehydrating alcohol"
+          }
+        },
+        "checkmark_points_ycknK8": {
+          "type": "checkmark_points",
+          "disabled": true,
+          "settings": {
+            "svg": "<svg width=\"187\" height=\"114\" viewbox=\"0 0 287 214\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M129.913 204.24C116.901 217.253 95.7881 217.253 82.7823 204.24L9.75904 131.206C-3.25301 118.199 -3.25301 97.0826 9.75904 84.075C22.7648 71.0612 43.878 71.0612 56.8901 84.075L100.398 127.582C103.682 130.861 109.014 130.861 112.304 127.582L230.11 9.76039C243.116 -3.25346 264.229 -3.25346 277.241 9.76039C283.49 16.0098 287 24.4889 287 33.326C287 42.1631 283.49 50.6422 277.241 56.8916L129.913 204.24Z\" fill=\"#B3A950\"></path>\n</svg>",
+            "text": "Nourishes your hair"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true,
+            "open": true,
+            "custom_description": false,
+            "description": "",
+            "title": ""
+          }
+        },
+        "collapsible_text_PzJyiF": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Ingredients",
+            "content": "<ul><li><strong>Aloe Vera:</strong> hydrates and soothes the scalp while enhancing curl definition.</li><li><strong>Argan Oil:</strong> rich in vitamins and antioxidants, it nourishes and strengthens hair.</li><li><strong>Shea Butter:</strong> deeply moisturizes and adds shine to your curls.</li><li><strong>Coconut Oil:</strong> penetrates hair shafts to provide lasting moisture and reduce breakage.</li><li><strong>Jojoba Oil:</strong> balances scalp oil production and promotes healthy hair growth.</li><li><strong>Vitamin E:</strong> protects hair from environmental damage and promotes a healthy scalp.</li><li><strong>Rosemary Extract:</strong> stimulates hair follicles and improves circulation to the scalp.</li><li><strong>Chamomile Extract:</strong> soothes the scalp and enhances hair's natural highlights.</li><li><strong>Hydrolyzed Silk Protein:</strong> strengthens hair and improves its elasticity.</li><li><strong>Panthenol (Pro-Vitamin B5):</strong> adds volume and shine while reducing split ends.</li></ul>"
+          }
+        },
+        "collapsible_text_HTUqia": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Free shipping",
+            "content": "<p>Cleo Curl covers the shipping costs for orders over €40,-</p>"
+          }
+        },
+        "30c81b12-305e-4300-8d6b-486801932743": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Pay Later",
+            "content": "<p>You can use Klarna to pay later.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "f1e7abc9-a4b1-4ff4-b275-f0a8fb626999",
+        "variant_picker",
+        "checkmark_points_8wc7XU",
+        "checkmark_points_iAgMze",
+        "text_BGMcr9",
+        "checkmark_points_rfHDzY",
+        "checkmark_points_ycknK8",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible_text_PzJyiF",
+        "collapsible_text_HTUqia",
+        "30c81b12-305e-4300-8d6b-486801932743"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "enable_sticker": false,
+        "desktop_media_width": 50,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "free_scroll",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "linear-gradient(180deg, rgba(222, 240, 239, 1), rgba(255, 255, 255, 1) 50%, rgba(255, 183, 74, 1) 100%)",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "before_after_image_cMUnW9": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Still not convinced?</p>",
+        "before_image": "shopify://shop_images/DSC01553.heic",
+        "after_image": "shopify://shop_images/a1eb43ef-ca63-4c9b-93e5-7c57a4e6ca6c.heic",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "#ffb74a",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 183, 74, 1), rgba(255, 255, 255, 1) 50%, rgba(222, 240, 239, 1) 100%)",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "images_with_text_scrolling_8MCUpF": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_LRqKQz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avocado-CleoCurl_2.jpg",
+            "icon": "none",
+            "icon_width": 52,
+            "title": "Premium Ingredients for Healthy Curls",
+            "content": "<p>At CLEO CURL, we believe that your hair deserves the very best. That’s why we only select the highest quality, natural ingredients for our styling cream. The combination of natural fruit extracts and Mediterranean oils hydrate, strengthen and define your curls. You can trust that every ingredient is chosen with your hair’s health and beauty in mind.</p>"
+          }
+        },
+        "item_y4YYpd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/DSC00491.heic",
+            "icon": "none",
+            "icon_width": 52,
+            "title": "Makes Styling Your Curls Easy",
+            "content": "<p>Our products are designed to make styling your curls easy, helping you achieve the most beautiful, defined curls you've ever had. They provide long-lasting hold while maintaining the health of your hair, so your curls stay soft, bouncy, and naturally shiny. Plus, they're free from silicones, mineral oils and dehydrating alcohols, ensuring your curls stay healthy.</p>"
+          }
+        },
+        "item_cjAadU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pexels-alexazabache-3723031.jpg",
+            "icon": "none",
+            "icon_width": 52,
+            "title": "Makes You Authentic",
+            "content": "<p>Inspired by the timeless beauty of the ancient Egyptian queen Cleopatra, CLEO CURL empowers you to wear your curls with pride and authenticity. Too often, we see women neglect their curls. We want you to wear them with confidence!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_LRqKQz",
+        "item_y4YYpd",
+        "item_cjAadU"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(222, 240, 239, 1), rgba(255, 255, 255, 1) 50%, rgba(255, 183, 74, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "accordion_content_7CywX7": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_Wp6fHW": {
+          "type": "item",
+          "settings": {
+            "title": "What hair types is CLEO CURL suitable for?",
+            "content": "<p>CLEO CURL is designed to work beautifully on all curly hair types, from loose waves to tight coils. Our formula enhances your natural curl pattern, providing definition and shine.</p>"
+          }
+        },
+        "item_aQWAdf": {
+          "type": "item",
+          "settings": {
+            "title": "What makes CLEO CURL different from other curling creams?",
+            "content": "<p>CLEO CURL stands out due to its premium, natural ingredients and non-toxic formula. We focus on delivering hydration, strength, and definition while ensuring your scalp remains healthy and irritation-free.</p>"
+          }
+        },
+        "item_9c8NVn": {
+          "type": "item",
+          "settings": {
+            "title": "How do I use CLEO CURL for the best results?",
+            "content": "<p>Apply a generous amount of CLEO CURL to damp hair, distributing it evenly from root to tip. Use your fingers or a wide-tooth comb to define your curls. For extra definition, scrunch your hair and let it air dry or use a diffuser.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Wp6fHW",
+        "item_aQWAdf",
+        "item_9c8NVn"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Most Asked Questions",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 183, 74, 1), rgba(255, 255, 255, 1) 50%, rgba(222, 240, 239, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "revealed_image_on_scroll_cPHb3X": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify://shop_images/DSC01362.heic",
+        "mobile_image": "shopify://shop_images/DSC01362.heic",
+        "subheading": "",
+        "title": "Wear Your Curls Proudly!",
+        "background": "#def0ef",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "before_after_image_cMUnW9",
+    "images_with_text_scrolling_8MCUpF",
+    "accordion_content_7CywX7",
+    "revealed_image_on_scroll_cPHb3X"
+  ]
+}

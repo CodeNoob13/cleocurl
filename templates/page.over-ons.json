@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "3ba9ba9a-9b62-417c-934f-a60ea99addd0": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19383899685194__3ba9ba9a-9b62-417c-934f-a60ea99addd0-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Sleep tight, live better and smile more"
+          }
+        },
+        "template--19383899685194__3ba9ba9a-9b62-417c-934f-a60ea99addd0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Ons verhaal",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19383899685194__3ba9ba9a-9b62-417c-934f-a60ea99addd0-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19383899685194__3ba9ba9a-9b62-417c-934f-a60ea99addd0-subheading-1",
+        "template--19383899685194__3ba9ba9a-9b62-417c-934f-a60ea99addd0-heading-1",
+        "template--19383899685194__3ba9ba9a-9b62-417c-934f-a60ea99addd0-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/Dekbed_zonder_overtrek_op_bed_met_patricia-min.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 44
+      }
+    },
+    "a17a04d6-4da9-4aa4-b553-40977ac562c9": {
+      "type": "rich-text",
+      "blocks": {
+        "b96f297e-64ac-4310-b4dd-a37d11cf3b5e": {
+          "type": "subheading",
+          "settings": {
+            "text": "Wij geloven in"
+          }
+        },
+        "template--19383899685194__a17a04d6-4da9-4aa4-b553-40977ac562c9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Vreugde, geluk en gemak.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19383899685194__a17a04d6-4da9-4aa4-b553-40977ac562c9-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>HappyBed is ontstaan uit de diepgewortelde overtuiging dat iedereen recht heeft op een glimlach. Terwijl anderen zich richten op het verbeteren van dagelijkse activiteiten of het oplossen van problemen, geloven wij dat geluk en blijdschap sterk verbonden zijn met de kwaliteit van je slaap. Door elke nacht de best mogelijke rust te ervaren, geef je jezelf een krachtige boost en vergroot je je veerkracht, waardoor je, zoals wij het graag noemen, \"Meer lacht.\"</p><p>Gebaseerd op deze kernwaarden hebben we HappyBed opgebouwd. We zijn geen gewoon slaapmerk dat slechts streeft naar een betere nachtrust; we streven ernaar om vreugde en gemak te brengen in elk aspect van je leven, zowel 's ochtends als 's avonds. Het moment waarop je onder je dekens kruipt om te genieten van een goede nachtrust is voor ons een kostbaar moment, en we zijn er trots op dat we daar deel van uitmaken. Wij geloven dat een gelukkig bed gelijkstaat aan een gelukkig leven, en we zijn hier om ervoor te zorgen dat je elke dag met een glimlach begint.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b96f297e-64ac-4310-b4dd-a37d11cf3b5e",
+        "template--19383899685194__a17a04d6-4da9-4aa4-b553-40977ac562c9-heading-1",
+        "template--19383899685194__a17a04d6-4da9-4aa4-b553-40977ac562c9-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "72e5b001-7386-403e-b163-749c2fd766d5": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--19712398065994__72e5b001-7386-403e-b163-749c2fd766d5-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Hoofdkussens_op_bed.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "Waar andere stoppen",
+            "title": "Gaan wij verder.",
+            "content": "<p>Met een gepassioneerd team staan wij vastberaden achter ons doel: iedereen een betere nachtrust bieden! Samen streven we naar een leven waarin we meer kunnen genieten en het beste uit elk moment halen.</p>",
+            "button_url": "shopify://collections/dekbed-zonder-overtrek",
+            "button_text": "Ontdek ons assortiment"
+          }
+        },
+        "template--19712398065994__72e5b001-7386-403e-b163-749c2fd766d5-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/101134.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "Duurzaamheid",
+            "title": "Ook de natuur telt.",
+            "content": "<p>Natuurlijk is het verbeteren van je nachtrust van het grootste belang voor ons, maar dat geldt ook voor onze toewijding aan de natuur. Ontdek wat wij doen op het gebied van duurzaamheid en hoe we bijdragen aan het behoud van onze planeet.</p>",
+            "button_url": "shopify://pages/duurzaamheid",
+            "button_text": "Lees meer"
+          }
+        }
+      },
+      "block_order": [
+        "template--19712398065994__72e5b001-7386-403e-b163-749c2fd766d5-item-2",
+        "template--19712398065994__72e5b001-7386-403e-b163-749c2fd766d5-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "collage",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "f379137d-b0e5-4148-b826-067c29ff0f3c": {
+      "type": "timeline",
+      "blocks": {
+        "template--19383899685194__f379137d-b0e5-4148-b826-067c29ff0f3c-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DE2D81F1-ECED-4B63-BC49-CDD163AF5E42.jpg",
+            "navigation_label": "2020",
+            "subheading": "Opstart",
+            "title": "HappyBed is van start gegaan",
+            "content": "<p>Met een passie voor comfort en een missie om een goede nachtrust voor iedereen te realiseren, begon ons avontuur. We waren een gepassioneerd team dat zich toelegde op het leveren van hoogwaardige dekbedden en hoofdkussens aan onze gewaardeerde klanten.</p><p>Bij HappyBed geloofden we dat een goede nachtrust essentieel is voor een gelukkig en gezond leven. Daarom hadden we ons ingezet om de nieuwste trends en technologieën in de slaapindustrie te volgen, zodat we de meest comfortabele en duurzame slaapoplossingen kunnen bieden.</p>"
+          }
+        },
+        "template--19383899685194__f379137d-b0e5-4148-b826-067c29ff0f3c-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0537.png",
+            "navigation_label": "2022",
+            "subheading": "Uitbreiding magazijn",
+            "title": "HappyBed groeit!",
+            "content": "<p>Met passie voor comfortabele slaapoplossingen begonnen we ons avontuur en leverden we hoogwaardige dekbedden en Hoofdkussens aan tevreden klanten in de Benelux. Dankzij jullie steun groeiden we en breidden we ons magazijn uit om aan de groeiende vraag te voldoen. Met ons ruime magazijn konden we een breder scala aan producten op voorraad hebben en snellere levertijden garanderen. </p>"
+          }
+        },
+        "template--19383899685194__f379137d-b0e5-4148-b826-067c29ff0f3c-slide-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/female-executives-wearing-headphones.jpg",
+            "navigation_label": "2023",
+            "subheading": "Uitbreiding team",
+            "title": "2 nieuwe werknemers aangenomen.",
+            "content": "<p>Als pluim op ons succes is het team uitgebreid. Met onze groeiende passie voor comfortabele slaapoplossingen, hebben we besloten om ons team te versterken, zodat we onze missie kunnen voortzetten om een goede nachtrust voor iedereen mogelijk te maken.</p><p>We zijn op zoek gegaan naar enthousiaste mensen met een hart voor klantenservice en een oog voor kwaliteit. Samen zullen we onze klanten de beste slaapervaring bieden, ondersteund door de nieuwste trends en technologieën in de slaapindustrie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19383899685194__f379137d-b0e5-4148-b826-067c29ff0f3c-slide-1",
+        "template--19383899685194__f379137d-b0e5-4148-b826-067c29ff0f3c-slide-2",
+        "template--19383899685194__f379137d-b0e5-4148-b826-067c29ff0f3c-slide-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "background": "#f6f6f6",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3ba9ba9a-9b62-417c-934f-a60ea99addd0",
+    "a17a04d6-4da9-4aa4-b553-40977ac562c9",
+    "72e5b001-7386-403e-b163-749c2fd766d5",
+    "f379137d-b0e5-4148-b826-067c29ff0f3c"
+  ]
+}

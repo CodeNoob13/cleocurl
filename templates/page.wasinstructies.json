@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "91801181-4773-42d5-a408-40d315264f66": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19383821369674__91801181-4773-42d5-a408-40d315264f66-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Wasinstructies",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19383821369674__91801181-4773-42d5-a408-40d315264f66-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Alle informatie die je nodig hebt om je dekbed heerlijk zacht te houden. Makkelijk te wassen en in een mum van tijd droog!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19383821369674__91801181-4773-42d5-a408-40d315264f66-heading-1",
+        "template--19383821369674__91801181-4773-42d5-a408-40d315264f66-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "808953cb-e401-478f-b831-5b32a49f7aa1": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19712398164298__808953cb-e401-478f-b831-5b32a49f7aa1-item-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Eenpersoons dekbed",
+            "heading_tag": "h4",
+            "content": "<p>Een eenpersoons dekbed varieert in afmetingen van 140x200 tot 140x220 cm. Dit dekbed is ideaal voor één persoon en past gemakkelijk in een wasmachine met een trommelinhoud van 5 tot 6 kilo.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19712398164298__808953cb-e401-478f-b831-5b32a49f7aa1-item-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "twijfelaar dekbed",
+            "heading_tag": "h4",
+            "content": "<p>Een twijfelaar dekbed varieert in afmetingen van 160x200 en 160x220 cm. Dit dekbed is ideaal voor één persoon en past gemakkelijk in een wasmachine met een trommelinhoud van 6 tot 7 kilo.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19712398164298__808953cb-e401-478f-b831-5b32a49f7aa1-item-3": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Tweepersoons dekbed",
+            "heading_tag": "h4",
+            "content": "<p>Een tweepersoons dekbed varieert in afmetingen van 200x200 en 200x220 cm. Dit dekbed is ideaal voor één persoon en past gemakkelijk in een wasmachine met een trommelinhoud van 8 tot 9 kilo.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "a7f3348c-b565-4e70-91fb-8ae356c3dcdd": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "XL dekbed",
+            "heading_tag": "h4",
+            "content": "<p>Een XL dekbed varieert in afmetingen van 220x200 en 240x220 cm. Dit dekbed is ideaal voor één persoon en past gemakkelijk in een wasmachine met een trommelinhoud van 9 tot 11 kilo.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19712398164298__808953cb-e401-478f-b831-5b32a49f7aa1-item-1",
+        "template--19712398164298__808953cb-e401-478f-b831-5b32a49f7aa1-item-2",
+        "template--19712398164298__808953cb-e401-478f-b831-5b32a49f7aa1-item-3",
+        "a7f3348c-b565-4e70-91fb-8ae356c3dcdd"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Welk dekbedformaat is geschikt voor jouw wasmachine?",
+        "content": "<p>We begrijpen hoe frustrerend het is wanneer je dekbed niet in de wasmachine past. Daarom hebben we de perfecte gids samengesteld om je van alle nodige informatie te voorzien voor de juiste keuze.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ccc223bf-f3d0-4108-83a1-f8588a5ec607": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19712398164298__ccc223bf-f3d0-4108-83a1-f8588a5ec607-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Binnen 4 stappen je dekbed schoon",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19712398164298__ccc223bf-f3d0-4108-83a1-f8588a5ec607-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "78226b2f-b284-4173-8c7a-f414e4c31187": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--19383821369674__78226b2f-b284-4173-8c7a-f414e4c31187-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/woman-putting-dirty-clothes-washing-machine.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Stap 1: Kies het formaat dekbed dat bij je wasmachine past.",
+            "content": "<p>Om jouw HappyBed goed te kunnen wassen is het belangerijk dat je een formaat uitkiest dat past bij jouw wasmachine. Een te groot dekbed kan vervelend zijn met uitwassen, kies daarom altijd een formaat waarvan je zeker weet dat die past:<br/><br/>140x200 (S) = 5Kg inhoud<br/>200x200 (M) = 7Kg inhoud<br/>240x220 (L) = 10Kg inhoud</p><p><em><strong>Tip: Kleine wasmachine? Kies voor twee kleine<br/>i.p.v. een grote</strong></em></p>"
+          }
+        },
+        "template--19383821369674__78226b2f-b284-4173-8c7a-f414e4c31187-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Patchwork_Pink_bij_wasmachine_met_model_uitsnede_klein_1000_px.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Stap 2: het juiste wasprogramma selecteren",
+            "content": "<p>Voor ultieme frisheid en hygiëne raden we aan de wasinstructies voor jouw dekbed te volgen. Wij adviseren een wastemperatuur van 60 graden bij 1000 toeren (of 40 graden bij 800 toeren voor een optimale levensduur van het product), waarbij huisstofmijt, opgedroogde vlekken, bacteriën en schimmel worden verwijderd! Controleer vooraf de productspecificaties als u niet zeker weet of het wasgoed in uw machine past; gebruik anders lauw water en vloeibaar wasmiddel als u het met de hand in bad wast.<br/><br/><em><strong>Welk wasmiddel mag je gebruiken?</strong></em></p><p>Gebruik een mild wasmiddel en vermijd agressieve wasmiddelen. Hierdoor weet je zeker dat je HappyBed nog jaren mee kan :D</p>"
+          }
+        },
+        "34ef4350-ddb8-4462-ac07-36b05197c429": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Donkerblauw_op_wasrek_met_model_klein.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Stap 3: Het laten drogen van jouw HappyBed",
+            "content": "<p>Als je je dekbed hebt gewassen is het tijd om het dekbed te laten drogen. Wij adviseren om het dekbed even uitgeslagen op een wasrek te leggen, voor je het weet is het dekbed dan droog!<br/><br/><em><strong>Kan het dekbed ook in de droogtrommel?</strong></em></p><p>Zeker! Het dekbed kan in de droogtrommel als tip geven we je stop er eens een aantal tennisballen in de trommel bij het droogproces, zodat het dekbed heerlijk zacht en fijn is. </p>"
+          }
+        },
+        "b02b7ea4-5503-460a-ad1d-632539a139dc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Duitse_creator_3.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Stap 4: Slaap weer heerlijk onder je frisse dekbed!",
+            "content": "<p>En zo makkelijk kan het zijn! Jouw dekbed weer heerlijk zacht en fris. Klaar om op bed te liggen en jouw van de beste nachtrust te voorzien.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19383821369674__78226b2f-b284-4173-8c7a-f414e4c31187-item-1",
+        "template--19383821369674__78226b2f-b284-4173-8c7a-f414e4c31187-item-2",
+        "34ef4350-ddb8-4462-ac07-36b05197c429",
+        "b02b7ea4-5503-460a-ad1d-632539a139dc"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "91801181-4773-42d5-a408-40d315264f66",
+    "808953cb-e401-478f-b831-5b32a49f7aa1",
+    "ccc223bf-f3d0-4108-83a1-f8588a5ec607",
+    "78226b2f-b284-4173-8c7a-f414e4c31187"
+  ]
+}

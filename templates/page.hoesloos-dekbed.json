@@ -1,0 +1,194 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Eenvoudig opgemaakt en gemakkelijk te reinigen"
+          }
+        },
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Hoesloos dekbed",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Dompel jezelf onder in de luxe van ons hoesloos dekbed assortiment. Slaap als nooit tevoren zonder het ongemak van aparte hoezen. Ga voor topkwaliteit met ons hoesloos dekbed en ervaar een ongestoorde nachtrust.</p>"
+          }
+        },
+        "a39d8ce2-4cc1-4a7e-89d4-279f9dcadf15": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TrustBox widget - Pop-Up -->\n<div class=\"trustpilot-widget\" data-locale=\"nl-NL\" data-template-id=\"5418015fb0d04a0c9cf721f2\" data-businessunit-id=\"63c54b4fd94489a34a6a423c\" data-style-height=\"30px\" data-style-width=\"100%\" data-theme=\"dark\" data-tags=\"SelectedReview\" data-font-family=\"Lato\">\n  <a href=\"https://nl.trustpilot.com/review/thehappybed.nl\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
+          }
+        }
+      },
+      "block_order": [
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-subheading-1",
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-heading-1",
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-richtext-1",
+        "a39d8ce2-4cc1-4a7e-89d4-279f9dcadf15"
+      ],
+      "custom_css": [
+        ".trustpilot-widget {padding-top: 40px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/image00010.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 45
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "940d0bfa-7123-45a7-b36d-df60965aee5c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "dekbed-zonder-overtrek",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": true,
+        "products_count": 27,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Bekijk onze hoesloze dekbedden",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "a0f7a941-351b-4437-979f-2f56f58ff33c": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19676861235530__a0f7a941-351b-4437-979f-2f56f58ff33c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dekbed_zonder_overtrek_-_Setting.gif",
+            "media_width": 35,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wat is een Hoesloos Dekbed?",
+            "content": "<p>Een hoesloos dekbed, zoals de term al aangeeft, elimineert de noodzaak van een losse, afneembare hoes. Het is uitgerust met een geïntegreerde buitenlaag die zowel visueel als praktisch aantrekkelijk is.</p><p>Dankzij deze vernieuwing zijn er minder lagen tussen jou en het dekbed, wat resulteert in een directere beleving van het comfort van het dekbed. Het voelt meer als een rijkelijk gevulde deken dan als een traditioneel dekbed.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19676861235530__a0f7a941-351b-4437-979f-2f56f58ff33c-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "d1b637ff-46b5-4485-ae0b-ec330a3b2eaf": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wat zijn de voordelen van een 2-in-1 hoesloos dekbed?",
+            "content": "<p>In Nederland wint het hoesloos dekbed snel aan populariteit, en dat heeft duidelijke redenen. We zetten de voor- en nadelen voor je op een rijtje, zodat je een geïnformeerde keuze kunt maken.</p><p><strong>Voordelen</strong>:</p><ul><li>Makkelijk te wassen in de machine.</li><li>Snelle droogtijd, zowel buiten als in de droger.</li><li>Geen apart dekbedovertrek vereist.</li><li>Luxueuze, fluweelzachte hoes.</li><li>Vulling die de temperatuur reguleert.</li><li>Anti-allergeen en hygiënisch.</li><li>Geschikt voor diverse seizoenen.</li><li>Tijdbesparend bij het bed opmaken.</li><li>Ademende stof voorkomt overmatig zweten.</li></ul><p>Als je een dekbed zoekt voor je camper, caravan of kampeertrip, denk dan zeker aan een hoesloos dekbed. Het combineert gebruiksgemak met hygiëne, is seizoensvriendelijk en garandeert een comfortabele slaap.</p>"
+          }
+        },
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Zijn er ook nadelen aan de dekbedden?",
+            "content": "<p>Met een hoesloos dekbed heb je weliswaar minder variatie in design, maar het biedt andere voordelen die dit ruimschoots compenseren. Het is essentieel om de wasinstructies nauwkeurig op te volgen om de kwaliteit en levensduur te behouden. Voor een optimale levensduur van je hoesloos dekbed adviseren we een wasbeurt op 40 graden Celsius en het centrifugeren te beperken tot 800 toeren. Laat het vervolgens natuurlijk drogen in de zon of kies voor een lage temperatuur in je droger. Je zult versteld staan hoe snel het droog is!</p>"
+          }
+        },
+        "007e1fc1-3dd4-4609-9325-a44311cdd804": {
+          "type": "item",
+          "settings": {
+            "title": "Biedt een hoesloos dekbed dezelfde warmte als een traditioneel dekbed?",
+            "content": "<p>Bij een hoesloos dekbed kan de warmteregulatie beïnvloed worden door diverse elementen. Het is cruciaal om de gebruikte materialen en vullingen van het dekbed nauwkeurig te bekijken. Zo kun je inschatten of het dekbed aansluit bij jouw specifieke warmtevoorkeuren.</p>"
+          }
+        },
+        "1ce503f5-4aec-41b7-ad8b-4f42032958b9": {
+          "type": "item",
+          "settings": {
+            "title": "Is een hoesloos dekbed geschikter voor mensen met allergieën?",
+            "content": "<p>Een hoesloos dekbed heeft het voordeel van minder lagen, wat kan leiden tot een verminderde ophoping van stof en allergenen. Echter, de beste keuze hangt af van het soort allergeen en de gevoeligheid van de gebruiker.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-2",
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-3",
+        "007e1fc1-3dd4-4609-9325-a44311cdd804",
+        "1ce503f5-4aec-41b7-ad8b-4f42032958b9"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Veelgestelde vragen",
+        "content": "<p>Staat je vraag er niet tussen? Neem dan contact op met onze klantenservice. Wij staan klaar om je te helpen.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de",
+    "main",
+    "940d0bfa-7123-45a7-b36d-df60965aee5c",
+    "a0f7a941-351b-4437-979f-2f56f58ff33c",
+    "d1b637ff-46b5-4485-ae0b-ec330a3b2eaf"
+  ]
+}

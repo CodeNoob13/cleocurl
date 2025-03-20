@@ -1,0 +1,364 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ba5080a9-62bf-4139-ac9e-682c4f896df3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Binnen no-time jouw bed afgehaald, gewassen en opgemaakt."
+          }
+        },
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Dekbed zonder overtrek",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "aae86cf5-fb4c-443c-9d14-3eee9aef322d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"nl-NL\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"63c54b4fd94489a34a6a423c\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"dark\" data-stars=\"4,5\" data-review-languages=\"nl\" data-font-family=\"Montserrat\">\n  <a href=\"https://nl.trustpilot.com/review/thehappybed.nl\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
+          }
+        }
+      },
+      "block_order": [
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-subheading-1",
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-heading-1",
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-richtext-1",
+        "aae86cf5-fb4c-443c-9d14-3eee9aef322d"
+      ],
+      "custom_css": [
+        ".trustpilot-widget {padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/Wasbaar_dekbed_zonder_overtrek_met_model_dekstop.jpg",
+        "mobile_image": "shopify://shop_images/Wasbaar_dekbed_zonder_overtrek_met_model-min.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 45
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Voorgestelde product",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 40
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 40,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": true
+      }
+    },
+    "436f5df9-f83a-49b5-9764-0525c2633104": {
+      "type": "press",
+      "blocks": {
+        "template--19396663214410__436f5df9-f83a-49b5-9764-0525c2633104-quote-1": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Slaapwijsheid-beter-slapen-logo-320x70-1.webp",
+            "logo_width": 100,
+            "author": "Dit dekbed zonder overtrek van Happybed komt bij Slaapwijsheid.nl als beste uit de test",
+            "content": "Het HappyBed dekbed ziet er fraai uit. Het dekbed bestaat uit verschillende vakken waardoor de vulling niet verschuift. Ook de randen en het stiksel komen overeen met de kleur van het dekbed, wat een luxe uitstraling geeft. Dit dekbed is netjes gemaakt. Er zitten nergens rafels, het is recht gestikt en de randen zijn verstevigd.",
+            "show_rating": false,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--19396663214410__436f5df9-f83a-49b5-9764-0525c2633104-quote-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "fill",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "3334de24-e81b-4afe-b34d-78eb20ebeb4d": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19383385293130__3334de24-e81b-4afe-b34d-78eb20ebeb4d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wasbaar_dekbed_zonder_overtrek_met_model_dekstop.jpg",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "2-in-1 dekbed",
+            "title": "Wat is een hoesloos dekbed?",
+            "content": "<p>Een dekbed zonder overtrek is de ideale oplossing voor wie op zoek is naargemak en hygiëne. Terwijl een traditioneel dekbed een losse hoes heeft die regelmatig gewassen moet worden, is een dekbed zonder overtrek ontworpen met een zachte buitenstof die als hoes fungeert ook wel <a href=\"/collections/bedrukte-dekbedden\" target=\"_blank\" title=\"Bedrukte dekbedden\"><strong>bedrukt dekbed</strong></a> of <a href=\"/collections/gekleurde-dekbedden\" title=\"Gekleurde dekbedden\"><strong>hoesloos dekbed</strong></a> genoemd. Dit ontwerp maakt het mogelijk om het gehele dekbed in de wasmachine te stoppen, wat het wasproces aanzienlijk vereenvoudigt.</p><p>Daarnaast is een wasbaar dekbed zonder overtrek hygiënischer dan zijn traditionele tegenhanger. Omdat er geen losse hoes is, is er minder kans op ophoping van vuil of stof tussen de hoes en het dekbed zelf. Hierdoor blijft het dekbed langer fris en schoon, wat bijdraagt aan een gezondere slaapomgeving.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "23de80e1-3707-45df-bd43-8a3687c1dcbf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dekbed_zonder_overtrek_grijs-min.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Kies voor gemak",
+            "title": "Waarom een dekbed zonder overtrek?",
+            "content": "<p>Het gebruik van een wasbaar dekbed zonder overtrek maakt het opmaken en verschonen van je bed aanzienlijk eenvoudiger. Je hoeft je geen zorgen te maken over het correct plaatsen van een losse hoes, wat vaak tijdrovend en frustrerend kan zijn. Omdat het dekbed zonder overtrek een vaste hoes heeft, blijft alles netjes op zijn plaats, zelfs tijdens het slapen.</p><p>Wat betreft een gezondere slaapomgeving: een wasbaar dekbed zonder overtrek kan wekelijks worden gewassen. Dit betekent dat huisstofmijt, schimmels en bacteriën effectief worden verwijderd, wat bijdraagt aan een betere nachtrust. Regelmatig wassen zorgt ervoor dat je beddengoed altijd fris en schoon blijft.</p><p>Het wassen en drogen van een dekbed zonder overtrek is ook eenvoudig. Je kunt het gehele dekbed in de wasmachine stoppen zonder het gedoe van het verwijderen van een losse hoes. Na het wassen kan het direct in de droger, wat het onderhoud nog gemakkelijker maakt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "44d1b182-bb83-442e-94e6-61d6c8767d20": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wasgoed-2.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Eenvoudig en snel",
+            "title": "Uit te wassen",
+            "content": "<p>Vaak krijgen we vragen van klanten over de geschiktheid van het dekbed voor de <strong>wasmachine</strong> en hoe eenvoudig het is om het te reinigen zonder een hoeslaken. Gelukkig hoef je je hier geen zorgen over te maken, want bij elk dekbed vind je informatie over de <strong>wasmachinecapaciteit</strong> die je nodig hebt. Onze dekbedden zijn gemaakt van <strong>snel drogende</strong> materialen en behouden hun heerlijke zachtheid, waardoor je ze 's ochtends of 's middags kunt wassen en 's avonds weer heerlijk kunt slapen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19383385293130__3334de24-e81b-4afe-b34d-78eb20ebeb4d-image-1",
+        "23de80e1-3707-45df-bd43-8a3687c1dcbf",
+        "44d1b182-bb83-442e-94e6-61d6c8767d20"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "large"
+      }
+    },
+    "bac3c5f5-b3b9-4414-9918-8b44f48eaa51": {
+      "type": "faq",
+      "blocks": {
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Wat zijn de voordelen van een dekbed zonder overtrek?",
+            "content": "<p>Een dekbed zonder overtrek kent vele voordelen, omdat ze steeds populairder worden in Nederland hebben we de voor- en nadelen voor je opgesomt zodat je zeker de juiste keuze maakt!<br/><br/><strong>Voordelen:</strong></p><ul><li>Geschikt voor de wasmachine.</li><li>Droogt snel in de buitenlucht of wasdroger.</li><li>Geen dekbedovertrek meer nodig.</li><li>Fluweelzachte en stijlvolle tijk.</li><li>Temperatuurregulerende vulling.</li><li>Anti-allergisch en hygiënisch.</li><li>Geschikt voor meerdere seizoenen.</li><li>Bespaar tijd en moeite tijdens het opmaken.</li><li>Geen last meer van zweten door de heerlijk ademende stof.</li></ul>"
+          }
+        },
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Heeft een dekbed zonder overtrek ook nadelen?",
+            "content": "<ul><li>Minder afwisseling mogelijk qua design.</li><li>Wasinstructies zijn belangrijk om op te volgen.<br/></li></ul><p>Om een lange levensduur te garanderen, raden we aan om tijdens het wassen een temperatuur van 40 graden Celsius te gebruiken en het drogen in de droogtrommel te beperken tot 800 toeren. Hang het daarna gewoon in de zon of gebruik een lage warmte-instelling op uw droger en kijk hoe snel het droogt!</p>"
+          }
+        },
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Hoe was ik mijn HappyBed dekbed?",
+            "content": "<p>Om ervoor te zorgen dat jouw dekbed er op zijn best blijft uitzien, raden wij aan het te wassen op een maximale temperatuur van 60 graden Celsius met een toerental van 1000 (of 40°C/800 toeren voor een optimale levensduur van het product).</p><p>Dit zorgt er niet alleen voor dat uw beddengoed fris en hygiënisch aanvoelt, maar helpt ook om huisstofmijt, opgedroogde vlekken en bacteriën te verwijderen.<br/><br/>Meer informatie? Lees dan onze <a href=\"https://thehappybed.nl/pages/wasinstructies\" target=\"_blank\" title=\"Wasinstructies\"><strong>wasinstructies</strong></a></p>"
+          }
+        },
+        "0b0b7094-bd6d-4ae7-9c60-84433b9d7bef": {
+          "type": "item",
+          "settings": {
+            "title": "Ik heb last van allergieën. Is jullie dekbed anti-allergeen?",
+            "content": "<p>Last van een allergieën? Je bent niet alleen - ongeveer een kwart van alle Nederlanders voelt jouw pijn. HappyBed is er om het leven voor iedereen aangenamer te maken, en we denken ook aan jou! Ons beddengoed biedt een antibacteriële bescherming tegen huisstofmijt en is van superieure kwaliteit, zodat deze kleine beestjes geen kans krijgen.</p>"
+          }
+        },
+        "6a6402c8-600d-4af9-8b2d-c370db06069d": {
+          "type": "item",
+          "settings": {
+            "title": "Wat zijn alle voordelen van een HappyBed dekbed?",
+            "content": "<p>Onze dekbedden zijn de perfecte oplossing voor iedereen die lichter en comfortabeler wil slapen. Met een twee-in-één ontwerp dat extra hoezen/dekbedovertrekken overbodig maakt! De ademende en toch isolerende stof, biedt de bedrukte dekbedden veel comfort en gebruiksgemak.<br/><br/>Bovendien is het gemakkelijk te wassen, zodat u nooit last heeft van krimp of kreukels! Maar wat HappyBed onderscheidt is de speciale materiaalsamenstelling die onovertroffen lichtgewicht slapen mogelijk maakt zonder aan kwaliteit in te leveren - ideaal niet alleen tijdens warme zomernachten maar ook in de koude winterdagen. Ook biedt het waardevolle hulp tegen kwalen als rugpijn, reuma artritis en luchtwegklachten. Bereid je voor op de beste nachtrust ooit met een HappyBed dekbed!</p>"
+          }
+        },
+        "586eeeec-3423-4ad7-85ff-f3ded3811839": {
+          "type": "item",
+          "settings": {
+            "title": "Hoeveel lichamelijke inspanning is nodig voor het opmaken van een HappyBed dekbed?",
+            "content": "<p>Bij HappyBed streven we ernaar dat je niet alleen comfortabel en gezond slaapt, maar ook met veel plezier. Daarom is ons beddengoed ontworpen voor minimale fysieke inspanning bij het opmaken van jouw bed, gemaakt met lichtheid en compactheid om de dagelijkse levenskwaliteit te verbeteren. Onze experts inspecteren elk product nauwgezet voordat ze het verzenden - zodat we allemaal van 's nachts tot 's ochtends het geliefde comfort kunnen ervaren!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-1",
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-2",
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-3",
+        "0b0b7094-bd6d-4ae7-9c60-84433b9d7bef",
+        "6a6402c8-600d-4af9-8b2d-c370db06069d",
+        "586eeeec-3423-4ad7-85ff-f3ded3811839"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Geheel op eigen voorwaarden",
+        "title": "30 dagen proefslapen, geheel op eigen voorwaarden",
+        "content": "<p>Weet je niet zeker of een bedrukt dekbed wel bij jou past? Probeer dan onze dekbedden vrijblijvend 30 dagen uit en is het toch niet wat je zocht? Geen probleem, Geld terug!</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "30 dagen uitproberen",
+        "button_url": "shopify://collections/dekbed-zonder-overtrek",
+        "text_position": "center",
+        "background": "#f6f6f6",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f6f6f6",
+        "accordion_text_color": ""
+      }
+    },
+    "864347e6-aafe-4936-8a7e-c63baed54956": {
+      "type": "logo-list",
+      "blocks": {
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-5": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/1024px-Blokker-Logo.svg_52d5b441-7228-4ff4-ad49-6d908aade8a5.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Slaapwijsheid-beter-slapen-logo-320x70-1.webp",
+            "logo_width": 120,
+            "link": "https://slaapwijsheid.nl/bedrukt-dekbed/happybed-gebruikerservaring/"
+          }
+        },
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Camperscaravans_logo.svg",
+            "logo_width": 150,
+            "link": ""
+          }
+        },
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Bol_com_logo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Amazon_logo.svg_8cd1c22e-1512-42bb-8333-5a037b9acb03.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-5",
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-1",
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-2",
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-3",
+        "template--19396663214410__864347e6-aafe-4936-8a7e-c63baed54956-logo-4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "Bekend van",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#f6f6f6",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": "#f6f6f6"
+      }
+    }
+  },
+  "order": [
+    "ba5080a9-62bf-4139-ac9e-682c4f896df3",
+    "banner",
+    "main",
+    "436f5df9-f83a-49b5-9764-0525c2633104",
+    "3334de24-e81b-4afe-b34d-78eb20ebeb4d",
+    "bac3c5f5-b3b9-4414-9918-8b44f48eaa51",
+    "864347e6-aafe-4936-8a7e-c63baed54956"
+  ]
+}

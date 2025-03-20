@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Makkeljker bestaat niet!"
+          }
+        },
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "kampeer dekbed",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Als je op zoek bent naar een kampeer dekbed of een dekbed voor je caravan, bekijk dan ons assortiment van hoogwaardige dekbedden zonder overtrek. Geniet van een comfortabele en zorgeloze nachtrust met een dekbed zonder gedoe met losse hoezen.</p>"
+          }
+        },
+        "a39d8ce2-4cc1-4a7e-89d4-279f9dcadf15": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TrustBox widget - Micro Combo -->\n<div class=\"trustpilot-widget\" data-locale=\"nl-NL\" data-template-id=\"5419b6ffb0d04a076446a9af\" data-businessunit-id=\"63c54b4fd94489a34a6a423c\" data-style-height=\"20px\" data-style-width=\"100%\" data-theme=\"dark\" data-font-family=\"Lato\">\n  <a href=\"https://nl.trustpilot.com/review/thehappybed.nl\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
+          }
+        }
+      },
+      "block_order": [
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-subheading-1",
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-heading-1",
+        "template--19385017631050__d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de-richtext-1",
+        "a39d8ce2-4cc1-4a7e-89d4-279f9dcadf15"
+      ],
+      "custom_css": [
+        ".trustpilot-widget {padding-top: 40px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/Foto_met_model_klein_2000px_-9.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "940d0bfa-7123-45a7-b36d-df60965aee5c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "dekbed-zonder-overtrek",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": true,
+        "products_count": 27,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Bekijk onze kampeer dekbedden",
+        "content": "",
+        "link_url": "",
+        "link_text": "Bekijk de gehele collectie",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "d1b637ff-46b5-4485-ae0b-ec330a3b2eaf": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Waarom is dit de beste oplossing voor kamperen?",
+            "content": "<p>Een dekbed voor je camper of caravan, is een wasbaar dekbed zonder overtrek. Met dit type dekbed hoef je namelijk nooit meer te stoeien met losse hoezen. Het dekbed zonder overtrek heeft namelijk een vaste hoes, waardoor je bed opmaken minder tijd en moeite kost.</p><p>Een ander voordeel van een wasbaar dekbed zonder overtrek is dat je het gemakkelijk en snel in de wasmachine en droger kunt stoppen. Hierdoor blijft je beddengoed altijd fris en schoon. Bovendien kun je het dekbed zonder overtrek prima iedere week wassen, waardoor huisstofmijt, schimmels en bacteriën weg blijven. Dit zorgt voor een betere nachtrust en een gezondere slaapomgeving.</p>"
+          }
+        },
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Wat zijn de voordelen van een wasbaar kampeer dekbed?",
+            "content": "<p>Het gebruik van een dekbed zonder overtrek wordt steeds populairder in Nederland, en dat is niet zonder reden. Hieronder hebben we de voordelen en nadelen voor je opgesomd, zodat je een weloverwogen keuze kunt maken.</p><p>Voordelen:</p><ul><li>Geschikt voor de wasmachine.</li><li>Droogt snel in de buitenlucht of wasdroger.</li><li>Geen dekbedovertrek meer nodig.</li><li>Fluweelzachte en stijlvolle hoes.</li><li>Temperatuurregulerende vulling.</li><li>Anti-allergisch en hygiënisch.</li><li>Geschikt voor meerdere seizoenen.</li><li>Bespaar tijd en moeite tijdens het opmaken.</li><li>Geen last meer van zweten door de ademende stof.</li></ul><p>Als je op zoek bent naar een dekbed voor je camper, caravan of kampeervakantie, overweeg dan zeker een dekbed zonder overtrek. Dit type dekbed biedt veel voordelen, waaronder het gemak van wassen en drogen, het ontbreken van een losse overtrek en de hygiënische eigenschappen. Bovendien is het geschikt voor meerdere seizoenen en biedt het een comfortabele nachtrust.</p>"
+          }
+        },
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Zijn er ook nadelen aan de dekbedden?",
+            "content": "<ul><li>Minder afwisseling mogelijk qua design.</li><li>Wasinstructies zijn belangrijk om op te volgen.<br/></li></ul><p>Om een lange levensduur te garanderen, raden we aan om tijdens het wassen een temperatuur van 40 graden Celsius te gebruiken en het drogen in de droogtrommel te beperken tot 800 toeren. Hang het daarna gewoon in de zon of gebruik een lage warmte-instelling op uw droger en kijk hoe snel het droogt!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-1",
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-2",
+        "template--19385017631050__d1b637ff-46b5-4485-ae0b-ec330a3b2eaf-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Waarom een kampeer dekbed?",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "d2ad9d75-5fd4-4818-9b3e-a26fbf4fa4de",
+    "main",
+    "940d0bfa-7123-45a7-b36d-df60965aee5c",
+    "d1b637ff-46b5-4485-ae0b-ec330a3b2eaf"
+  ]
+}

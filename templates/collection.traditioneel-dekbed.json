@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "8617ca71-9fb6-47e8-a2f2-5099bb3ce8be": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".trustpilot-widget {padding-bottom: 20px; padding-top: 50px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<!-- TrustBox widget - Drop-Down -->\n<div class=\"trustpilot-widget\" data-locale=\"nl-NL\" data-template-id=\"5418052cfbfb950d88702476\" data-businessunit-id=\"63c54b4fd94489a34a6a423c\" data-style-height=\"30px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"3,4,5\" data-review-languages=\"nl\">\n  <a href=\"https://nl.trustpilot.com/review/thehappybed.nl\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Voorgestelde product",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 40
+      }
+    },
+    "19bc9ce1-1317-44ce-b82f-9799631372b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "HEERLIJK ZACHT EN MAKKELIJK UITWASBAAR"
+          }
+        },
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Traditionele dekbedden",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Heb je liever toch een traditioneel dekbed? Dat is zeker mogelijk! We willen jou als klant ook de vrijheid geven om te kiezen voor de traditionele optie. Bekijk hier ons assortiment aan traditionele dekbedden. Betaal eenvoudig in<strong>3 termijnen </strong>of <strong>binnen 30 dagen </strong>met Klarna.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-subheading-1",
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-heading-1",
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-richtext-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "8617ca71-9fb6-47e8-a2f2-5099bb3ce8be",
+    "banner",
+    "19bc9ce1-1317-44ce-b82f-9799631372b1",
+    "main"
+  ]
+}

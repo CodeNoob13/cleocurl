@@ -1,0 +1,309 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ba5080a9-62bf-4139-ac9e-682c4f896df3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Jouw hoofd verdient het beste."
+          }
+        },
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Hoofdkussens",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "aae86cf5-fb4c-443c-9d14-3eee9aef322d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"nl-NL\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"63c54b4fd94489a34a6a423c\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"dark\" data-stars=\"4,5\" data-review-languages=\"nl\" data-font-family=\"Montserrat\">\n  <a href=\"https://nl.trustpilot.com/review/thehappybed.nl\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
+          }
+        }
+      },
+      "block_order": [
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-subheading-1",
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-heading-1",
+        "template--19383385293130__ba5080a9-62bf-4139-ac9e-682c4f896df3-richtext-1",
+        "aae86cf5-fb4c-443c-9d14-3eee9aef322d"
+      ],
+      "custom_css": [
+        ".trustpilot-widget {padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Hoofdkussens_op_bed.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 45
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Voorgestelde product",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 40
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "90190f23-8cb8-43a6-81d7-00eb8ba25ec3": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19790890500426__90190f23-8cb8-43a6-81d7-00eb8ba25ec3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HappyBed_dame_die_zicht_uitstrijkt_op_bed.jpg",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Voor alle type-slapers",
+            "title": "Zacht, maar perfect in balans.",
+            "content": "<p>Onze hoofdkussens zijn met zorg ontworpen om de perfecte match te zijn voor elke slaper. Ze combineren heerlijke stevigheid met een zachte touch, waardoor ze geschikt zijn voor allerlei verschillende voorkeuren en slaaphoudingen. Wat je slaapstijl ook is, onze kussens zijn er om je hoofd en nek optimaal te ondersteunen voor een goede nachtrust.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "4ca52fbb-91fc-4723-b03d-c6257e23601b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pretty-girl-shirt-sleeping-white-pillow-bed-home.jpg",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Voor de beste nachtrust",
+            "title": "Optimale ondersteuning",
+            "content": "<p>Wij begrijpen het belang van goede ondersteuning tijdens de nacht. Onze kussens zijn speciaal ontworpen om je hoofd op de juiste manier te ondersteunen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "6d3817f1-b2d2-4727-8e3a-81039ef3fbb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hoofdkussens_op_bed.jpg",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "30 dagen proefslapen",
+            "title": "Toch niet jouw hoofdkusssen? Geen probleem!",
+            "content": "<p>We begrijpen dat je onze hoofdkussens eerst wilt uitproberen om er zeker van te zijn dat ze aan je verwachtingen voldoen. Dat is voor ons vanzelfsprekend. Daarom bieden we een proefperiode van 30 dagen aan, zodat je de hoofdkussens rustig kunt testen. Als het toch niet helemaal aan jouw wensen voldoet, is dat geen probleem! Je kunt ze eenvoudig retourneren en we zorgen voor een soepele afhandeling. </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19790890500426__90190f23-8cb8-43a6-81d7-00eb8ba25ec3-image-1",
+        "4ca52fbb-91fc-4723-b03d-c6257e23601b",
+        "6d3817f1-b2d2-4727-8e3a-81039ef3fbb4"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "197323e0-e9c9-45f1-82d8-525137e28a0d": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19790890500426__197323e0-e9c9-45f1-82d8-525137e28a0d-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#dfe2f6",
+            "icon_color": "#b0b9fc",
+            "title": "30 dagen proefslapen",
+            "content": "<p>Je hebt de volledige vrijheid om de boxspring gedurende 30 dagen op jouw eigen voorwaarden te testen.</p>"
+          }
+        },
+        "template--19790890500426__197323e0-e9c9-45f1-82d8-525137e28a0d-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#dfe2f6",
+            "icon_color": "#b0b9fc",
+            "title": "1 jaar garantie",
+            "content": "<p>Bij ons krijg je maar liefst 1 jaar garantie op elke hoeslaken dat je aanschaft!</p>"
+          }
+        },
+        "template--19790890500426__197323e0-e9c9-45f1-82d8-525137e28a0d-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-operator",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#dfe2f6",
+            "icon_color": "#b0b9fc",
+            "title": "Gratis bezorging boven €20",
+            "content": "<p>Bij iedere bestellingen boven €20 ontvang je gratis bezorging. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19790890500426__197323e0-e9c9-45f1-82d8-525137e28a0d-item-1",
+        "template--19790890500426__197323e0-e9c9-45f1-82d8-525137e28a0d-item-2",
+        "template--19790890500426__197323e0-e9c9-45f1-82d8-525137e28a0d-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "75d1c7b5-f26d-43af-8e1b-ea52c8dc2570": {
+      "type": "faq",
+      "blocks": {
+        "template--19790890500426__75d1c7b5-f26d-43af-8e1b-ea52c8dc2570-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Hoe snel krijg ik mijn bestelling?",
+            "content": "<p>Bij bestellingen voor 23:45 uur zorgen wij ervoor dat je jouw bestelling morgen al in huis hebt! Snelheid en gemak staan bij ons hoog in het vaandel.</p>"
+          }
+        },
+        "template--19790890500426__75d1c7b5-f26d-43af-8e1b-ea52c8dc2570-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Kan ik de dikte van mijn hoofdkussen aannpassen?",
+            "content": "<p>De meeste van onze hoofdkussens zijn voorzien van een rits waarmee je vulling kunt verwijderen of aanpassen. Als dit niet het geval is, vermelden we dit altijd duidelijk, zodat je zeker bent van een kussen dat perfect aan je wensen voldoet.</p>"
+          }
+        },
+        "template--19790890500426__75d1c7b5-f26d-43af-8e1b-ea52c8dc2570-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Kan ik na 30 dagen of 3 delen betalen?",
+            "content": "<p>Bij ons is flexibiliteit vanzelfsprekend! Je hebt de keuze om je hoeslaken in 3 handige termijnen te betalen, of zelfs pas na een comfortabele proefperiode van 30 dagen. Op die manier kun je meteen genieten van de beste nachtrust en hoef je pas achteraf te betalen. Wij maken het makkelijk voor jou.</p>"
+          }
+        },
+        "cd61ba81-2baf-4231-b360-0feebd1f86b5": {
+          "type": "item",
+          "settings": {
+            "title": "Hoe werkt het 30 dagen proefslapen?",
+            "content": "<p>Het 30-dagen proefslapen is eigenlijk heel simpel. Zodra we jouw hoeslaken hebben bezorgd, geven we jou maar liefst 30 dagen de kans om het hoeslaken uitgebreid uit te proberen. Als het hoeslaken toch niet helemaal bij je past, geen zorgen! Dan kun je deze eenvoudig retourneren.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19790890500426__75d1c7b5-f26d-43af-8e1b-ea52c8dc2570-item-1",
+        "template--19790890500426__75d1c7b5-f26d-43af-8e1b-ea52c8dc2570-item-2",
+        "template--19790890500426__75d1c7b5-f26d-43af-8e1b-ea52c8dc2570-item-3",
+        "cd61ba81-2baf-4231-b360-0feebd1f86b5"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Nog vragen?",
+        "title": "Veelgestelde vragen",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "Geheel op eigen voorwaarden uit te proberen en binnen 7 werkdagen geleverd.",
+        "button_text": "Probeer 30 dagen uit",
+        "button_url": "shopify://collections/hoofdkussen",
+        "text_position": "center",
+        "background": "#f6f6f6",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f6f6f6",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "ba5080a9-62bf-4139-ac9e-682c4f896df3",
+    "banner",
+    "main",
+    "90190f23-8cb8-43a6-81d7-00eb8ba25ec3",
+    "197323e0-e9c9-45f1-82d8-525137e28a0d",
+    "75d1c7b5-f26d-43af-8e1b-ea52c8dc2570"
+  ]
+}

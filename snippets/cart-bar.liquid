@@ -1,0 +1,90 @@
+{% liquid 
+    assign ship_treshold = settings.cart_free_shipping_threshold
+    assign ship_treshold_abs = settings.cart_free_shipping_threshold | times: 100.0
+    assign gift_treshold = settings.cart_free_gift_threshold
+    assign gift_treshold_abs = settings.cart_free_gift_threshold | times: 100.0
+    assign showBar = settings.cart_show_new_bar
+    assign total = cart.total_price
+    assign percent = total | divided_by: gift_treshold_abs | times: 100
+    assign text = settings.cart_free_text1
+    assign text2 = settings.cart_free_text2
+    assign text3 = settings.cart_free_text3
+    
+    if total < ship_treshold_abs 
+        assign spend = ship_treshold_abs | minus:  total
+        assign spend = spend | money
+        assign label = text | replace: '%PERCENT%', spend
+        assign percent = total | divided_by: ship_treshold_abs | times: 100 
+        assign percent = percent | times: 0.29
+
+    elsif total > ship_treshold_abs and total < gift_treshold_abs
+
+        assign spend = gift_treshold_abs | minus:  total
+        assign spend = spend | money
+        assign label = text2 | replace: '%PERCENT%', spend
+
+        if total > 2000 and total < 4000 
+            assign percent = 39
+        elsif total >= 4000 and total < 6000 
+            assign percent = 55
+        else
+            assign percent = 79
+        endif
+    elsif  total > gift_treshold_abs
+        assign percent = 100 
+        assign label = text3      
+    endif 
+%}
+
+{%- if showBar -%}
+    {{- 'cart-bar.css' | asset_url | stylesheet_tag: preload: true -}}
+    <div class="cart-bar">
+        <p class="cart-bar__title" >
+           {{ label }}
+        </p>
+        <div class="cart-bar__wrapper">
+            
+            <div class="cart-bar__line">
+                <div class="cart-bar__line-inner" style="width:calc({{percent }}%)"></div>
+            </div>
+            <div class="cart-bar__tier cart-bar__tier-1">
+                <div class="cart-bar__label">Gratis bezorging</div>
+                <div class="cart-bar__point"></div>
+                <span class="cart-bar__treshold">{{ship_treshold}} {{ cart.currency.iso_code }}</span>
+            </div>
+
+            <div class="cart-bar__tier cart-bar__tier-2">
+                <div class="cart-bar__label">Gratis gift</div>
+                <div class="cart-bar__point"></div>
+                <div class="cart-bar__treshold">{{gift_treshold}} {{ cart.currency.iso_code }}</div>     
+            </div>
+        </div>
+
+
+        <script>
+            
+            document.addEventListener("cart:change", (e)=>{
+                const cart = e.detail.cart;
+                const wrapper = document.querySelector('.cart-bar');
+                const giftSlider = document.querySelector('.cart-additional-gift');
+                let showGiftWrapper = false;
+                let newArray = cart.items.filter(function (el) {
+                    return el.properties._gift == 'isFree';
+                });
+ 
+                
+                if (newArray.length === 0) {
+                     cart.total_price < parseInt(giftSlider.dataset.gift)?giftSlider.style.display ='none':giftSlider.style.display ='block'
+                } else {
+                    giftSlider.style.display ='none'
+                }
+               
+                fetch(`/?section_id=cart-bar`)
+                .then(response => response.text()).then(data => { 
+                wrapper.innerHTML = data;
+                })
+            });
+        </script>
+    </div>
+    
+{%- endif -%}

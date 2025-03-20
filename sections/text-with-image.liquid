@@ -1,0 +1,78 @@
+{{ 'text-with-image.css' | asset_url | stylesheet_tag }}
+
+<div class="text-with-image" style="padding-top:{{section.settings.padding_top}}; padding-bottom: {{ section.settings.padding_bottom }}">
+    <div class="text-with-image-content">
+        <div class="text-content">
+            <h2 class="h2">{{ section.settings.title }}</h2>
+            <p class="text-with-image-description">{{ section.settings.description }}</p>
+            <button style="background-color:{{ section.settings.button_color }};" class="button text-with-image-button">{{ section.settings.button_text }}</button>
+        </div>
+
+        {{ section.settings.image | image_url: width: 1920 | image_tag: class: "full-width-image" }}
+
+       
+
+    </div>
+</div>
+
+{% schema %}
+    {
+    "name": "Text with image",
+    "tag": "section",
+    "class": "text-with-image",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button text"
+        },
+        {
+            "type": "color",
+            "id": "button_color",
+            "label": "Button color"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 128,
+            "step": 8,
+            "unit": "px",
+            "label": "padding-top",
+            "default": 0
+          },
+          {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 128,
+            "step": 8,
+            "unit": "px",
+            "label": "padding-bottom",
+            "default": 0
+          }
+        
+    ],
+    "blocks": [],
+    "presets": [
+        {
+            "name": "Image with text 1.0"
+        },
+    ]
+    }
+{% endschema %}

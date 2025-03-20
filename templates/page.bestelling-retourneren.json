@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "cddff55f-e032-4c77-bbc0-f93caff48bf1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19390200414538__cddff55f-e032-4c77-bbc0-f93caff48bf1-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Eenvoudig en snel"
+          }
+        },
+        "template--19390200414538__cddff55f-e032-4c77-bbc0-f93caff48bf1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Retourneren gemakkelijk gemaakt",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19390200414538__cddff55f-e032-4c77-bbc0-f93caff48bf1-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Niet tevreden met jouw bestelling? Geen probleem! Retourneer gemakkelijk via ons retourportaal.<br/><br/><strong>Wij rekenen per retour €4,95</strong>, Geen retourkosten? Kies dan voor een coupon en dan betalen wij de verzendkosten voor je! :D</p>"
+          }
+        },
+        "3111eb66-eba8-4bb5-8b4c-318b8f9b5542": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Retourportaal",
+            "url": "https://thehappybed-nl.returnless.com/nl",
+            "background": "#b0b9fc",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19390200414538__cddff55f-e032-4c77-bbc0-f93caff48bf1-subheading-1",
+        "template--19390200414538__cddff55f-e032-4c77-bbc0-f93caff48bf1-heading-1",
+        "template--19390200414538__cddff55f-e032-4c77-bbc0-f93caff48bf1-richtext-1",
+        "3111eb66-eba8-4bb5-8b4c-318b8f9b5542"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "ea9ddf15-5821-445e-99db-d3df2b4bcb81": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--19390200414538__ea9ddf15-5821-445e-99db-d3df2b4bcb81-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Kan ik mijn bestelling ruilen?",
+            "content": "<p>Helaas kan je geen artikelen ruilen, indien het bestelde artikel geruild dient te worden is het het handigste het artikel retour te sturen en dan opnieuw te bestellen.</p>"
+          }
+        },
+        "template--19390200414538__ea9ddf15-5821-445e-99db-d3df2b4bcb81-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Mijn bestelling is verkeerd geleverd wat nu?",
+            "content": "<p>Neem even contact met onze klantenservice op: Hello@thehappybed.nl dan lossen we dit zo snel mogelijk met je op.</p>"
+          }
+        },
+        "7e80eaba-889c-4912-b7af-42f2cbff0a5e": {
+          "type": "item",
+          "settings": {
+            "title": "Ik heb geen retourlabel ontvangen, wat nu?",
+            "content": "<p>Het kan voorkomen dat je retourlabel in de spam terechtkomt, controleer in dat geval even je spammap. Mocht dit niet het geval zijn, wacht dan een paar minuten. Als je na die tijd nog steeds geen retourlabel hebt ontvangen, neem dan contact met ons op.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19390200414538__ea9ddf15-5821-445e-99db-d3df2b4bcb81-item-1",
+        "template--19390200414538__ea9ddf15-5821-445e-99db-d3df2b4bcb81-item-2",
+        "7e80eaba-889c-4912-b7af-42f2cbff0a5e"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "jouw retourlabel zo in de mail.",
+        "content": "<p>Niets is vervelender dan een lang retourproces, wij kennen de irritatie. Daarom hebben wij het voor jouw als klant zo makkelijk mogelijk gemaakt. Binnen ons retourportaal kun je gemakkelijk aangeven waarom jouw artikel niet helemaal naar wens is en ontvang je binnen enkele minuten een retourlabel. Deze kun je op de doos plakken en inleveren bij het dichtsbijzijnde pakketpunt.<br/><br/><strong>Het retourneren van een pakket kost je €4,95.</strong>Benieuwd naar ons gehele retourbeleid? Klik dan <a href=\"https://thehappybed.nl/pages/retourbeleid\" title=\"Retourbeleid\">hier.</a></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cddff55f-e032-4c77-bbc0-f93caff48bf1",
+    "ea9ddf15-5821-445e-99db-d3df2b4bcb81"
+  ]
+}

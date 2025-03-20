@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "cb412207-7795-4a57-8b6d-071963392f19": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19790300053834__cb412207-7795-4a57-8b6d-071963392f19-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Maatschappelijk verantwoord ondernemen"
+          }
+        },
+        "template--19790300053834__cb412207-7795-4a57-8b6d-071963392f19-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Samen voor een betere planeet",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19790300053834__cb412207-7795-4a57-8b6d-071963392f19-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bij HappyBed begrijpen we hoe belangrijk het is om samen de planeet te verbeteren. Daarom dragen wij ook ons steentje bij, zodat jij als consument een maatschappelijk verantwoorde keuze kunt maken.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19790300053834__cb412207-7795-4a57-8b6d-071963392f19-subheading-1",
+        "template--19790300053834__cb412207-7795-4a57-8b6d-071963392f19-heading-1",
+        "template--19790300053834__cb412207-7795-4a57-8b6d-071963392f19-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/101134.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 45
+      }
+    },
+    "adb6a85c-c3e3-47c2-aec5-88c1804374f7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19790300053834__adb6a85c-c3e3-47c2-aec5-88c1804374f7-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19790300053834__adb6a85c-c3e3-47c2-aec5-88c1804374f7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19790300053834__adb6a85c-c3e3-47c2-aec5-88c1804374f7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In de huidige economie speelt duurzaamheid een steeds grotere rol. We zijn vastberaden om de duurzaamheid van de gehele keten te verbeteren, omdat we geloven dat het voor bedrijven essentieel is om een bijdrage te leveren aan een betere wereld. Als klant van HappyBed kun je erop vertrouwen dat jouw aankoop bijdraagt aan een meer duurzame textielindustrie. Samen streven we naar een betere toekomst voor onze planeet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19790300053834__adb6a85c-c3e3-47c2-aec5-88c1804374f7-subheading-1",
+        "template--19790300053834__adb6a85c-c3e3-47c2-aec5-88c1804374f7-heading-1",
+        "template--19790300053834__adb6a85c-c3e3-47c2-aec5-88c1804374f7-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "2999d635-0021-496c-9959-29cfa28a23cd": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19790300053834__2999d635-0021-496c-9959-29cfa28a23cd-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#e1fce3",
+            "icon_color": "#1bb67a",
+            "title": "Europese leveranciers",
+            "content": "<p>Wij werken samen met Europese leveranciers. Dit stelt ons in staat om het volledige productieproces te monitoren en ervoor te zorgen dat je niet alleen een eerlijke prijs betaalt, maar ook kunt vertrouwen op de kwaliteit van het product.</p>"
+          }
+        },
+        "template--19790300053834__2999d635-0021-496c-9959-29cfa28a23cd-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#e1fce3",
+            "icon_color": "#1bb67a",
+            "title": "Duurzame materialen",
+            "content": "<p>Wij selecteren onze leveranciers zorgvuldig en houden voortdurend toezicht op het gebruik van duurzame materialen. We streven er altijd naar om producten te leveren die zowel van hoge kwaliteit zijn als milieuvriendelijk geproduceerd worden.</p>"
+          }
+        },
+        "template--19790300053834__2999d635-0021-496c-9959-29cfa28a23cd-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-target",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#e1fce3",
+            "icon_color": "#1bb67a",
+            "title": "Verantwoorde keuzes",
+            "content": "<p>Ieder product dat we op onze website plaatsen, wordt zorgvuldig overwogen en onderzocht. Op die manier kunnen we er zeker van zijn dat onze producten niet alleen naadloos aansluiten op jouw behoeften, maar ook eerlijk geproduceerd zijn.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19790300053834__2999d635-0021-496c-9959-29cfa28a23cd-item-1",
+        "template--19790300053834__2999d635-0021-496c-9959-29cfa28a23cd-item-2",
+        "template--19790300053834__2999d635-0021-496c-9959-29cfa28a23cd-item-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "Onze duurzaamheid peilers",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "0257717d-d14e-49bb-867a-86667f3ea821": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--19790300053834__0257717d-d14e-49bb-867a-86667f3ea821-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/20230401_135747-01_1_-min.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "Wij gaan verder!",
+            "title": "Duurzame certificeringen",
+            "content": "<p>Alle producten van HappyBed zijn voorzien van het OEKO-TEX® Standard 100-certificaat. Dit betekent dat onze producten uitgebreid zijn getest en geen schadelijke stoffen bevatten, wat zowel goed is voor jou als voor het milieu.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--19790300053834__0257717d-d14e-49bb-867a-86667f3ea821-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9395_1_-min.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "Samen staan we sterker",
+            "title": "Duurzame partners",
+            "content": "<p>Naast het samenwerken met Europese leveranciers, werken we ook nauw samen met diverse partners in de productie, verpakking en logistiek. We streven er voortdurend naar om onze processen verder te verduurzamen, zodat we samen onze bijdrage aan duurzaamheid kunnen vergroten.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19790300053834__0257717d-d14e-49bb-867a-86667f3ea821-item-1",
+        "template--19790300053834__0257717d-d14e-49bb-867a-86667f3ea821-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "#f6f6f6",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cb412207-7795-4a57-8b6d-071963392f19",
+    "adb6a85c-c3e3-47c2-aec5-88c1804374f7",
+    "2999d635-0021-496c-9959-29cfa28a23cd",
+    "0257717d-d14e-49bb-867a-86667f3ea821"
+  ]
+}

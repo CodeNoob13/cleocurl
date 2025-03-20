@@ -1,0 +1,315 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ceeda15a-feb5-423e-a17a-94081d0bda3b": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19389986505034__ceeda15a-feb5-423e-a17a-94081d0bda3b-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Bespaar tijd iedere dag opnieuw!"
+          }
+        },
+        "template--19389986505034__ceeda15a-feb5-423e-a17a-94081d0bda3b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Gekleurd dekbed",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19389986505034__ceeda15a-feb5-423e-a17a-94081d0bda3b-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ontdek onze wasbare gekleurde dekbedden en geniet van het gemak en de hygiëne die ze bieden!</p>"
+          }
+        },
+        "74ecbe73-a72c-486d-ace8-aa35d325f8a5": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TrustBox widget - Drop-Down -->\n<div class=\"trustpilot-widget\" data-locale=\"nl-NL\" data-template-id=\"5418052cfbfb950d88702476\" data-businessunit-id=\"63c54b4fd94489a34a6a423c\" data-style-height=\"30px\" data-style-width=\"100%\" data-theme=\"dark\" data-stars=\"1,2,3,4,5\" data-review-languages=\"nl\" data-font-family=\"Lato\">\n  <a href=\"https://nl.trustpilot.com/review/thehappybed.nl\" target=\"_blank\" rel=\"noopener\">Trustpilot</a>\n</div>\n<!-- End TrustBox widget -->"
+          }
+        }
+      },
+      "block_order": [
+        "template--19389986505034__ceeda15a-feb5-423e-a17a-94081d0bda3b-subheading-1",
+        "template--19389986505034__ceeda15a-feb5-423e-a17a-94081d0bda3b-heading-1",
+        "template--19389986505034__ceeda15a-feb5-423e-a17a-94081d0bda3b-richtext-1",
+        "74ecbe73-a72c-486d-ace8-aa35d325f8a5"
+      ],
+      "custom_css": [
+        ".trustpilot-widget {padding: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/IMG_4164_1.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Voorgestelde product",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 40
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "01e668ac-351a-4462-9f27-a405a15bdd21": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 4,
+            "column_span": "1",
+            "image": "shopify://shop_images/14121197_5433123_1.jpg",
+            "title": "Bekijk nu onze nieuwe print",
+            "content": "",
+            "link_url": "shopify://products/happybed-gouden-oase-dekbed-zonder-overtrek-bedrukt-dekbed-wasbaar-hoesloos-dekbed",
+            "link_text": "Bekijken",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "01e668ac-351a-4462-9f27-a405a15bdd21"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "3334de24-e81b-4afe-b34d-78eb20ebeb4d": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19383385293130__3334de24-e81b-4afe-b34d-78eb20ebeb4d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image00002_31904d02-a560-4672-bee3-a079634ada44.jpg",
+            "media_width": 40,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "2-IN-1 DEKBED",
+            "title": "Wat is een gekleurd dekbed?",
+            "content": "<p>Een gekleurd dekbed zonder overtrek is de ideale oplossing voor wie op zoek is naar gemak en hygiëne. In tegenstelling tot een traditioneel dekbed, heeft een dekbed zonder overtrek geen losse hoes die je steeds opnieuw moet wassen. Zoek je een gekleurd dekbed dat je eenvoudig kunt wassen en toch schoon en fris blijft? Kies dan voor onze wasbare gekleurde dekbedden zonder overtrek. Met onze gekleurde dekbedden slaap je voortaan op een schoon bed zonder gedoe. Bovendien kun je bij ons kiezen uit verschillende kleuren en maten, zodat je altijd het perfecte dekbed vindt dat bij jouw stijl en slaapkamer past. Onze gekleurde dekbedden zonder overtrek zijn niet alleen hygiënisch en praktisch, maar ook comfortabel en stijlvol.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "23de80e1-3707-45df-bd43-8a3687c1dcbf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5607.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "KIES VOOR GEMAK",
+            "title": "Waarom een gekleurd dekbed?",
+            "content": "<p>Met een wasbare gekleurde dekbedden zonder overtrek slaap je voortaan op een schoon en fris bed zonder gedoe. Dankzij de vaste hoes heb je geen gedoe meer met losse hoezen en kun je het dekbed snel en gemakkelijk in de wasmachine en droger stoppen. Hierdoor blijft jouw gekleurde dekbed hygiënisch en schoon, wat zorgt voor een betere nachtrust en een gezondere slaapomgeving.</p><p>Bovendien kun je bij ons kiezen uit verschillende kleuren en maten, zodat je altijd het perfecte dekbed vindt dat bij jouw stijl en slaapkamer past. Geniet van een comfortabele en zorgeloze nachtrust met een kleurrijk accent in jouw slaapkamer!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19383385293130__3334de24-e81b-4afe-b34d-78eb20ebeb4d-image-1",
+        "23de80e1-3707-45df-bd43-8a3687c1dcbf"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "ffafe65b-9949-46fa-a7a3-45d40ca2a34c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19383385293130__ffafe65b-9949-46fa-a7a3-45d40ca2a34c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "GEHEEL OP EIGEN VOORWAARDEN"
+          }
+        },
+        "template--19383385293130__ffafe65b-9949-46fa-a7a3-45d40ca2a34c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "30 dagen proefslapen, geheel op eigen voorwaarden",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19383385293130__ffafe65b-9949-46fa-a7a3-45d40ca2a34c-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Weet je niet zeker of een bedrukt dekbed wel bij jou past? Probeer dan onze dekbedden vrijblijvend 30 dagen uit en is het toch niet wat je zocht? Geen probleem, Geld terug!</p>"
+          }
+        },
+        "1bd0cc8c-a7b0-4f27-8f4c-e7ea90debca7": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "30 dagen uitproberen",
+            "url": "shopify://collections/gekleurde-dekbedden",
+            "background": "#b0b9fc",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19383385293130__ffafe65b-9949-46fa-a7a3-45d40ca2a34c-subheading-1",
+        "template--19383385293130__ffafe65b-9949-46fa-a7a3-45d40ca2a34c-heading-1",
+        "template--19383385293130__ffafe65b-9949-46fa-a7a3-45d40ca2a34c-richtext-1",
+        "1bd0cc8c-a7b0-4f27-8f4c-e7ea90debca7"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bac3c5f5-b3b9-4414-9918-8b44f48eaa51": {
+      "type": "faq",
+      "blocks": {
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Wat zijn de voordelen van een gekleurd dekbed?",
+            "content": "<p>Een bedrukt dekbed kent vele voordelen, omdat ze steeds populairder worden in Nederland hebben we de voor- en nadelen voor je opgesomt zodat je zeker de juiste keuze maakt!<br/><br/><strong>Voordelen:</strong></p><ul><li>Geschikt voor de wasmachine.</li><li>Droogt snel in de buitenlucht of wasdroger.</li><li>Geen dekbedovertrek meer nodig.</li><li>Fluweelzachte en stijlvolle tijk.</li><li>Temperatuurregulerende vulling.</li><li>Anti-allergisch en hygiënisch.</li><li>Geschikt voor meerdere seizoenen.</li><li>Bespaar tijd en moeite tijdens het opmaken.</li><li>Geen last meer van zweten door de heerlijk ademende stof.</li></ul>"
+          }
+        },
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Heeft een gekleurd dekbed ook nadelen?",
+            "content": "<ul><li>Minder afwisseling mogelijk qua design.</li><li>Wasinstructies zijn belangrijk om op te volgen.<br/></li></ul><p>Om een lange levensduur te garanderen, raden we aan om tijdens het wassen een temperatuur van 40 graden Celsius te gebruiken en het drogen in de droogtrommel te beperken tot 800 toeren. Hang het daarna gewoon in de zon of gebruik een lage warmte-instelling op uw droger en kijk hoe snel het droogt!</p>"
+          }
+        },
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Hoe was ik mijn HappyBed dekbed?",
+            "content": "<p>Om ervoor te zorgen dat jouw dekbed er op zijn best blijft uitzien, raden wij aan het te wassen op een maximale temperatuur van 60 graden Celsius met een toerental van 1000 (of 40°C/800 toeren voor een optimale levensduur van het product).</p><p>Dit zorgt er niet alleen voor dat uw beddengoed fris en hygiënisch aanvoelt, maar helpt ook om huisstofmijt, opgedroogde vlekken en bacteriën te verwijderen.<br/><br/>Meer informatie? Lees dan onze <a href=\"https://thehappybed.nl/pages/wasinstructies\" target=\"_blank\" title=\"Wasinstructies\"><strong>wasinstructies</strong></a></p>"
+          }
+        },
+        "0b0b7094-bd6d-4ae7-9c60-84433b9d7bef": {
+          "type": "item",
+          "settings": {
+            "title": "Ik heb last van allergieën. Is jullie dekbed anti-allergeen?",
+            "content": "<p>Last van een allergieën? Je bent niet alleen - ongeveer een kwart van alle Nederlanders voelt jouw pijn. HappyBed is er om het leven voor iedereen aangenamer te maken, en we denken ook aan jou! Ons beddengoed biedt een antibacteriële bescherming tegen huisstofmijt en is van superieure kwaliteit, zodat deze kleine beestjes geen kans krijgen.</p>"
+          }
+        },
+        "6a6402c8-600d-4af9-8b2d-c370db06069d": {
+          "type": "item",
+          "settings": {
+            "title": "Wat zijn alle voordelen van een HappyBed dekbed?",
+            "content": "<p>Onze dekbedden zijn de perfecte oplossing voor iedereen die lichter en comfortabeler wil slapen. Met een twee-in-één ontwerp dat extra hoezen/dekbedovertrekken overbodig maakt! De ademende en toch isolerende stof, biedt de bedrukte dekbedden veel comfort en gebruiksgemak.<br/><br/>Bovendien is het gemakkelijk te wassen, zodat u nooit last heeft van krimp of kreukels! Maar wat HappyBed onderscheidt is de speciale materiaalsamenstelling die onovertroffen lichtgewicht slapen mogelijk maakt zonder aan kwaliteit in te leveren - ideaal niet alleen tijdens warme zomernachten maar ook in de koude winterdagen. Ook biedt het waardevolle hulp tegen kwalen als rugpijn, reuma artritis en luchtwegklachten. Bereid je voor op de beste nachtrust ooit met een HappyBed dekbed!</p>"
+          }
+        },
+        "586eeeec-3423-4ad7-85ff-f3ded3811839": {
+          "type": "item",
+          "settings": {
+            "title": "Hoeveel lichamelijke inspanning is nodig voor het opmaken van een HappyBed dekbed?",
+            "content": "<p>Bij HappyBed streven we ernaar dat je niet alleen comfortabel en gezond slaapt, maar ook met veel plezier. Daarom is ons beddengoed ontworpen voor minimale fysieke inspanning bij het opmaken van jouw bed, gemaakt met lichtheid en compactheid om de dagelijkse levenskwaliteit te verbeteren. Onze experts inspecteren elk product nauwgezet voordat ze het verzenden - zodat we allemaal van 's nachts tot 's ochtends het geliefde comfort kunnen ervaren!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-1",
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-2",
+        "template--19383385293130__bac3c5f5-b3b9-4414-9918-8b44f48eaa51-item-3",
+        "0b0b7094-bd6d-4ae7-9c60-84433b9d7bef",
+        "6a6402c8-600d-4af9-8b2d-c370db06069d",
+        "586eeeec-3423-4ad7-85ff-f3ded3811839"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Veelgestelde vragen",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Onze klantenservice is beschikbaar van maandag tot en met vrijdag: 09:00 - 16:00 uur.",
+        "answer_time": "Gemiddelde antwoordtijd: 24 uur",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "ceeda15a-feb5-423e-a17a-94081d0bda3b",
+    "banner",
+    "main",
+    "3334de24-e81b-4afe-b34d-78eb20ebeb4d",
+    "ffafe65b-9949-46fa-a7a3-45d40ca2a34c",
+    "bac3c5f5-b3b9-4414-9918-8b44f48eaa51"
+  ]
+}

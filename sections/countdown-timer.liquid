@@ -1,0 +1,174 @@
+{%- if section.settings.countdown_timer_enabled -%}
+  <div class="countdown-timer" id="countdown-{{ section.id }}">
+    <div class="container countdown-timer__wrapper">
+      <div class="countdown-timer__content">
+        <p>{{ section.settings.content }}</p>
+      </div>
+      <div id="countdownTimer" class="countdown-timer__items"></div>
+    </div>
+  </div>
+
+        <style>
+          {% if section.settings.bcg_color %} 
+            #countdown-{{ section.id }}.countdown-timer {
+              background-color: {{ section.settings.bcg_color }} !important;
+            }
+          {% endif %}
+          {% if section.settings.font_color %} 
+            #countdown-{{ section.id }} .countdown-timer__content p {
+              color: {{ section.settings.font_color }} !important;
+            }
+          {% endif %}
+          {% if section.settings.blocks_bcg_color %} 
+            #countdown-{{ section.id }} .countdown-timer__item  {
+              background-color: {{ section.settings.blocks_bcg_color }} !important;
+            }
+          {% endif %}
+          {% if section.settings.blocks_font_color %} 
+            #countdown-{{ section.id }} .countdown-timer__items *  {
+              color: {{ section.settings.blocks_font_color }} !important;
+            }
+          {% endif %}
+        </style>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            // Function to format time units correctly
+            function formatTimeUnit(n) {
+              return n < 10 ? '0' + n : n.toString();
+            }
+
+            // Function to get the current time in Amsterdam considering GMT+1
+            function getAmsterdamTime() {
+              const now = new Date();
+              const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+              // Amsterdam is GMT+1
+              return new Date(utc + (3600000 * 1)); // Adjust for Amsterdam's time zone offset
+            }
+
+            // Function to calculate the next reset date
+            function getNextResetDate() {
+              const now = getAmsterdamTime();
+              const startDate = new Date('{{ section.settings.countdown_timer_start_date }}T00:00:00');
+              const endDate = new Date('{{ section.settings.countdown_timer_end_date }}T00:00:00');
+              {% comment %} let resetDate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59, 999); {% endcomment %}
+              let resetDate = endDate;
+              
+              if (now >= resetDate) {
+                resetDate.setDate(resetDate.getDate() + 1); // Set to midnight next day if past midnight
+              }
+              
+              if (now < startDate) {
+                document.getElementById("countdown-{{ section.id }}").style.display = "none";
+                resetDate = new Date(startDate.getTime() + (24 * 60 * 60 * 1000)); // Start counting from the start date             
+              } else if (now >= endDate) {
+                while (resetDate <= now) {
+                  resetDate = new Date(resetDate.getTime() + (24 * 60 * 60 * 1000)); // Continue in 48-hour cycles
+                }
+              }
+              return resetDate;
+            }
+
+            // Function to update the countdown display
+            function updateCountdownTimer(days, hours, minutes, seconds) {
+              const timer = document.getElementById('countdownTimer');
+              if (timer) {
+                timer.innerHTML = `
+                  <div class="countdown-timer__item">${days}<span class="countdown-timer__item--static">d</span></div>
+                  <span class="countdown-timer__colon">:</span>
+                  <div class="countdown-timer__item">${hours}<span class="countdown-timer__item--static">u</span></div>
+                  <span class="countdown-timer__colon">:</span>
+                  <div class="countdown-timer__item">${minutes}<span class="countdown-timer__item--static">m</span></div>
+                  <span class="countdown-timer__colon">:</span>
+                  <div class="countdown-timer__item">${seconds}<span class="countdown-timer__item--static">s</span></div>
+                `;
+              }
+            }
+
+            // Function to start the countdown
+            function startCountdown() {
+              let nextResetDate = getNextResetDate();
+
+              setInterval(function () {
+                let now = getAmsterdamTime();
+                let timeRemaining = nextResetDate - now;
+
+                if (timeRemaining <= 0) {
+                  nextResetDate = getNextResetDate();
+                  timeRemaining = nextResetDate - now;
+                }
+
+                let daysRemaining = formatTimeUnit(Math.floor(timeRemaining / (1000 * 60 * 60 * 24)));
+                let hoursRemaining = formatTimeUnit(Math.floor((timeRemaining / (1000 * 60 * 60)) % 24));
+                let minutesRemaining = formatTimeUnit(Math.floor((timeRemaining / (1000 * 60)) % 60));
+                let secondsRemaining = formatTimeUnit(Math.floor((timeRemaining / 1000) % 60));
+
+                updateCountdownTimer(daysRemaining, hoursRemaining, minutesRemaining, secondsRemaining);
+              }, 1000);
+            }
+
+            // Check if the countdown timer is enabled and start it
+            if ({{ section.settings.countdown_timer_enabled }}) {
+              startCountdown();
+            }
+          });
+        </script>
+{%- endif -%}
+
+
+{% schema %}
+{
+  "name": "Countdown Timer",
+  "tag": "section",
+  "class": "countdown-timer",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "countdown_timer_enabled",
+      "label": "Enable Countdown timer",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "countdown_timer_start_date",
+      "label": "Countdown start date (YYYY-MM-DD)",
+      "default": "2023-11-15"
+    },
+    {
+      "type": "text",
+      "id": "countdown_timer_end_date",
+      "label": "Countdown end date (YYYY-MM-DD)",
+      "default": "2023-11-17"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Onze hoogste korting ooit! 30% op alle producten</p>"
+    },
+    {
+      "type": "header",
+      "content": "Countdown Timer Colors"
+    },
+    {
+      "type": "color",
+      "id": "font_color",
+      "label": "Font color"
+    },
+    {
+      "type": "color",
+      "id": "bcg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "color",
+      "id": "blocks_bcg_color",
+      "label": "Timer blocks bg color"
+    },
+    {
+      "type": "color",
+      "id": "blocks_font_color",
+      "label": "Timer blocks font color"
+    }
+  ]
+}
+{% endschema %}

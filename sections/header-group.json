@@ -1,0 +1,100 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "countdown-timer": {
+      "type": "countdown-timer",
+      "settings": {
+        "countdown_timer_enabled": false,
+        "countdown_timer_start_date": "",
+        "countdown_timer_end_date": "",
+        "content": "",
+        "font_color": "#ffffff",
+        "bcg_color": "#d32f2f",
+        "blocks_bcg_color": "#000000",
+        "blocks_font_color": ""
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "5d8d24d5-a655-4da5-8360-d9f5d3e0cb44": {
+          "type": "message",
+          "settings": {
+            "text": "Order before 23:59, shipped tomorrow!",
+            "url": ""
+          }
+        },
+        "e8adc490-e7ab-457b-9b8f-747e20fbc28f": {
+          "type": "message",
+          "settings": {
+            "text": "Pay later with Klarna!",
+            "url": ""
+          }
+        },
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Free shipping for orders above €40,-",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "5d8d24d5-a655-4da5-8360-d9f5d3e0cb44",
+        "e8adc490-e7ab-457b-9b8f-747e20fbc28f",
+        "message"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 18,
+        "background": "#ffb74a",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify://shop_images/CleoCurl_Primair-logo_Zwart.png",
+        "logo_max_width": 250,
+        "logo_mobile_max_width": 170,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "left",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/CleoCurl_Primair-logo_Wit.png",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 4
+      }
+    }
+  },
+  "order": [
+    "countdown-timer",
+    "announcement-bar",
+    "header"
+  ]
+}

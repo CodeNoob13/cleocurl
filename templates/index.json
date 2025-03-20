@@ -1,0 +1,621 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c8302c56-2cac-48db-960d-b6f1f3cd15c5": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19341625033034__c8302c56-2cac-48db-960d-b6f1f3cd15c5-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Embrace Your Curls!",
+            "heading_tag": "h2"
+          }
+        },
+        "f7793222-a7b9-4869-bcbf-efe69bff6ba2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "217cfb1c-740a-4cec-848a-824a36a6fe4d": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "SHOP NOW",
+            "url": "shopify://products/curl-styling-cream",
+            "background": "#ee9824",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--19341625033034__c8302c56-2cac-48db-960d-b6f1f3cd15c5-heading-1",
+        "f7793222-a7b9-4869-bcbf-efe69bff6ba2",
+        "217cfb1c-740a-4cec-848a-824a36a6fe4d"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/DSC01775.heic",
+        "mobile_image": "shopify://shop_images/DSC01502.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 5
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "dekbed-zonder-overtrek",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 16,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Onze bestsellers",
+        "content": "<p>Je bed is in <strong>een flits opgemaakt</strong>: <strong>snel </strong>en <strong>simpel</strong>, <strong>eenvoudiger kan het niet.</strong></p>",
+        "link_url": "shopify://collections/dekbed-zonder-overtrek",
+        "link_text": "Zie al onze dekbedden",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#2a2e45",
+        "heading_color": "#2a2e45",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#2a2e45"
+      }
+    },
+    "featured_collection_WiDV4C": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "products": [
+          "curl-styling-cream"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Best Seller",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "press": {
+      "type": "press",
+      "blocks": {
+        "16644243327ba53d2a-0": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Daniëlle",
+            "content": "\"I absolutely love Cleo Curl's styling creme. My curls last long and it took me less time to style.\"",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "560e9122-7d85-436e-98ae-c41814b26f4b": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Chiara",
+            "content": "\"I think Cleo Curl really did an amazing job in creating a product that makes my curls look good and healthy at the same time.\"",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "7945d376-eff5-4e80-8b37-0493768df3cd": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 120,
+            "author": "Elara",
+            "content": "\"I only need to use just a little bit of styling creme and my curls are already beautiful.\"",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "16644243327ba53d2a-0",
+        "560e9122-7d85-436e-98ae-c41814b26f4b",
+        "7945d376-eff5-4e80-8b37-0493768df3cd"
+      ],
+      "custom_css": [
+        ".rating__star {color: #ffdf00;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "featured_product_zHLkiD": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_Q6xKYY": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title_ym6DNn": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_yDD9iB": {
+          "type": "badges",
+          "settings": {}
+        },
+        "rating_mEFUYQ": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_nAdiqK": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_4x3BLy": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_7qXfYM": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "price_qDMzRF": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "quantity_selector_FDB3CD": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "button_H3YRqh": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/curl-styling-cream",
+            "text": "READ MORE",
+            "size": "xl",
+            "style": "fill",
+            "stretch": true,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "buy_buttons_7pFNkr": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_TRBadU": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_Q6xKYY",
+        "title_ym6DNn",
+        "badges_yDD9iB",
+        "rating_mEFUYQ",
+        "separator_nAdiqK",
+        "description_4x3BLy",
+        "variant_picker_7qXfYM",
+        "price_qDMzRF",
+        "quantity_selector_FDB3CD",
+        "button_H3YRqh",
+        "buy_buttons_7pFNkr",
+        "pickup_availability_TRBadU"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "curl-styling-cream",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 183, 74, 0.1), rgba(255, 255, 255, 1) 50%, rgba(222, 240, 239, 0.6) 100%)",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "before_after_image_mVejg4": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>The results are fantastic!</p>",
+        "before_image": "shopify://shop_images/IMG_7075_2.jpg",
+        "after_image": "shopify://shop_images/DSC01584.heic",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1) 22%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 94.245%)",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "71c5521d-e18c-40a8-a0f0-725ce5dd7e5f": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--19396662493514__71c5521d-e18c-40a8-a0f0-725ce5dd7e5f-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Heerlijk zacht",
+            "content": "<p>Ervaar de ultieme zachtheid met ons beddengoed, vervaardigd uit hoogwaardige materialen om te zorgen voor de beste nachtrust.</p>"
+          }
+        },
+        "template--19396662493514__71c5521d-e18c-40a8-a0f0-725ce5dd7e5f-item-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Altijd de juiste temperatuur",
+            "content": "<p>Al onze artikelen zijn gemaakt met een optimale samenstelling, wat betekent dat het beddengoed heerlijk ademend is en tegelijkertijd de warmte reguleert. Hierdoor blijft het lekker warm tijdens kouder weer en heerlijk koel gedurende de warmere dagen.</p>"
+          }
+        },
+        "template--19396662493514__71c5521d-e18c-40a8-a0f0-725ce5dd7e5f-item-3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Anti-allergisch",
+            "content": "<p>Al het beddengoed in ons assortiment heeft een anti-allergische werking, wat je verzekert van de beste slaapkwaliteit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19396662493514__71c5521d-e18c-40a8-a0f0-725ce5dd7e5f-item-1",
+        "template--19396662493514__71c5521d-e18c-40a8-a0f0-725ce5dd7e5f-item-2",
+        "template--19396662493514__71c5521d-e18c-40a8-a0f0-725ce5dd7e5f-item-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/DSC01826.heic",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 16,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#2a2e45",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#2a2e45",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "f068b901-4672-4f20-853e-a00dcd7d1c26": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19965247881546__f068b901-4672-4f20-853e-a00dcd7d1c26-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Scherm_afbeelding_2024-12-20_om_19.20.43.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Nature’s Finest for Your Curls",
+            "title": "Premium Ingredients for Healthy Curls",
+            "content": "<p>At CLEO CURL, we believe that your hair deserves the very best. That’s why we only select the highest quality, natural ingredients for our styling cream. The combination of natural fruit extracts and Mediterranean oils hydrate, strengthen and define your curls. You can trust that every ingredient is chosen with your hair’s health and beauty in mind.</p>",
+            "link_text": "",
+            "link_url": "shopify://pages/duurzaamheid",
+            "background": "#ecf4f3",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "841b9cdd-d4bf-4512-86b7-958a1926d3e9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC01276.heic",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Creates The Best Curls You Ever Had",
+            "title": "Makes Styling Your Curls Easy",
+            "content": "<p>Our products are designed to make styling your curls easy, helping you achieve the most beautiful, defined curls you've ever had. They provide long-lasting hold while maintaining the health of your hair, so your curls stay soft, bouncy, and naturally shiny. Plus, they're free from silicones, mineral oils and dehydrating alcohols, ensuring your curls stay healthy.</p>",
+            "link_text": "",
+            "link_url": "shopify://collections/bedrukte-dekbedden",
+            "background": "#fff6e9",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "#fff6e9",
+            "button_text_color": ""
+          }
+        },
+        "image_CpFCJx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pexels-alexazabache-3723031.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Embrace Your Curls",
+            "title": "Makes You Authentic",
+            "content": "<p>Inspired by the timeless beauty of the ancient Egyptian queen Cleopatra, CLEO CURL empowers you to wear your curls with pride and authenticity. Too often, we see women neglect their curls. We want you to wear them with confidence!</p>",
+            "link_text": "",
+            "link_url": "shopify://pages/duurzaamheid",
+            "background": "#ecf4f3",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19965247881546__f068b901-4672-4f20-853e-a00dcd7d1c26-image-1",
+        "841b9cdd-d4bf-4512-86b7-958a1926d3e9",
+        "image_CpFCJx"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "c4dc565c-fd4b-4233-9716-98adcbccf7e7": {
+          "type": "item",
+          "settings": {
+            "title": "What hair types is the CLEO CURL Styling Creme suitable for?",
+            "content": "<p>CLEO CURL is suitable for curly and coily hair with hair type 3A - 4C.</p>"
+          }
+        },
+        "item_qrCGCB": {
+          "type": "item",
+          "settings": {
+            "title": "Is CLEO CURL free from silicons, mineral oils and dehydrating alcohol?",
+            "content": "<p>Yes, you can see the list of ingredients <a href=\"/products/curl-styling-cream\" title=\"Curl Styling Cream™\">here</a>.</p>"
+          }
+        },
+        "cc95405b-a253-4f2a-8600-0741e621aa70": {
+          "type": "item",
+          "settings": {
+            "title": "What makes CLEO CURL different from other brands?",
+            "content": "<p>At CLEO CURL, we create the best products for curls at an affordable price. We have selected high-quality and healthy ingredients to create the most beautiful curls, with the focus on natural fruit extracts and Mediterranean oils. Our mission is to make women proud of their curls and treat them in the best way possible!</p>"
+          }
+        },
+        "29e8a086-218a-4bb0-a598-1e15a1141b07": {
+          "type": "item",
+          "settings": {
+            "title": "Who are the owners of CLEO CURL?",
+            "content": "<p>We are a family with curly hair, and a few years ago, we felt the need to create our own product for our curls. It took us a lot of research and effort to find the right ingredients that are healthy for your hair while also allowing you to style your curls perfectly. Our roots lie in Egypt, and this is reflected throughout our brand, from the name (Cleo, from Cleopatra) to the carefully selected Mediterranean ingredients.</p>"
+          }
+        },
+        "166442457738b23caf-0": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How do I use CLEO CURL for the best results?",
+            "content": "<p>Apply a generous amount of CLEO CURL to damp hair, distributing it evenly from root to tip. Use your fingers or a wide-tooth comb to define your curls. For extra definition, scrunch your hair and let it air dry or use a diffuser.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "c4dc565c-fd4b-4233-9716-98adcbccf7e7",
+        "item_qrCGCB",
+        "cc95405b-a253-4f2a-8600-0741e621aa70",
+        "29e8a086-218a-4bb0-a598-1e15a1141b07",
+        "166442457738b23caf-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": "<p>Answers to the most asked questions about CleoCurl.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "shopify://pages/contact",
+        "text_position": "start",
+        "background": "#f6f6f6",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "#2a2e45",
+        "button_text_color": "#ffffff",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
+    "d0ea91b0-291e-4332-bff2-161b21b2cb87": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19712397705546__d0ea91b0-291e-4332-bff2-161b21b2cb87-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Are you already following our Instagram?"
+          }
+        },
+        "template--19712397705546__d0ea91b0-291e-4332-bff2-161b21b2cb87-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "@Cleo.curl",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19712397705546__d0ea91b0-291e-4332-bff2-161b21b2cb87-subheading-1",
+        "template--19712397705546__d0ea91b0-291e-4332-bff2-161b21b2cb87-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f6f6f6",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 62%)",
+        "text_color": ""
+      }
+    },
+    "34226d25-4782-4ebc-a403-9a6555d6483d": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--19396662493514__34226d25-4782-4ebc-a403-9a6555d6483d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Transform Your Curls with CLEO CURL",
+            "heading_tag": "h1"
+          }
+        },
+        "template--19396662493514__34226d25-4782-4ebc-a403-9a6555d6483d-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>See the stunning transformation and experience the magic of CLEO CURL for yourself.</p>"
+          }
+        },
+        "7b09d7c4-eed3-4c40-9d96-150c008ef659": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Read more",
+            "url": "shopify://products/curl-styling-cream",
+            "background": "#d76316",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--19396662493514__34226d25-4782-4ebc-a403-9a6555d6483d-heading-1",
+        "template--19396662493514__34226d25-4782-4ebc-a403-9a6555d6483d-richtext-1",
+        "7b09d7c4-eed3-4c40-9d96-150c008ef659"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Model4-CleoCurl.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 4
+      }
+    }
+  },
+  "order": [
+    "c8302c56-2cac-48db-960d-b6f1f3cd15c5",
+    "featured-collection",
+    "featured_collection_WiDV4C",
+    "press",
+    "featured_product_zHLkiD",
+    "before_after_image_mVejg4",
+    "71c5521d-e18c-40a8-a0f0-725ce5dd7e5f",
+    "f068b901-4672-4f20-853e-a00dcd7d1c26",
+    "faq",
+    "d0ea91b0-291e-4332-bff2-161b21b2cb87",
+    "34226d25-4782-4ebc-a403-9a6555d6483d"
+  ]
+}

@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e8138199-2b4a-4c7e-9acb-ecb37c6778ac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19510379118922__e8138199-2b4a-4c7e-9acb-ecb37c6778ac-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Net zon'n fan van jouw HappyBed als dat wij zijn?"
+          }
+        },
+        "template--19510379118922__e8138199-2b4a-4c7e-9acb-ecb37c6778ac-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Meld je dan nu aan als affiliate!",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19510379118922__e8138199-2b4a-4c7e-9acb-ecb37c6778ac-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Welkom bij het HappyBed Affiliate Programma! Ontdek een opwindende kans om samen te werken en te verdienen. Met ons programma verdien je een<strong> </strong><em><strong>royale commissie van 20%</strong></em> voor elke bestelling die via jouw unieke link wordt geplaatst. Of het nu gaat om gezellige dekens, comfortabele kussens of luxe beddengoed, jouw inspanningen worden beloond met elke gelijktijdige aankoop.</p><p>We zetten jou in de bestuurdersstoel van jouw succes. Via ons gebruiksvriendelijke platform krijg je exclusief inzicht in al jouw gegenereerde bestellingen en opbrengsten. Volg je prestaties in realtime en zie hoe je passief inkomen opbouwt.</p><p>Om je te helpen schitteren, stellen we een schat aan marketingmaterialen tot je beschikking. Van creatieve banners tot pakkende advertenties, je hebt toegang tot een uitgebreide bibliotheek die je kunt gebruiken om jouw doelgroep te betrekken en te inspireren.</p><p>We begrijpen hoe belangrijk het is om je inspanningen te belonen. Daarom houden we jouw <em><strong>cookies 30 dagen</strong></em> bij. Dit betekent dat zelfs als een bezoeker niet onmiddellijk converteert, je nog steeds wordt gecrediteerd voor de verkoop, zolang deze binnen <em><strong>30 dagen</strong></em> plaatsvindt.</p><p>Word vandaag lid van ons HappyBed Affiliate Programma en ontdek een nieuwe wereld van potentieel. Samen streven we ernaar om comfort en vreugde te verspreiden, terwijl we jouw inspanningen rijkelijk belonen. Sluit je aan en laat je verwennen door onze geweldige commissies, inzichten en ondersteuning!</p>"
+          }
+        },
+        "bc81dd3e-0605-45d9-a51f-9cba7d88ada9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Aanmelden",
+            "url": "https://HappyBed.bixgrow.com",
+            "background": "#ffb74a",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--19510379118922__e8138199-2b4a-4c7e-9acb-ecb37c6778ac-subheading-1",
+        "template--19510379118922__e8138199-2b4a-4c7e-9acb-ecb37c6778ac-heading-1",
+        "template--19510379118922__e8138199-2b4a-4c7e-9acb-ecb37c6778ac-richtext-1",
+        "bc81dd3e-0605-45d9-a51f-9cba7d88ada9"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    }
+  },
+  "order": [
+    "e8138199-2b4a-4c7e-9acb-ecb37c6778ac",
+    "main"
+  ]
+}

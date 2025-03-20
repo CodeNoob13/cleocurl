@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Voorgestelde product",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 40
+      }
+    },
+    "19bc9ce1-1317-44ce-b82f-9799631372b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Nu online!"
+          }
+        },
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Nieuwe  collectie",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Maak kennis met onze nieuwe dekbedden zonder overtrek! Bestel nu tegen een <em><strong>speciale introductieprijs</strong></em> en heb hem morgen al in huis!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-subheading-1",
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-heading-1",
+        "template--19341624901962__19bc9ce1-1317-44ce-b82f-9799631372b1-richtext-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "19bc9ce1-1317-44ce-b82f-9799631372b1",
+    "main"
+  ]
+}

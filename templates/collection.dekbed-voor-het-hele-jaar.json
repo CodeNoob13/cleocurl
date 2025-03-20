@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "collection_title_size": "h0",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Voorgestelde product",
+        "text_color": "#ffffff",
+        "overlay_color": "#1a1a1a",
+        "overlay_opacity": 40
+      }
+    },
+    "737b6564-7e87-4dec-9bee-a6800c6f5ec7": {
+      "type": "rich-text",
+      "blocks": {
+        "9e0b06ca-8f65-467a-a9bd-a98415fb2f5e": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#b0b9fc",
+            "icon_color": "#ffffff"
+          }
+        },
+        "template--20297696313674__737b6564-7e87-4dec-9bee-a6800c6f5ec7-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Passend voor ieder seizoen"
+          }
+        },
+        "template--20297696313674__737b6564-7e87-4dec-9bee-a6800c6f5ec7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Één dekbed voor het hele jaar",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20297696313674__737b6564-7e87-4dec-9bee-a6800c6f5ec7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Geniet van ongeëvenaard slaapcomfort het hele jaar door met ons all-season dekbed. Ontworpen voor elk seizoen, biedt het de perfecte warmte met luxe microvezels voor een uitzonderlijk zacht en comfortabel gevoel.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "9e0b06ca-8f65-467a-a9bd-a98415fb2f5e",
+        "template--20297696313674__737b6564-7e87-4dec-9bee-a6800c6f5ec7-subheading-1",
+        "template--20297696313674__737b6564-7e87-4dec-9bee-a6800c6f5ec7-heading-1",
+        "template--20297696313674__737b6564-7e87-4dec-9bee-a6800c6f5ec7-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "737b6564-7e87-4dec-9bee-a6800c6f5ec7",
+    "main"
+  ]
+}

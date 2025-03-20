@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "apparition_delay": 3,
+        "show_only_on_index": false,
+        "show_only_for_visitors": false,
+        "show_only_once": false,
+        "title": "Krijg 10% korting op jouw eerste bestelling!",
+        "button_text": "Aanmelden",
+        "subtext": "Na aanmelding op de nieuwsbrief ontvang je binnen enkele minuten een kortingscode in de mail."
+      }
+    },
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "settings": {
+        "privacy_bar_title": "Privacybeleid",
+        "privacy_bar_content": "<p>We gebruiken cookies om de beste ervaring op onze website te bieden. Raadpleeg ons <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">privacybeleid</a> voor meer informatie.</p>"
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "custom_css": [],
+      "settings": {
+        "show_cart_note": false,
+        "show_shipping_text": true,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "recommendations_title": "Populair deze maand",
+        "products": [],
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#2a2e45"
+      }
+    },
+    "search-drawer": {
+      "type": "search-drawer",
+      "settings": {
+        "full_width": false,
+        "show_article_category": false,
+        "search_menu": "",
+        "search_menu_show_title": true
+      }
+    }
+  },
+  "order": [
+    "newsletter-popup",
+    "privacy-banner",
+    "cart-drawer",
+    "search-drawer"
+  ]
+}

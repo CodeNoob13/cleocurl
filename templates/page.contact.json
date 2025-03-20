@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "355c81a0-c94f-4d93-af30-28190b3352fb": {
+      "type": "faq",
+      "blocks": {
+        "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "What hair types is CLEO CURL suitable for?",
+            "content": "<p>CLEO CURL is designed to work beautifully on all curly hair types, from loose waves to tight coils. Our formula enhances your natural curl pattern, providing definition and shine.</p>"
+          }
+        },
+        "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How do I use CLEO CURL for the best results?",
+            "content": "<p>Apply a generous amount of CLEO CURL to damp hair, distributing it evenly from root to tip. Use your fingers or a wide-tooth comb to define your curls. For extra definition, scrunch your hair and let it air dry or use a diffuser.</p>"
+          }
+        },
+        "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Is CLEO CURL safe for color-treated hair?",
+            "content": "<p>Yes, CLEO CURL is safe for color-treated hair. Our gentle, sulfate-free formula helps preserve your hair color while keeping your curls hydrated and defined.</p>"
+          }
+        },
+        "591b83b9-0dce-4c67-99b5-defb6498b138": {
+          "type": "item",
+          "settings": {
+            "title": "What makes CLEO CURL different from other curling creams?",
+            "content": "<p>CLEO CURL stands out due to its premium, natural ingredients and non-toxic formula. We focus on delivering hydration, strength, and definition while ensuring your scalp remains healthy and irritation-free.</p>"
+          }
+        },
+        "fdafa308-8a7e-4d17-b153-2d4319bbfb74": {
+          "type": "item",
+          "settings": {
+            "title": "Can I use CLEO CURL daily?",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-1",
+        "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-2",
+        "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-3",
+        "591b83b9-0dce-4c67-99b5-defb6498b138",
+        "fdafa308-8a7e-4d17-b153-2d4319bbfb74"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "Frequently Asked Questions",
+        "title": "Veelgestelde vragen",
+        "content": "<p>Do you have a question or comment? Then take a look at our frequently asked questions first. Often, the question you have can be answered easily. If you still need help, you can easily contact us via our contact form. We are ready to help you.</p>",
+        "team_avatar_width": 70,
+        "support_hours": "Is your question not listed?",
+        "answer_time": "Then scroll down for the contact form.",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "blocks": {
+        "33bcd3c7-fc25-4ac1-9e30-8a0743f9fb0d": {
+          "type": "text",
+          "settings": {
+            "title": "Subject",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "6138595b-f667-4e3e-a571-3ccf7dc68fec": {
+          "type": "dropdown",
+          "settings": {
+            "title": "What can we help you with?",
+            "values": "Order, Delivery, Article, Other,"
+          }
+        }
+      },
+      "block_order": [
+        "33bcd3c7-fc25-4ac1-9e30-8a0743f9fb0d",
+        "6138595b-f667-4e3e-a571-3ccf7dc68fec"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "We are here for you!",
+        "title": "How can we help you?",
+        "content": "<p>We'll do our best to reply to your message as soon as possible.</p>",
+        "text_position": "start",
+        "contact_form_size": "small",
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(222, 240, 239, 1), rgba(255, 255, 255, 1) 50%, rgba(255, 183, 74, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#ffffff",
+        "contact_text_color": "#2a2e45",
+        "button_background": "#d76316",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "355c81a0-c94f-4d93-af30-28190b3352fb",
+    "main",
+    "contact"
+  ]
+}
