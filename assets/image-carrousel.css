@@ -1,13 +1,15 @@
 .image-carrousel {
-  padding: 20px 0;
   overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .swiper {
   width: 100%;
   height: 100%;
-  padding: 64px 0;
+  padding: 40px 0 64px 0;
   cursor: pointer;
+  position: relative;
   overflow: visible;
 }
 
@@ -21,7 +23,6 @@
 .swiper-slide img {
   transform: scale(0.9);
   transition: all 0.25s ease-in-out;
-  width: 100%;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -34,11 +35,11 @@
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 500px) {
-  .swiper {
-    /* padding: 20px 0; */
-  }
+.swiper-wrapper {
+  padding-bottom: 20px;
+}
 
+@media screen and (max-width: 500px) {
   .image-carrousel-title {
     max-width: 275px;
     margin: auto;

@@ -1,5 +1,6 @@
 {{ 'image-carrousel.css' | asset_url | stylesheet_tag }}
-<section class="image-carrousel" style="padding-bottom: {{ section.settings.padding_bottom }}; padding-top:{{ section.settings.padding_top }}">
+
+<section class="image-carrousel">
 
     <div class="image-carrousel-title" style="text-align:center;">
         <h2 class="h2">{{ section.settings.section_title }}</h2>
@@ -15,20 +16,22 @@
             {% endif %}
     {% endfor %}
       
-    </div>    
-  </div>
+    </div>   
+
     <div class="swiper-pagination"></div>
+
+  </div>
 
 </section>
 
 
 <script>
     const swiper = new Swiper('.swiper', {
-        clickable:true,
         centeredSlides: true,
         loop: true,
         pagination: {
-          el: '.swiper-pagination',
+            el: '.swiper-pagination',
+            clickable:true,
         },   
         breakpoints: {
             350: {
@@ -37,7 +40,7 @@
             430: {
                 slidesPerView: 2.25,
               },
-            820: {
+            560: {
               slidesPerView: 4.25,
             },
             1024: {
@@ -65,26 +68,6 @@
                 "type": "header",
                 "content": "Add at least 15 images to the carroussel"
             },
-            {
-                "type": "range",
-                "id": "padding_top",
-                "min": 0,
-                "max": 128,
-                "step": 8,
-                "unit": "px",
-                "label": "padding-top",
-                "default": 0
-              },
-              {
-                "type": "range",
-                "id": "padding_bottom",
-                "min": 0,
-                "max": 128,
-                "step": 8,
-                "unit": "px",
-                "label": "padding-bottom",
-                "default": 0
-              }
         ],
         "blocks": [
             {

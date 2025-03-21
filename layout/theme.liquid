@@ -155,16 +155,11 @@ window.TriplePixelData={TripleName:"happybed-nederland.myshopify.com",ver:"1.9"}
 {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
 
 {% comment %} If page has swiper class load script otherwise don't {% endcomment %}
-<script type="module">
-  import Swiper from 'swiper';
-</script>
 
-{% comment %} Keep swiper on own website so we prevent bugs when something updates {% endcomment %}
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-<script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ 'swiper-bundle.min.css' | asset_url }}">
+
+<script async src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
+
 
 </head>
 
@@ -202,5 +197,6 @@ window.TriplePixelData={TripleName:"happybed-nederland.myshopify.com",ver:"1.9"}
     </main>
   {% include 'appikon-pre-order-helper' %}{% include 'appikon-pre-order-cart-items-liquid-helper' %}{% include 'appikon-pre-order-product-liquid-helper' %}{% render 'spurit_po2_theme_snippet' %}
 <script src="https://platform.getqonfi.com/build-wizard/wizard.js"></script>
+
   </body>
 </html>
