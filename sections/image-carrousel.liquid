@@ -1,0 +1,109 @@
+{{ 'image-carrousel.css' | asset_url | stylesheet_tag }}
+<section class="image-carrousel" style="padding-bottom: {{ section.settings.padding_bottom }}; padding-top:{{ section.settings.padding_top }}">
+
+    <div class="image-carrousel-title" style="text-align:center;">
+        <h2 class="h2">{{ section.settings.section_title }}</h2>
+    </div>
+   
+<div class="swiper">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+          {% if block.settings.image_slide %}
+            <div class="swiper-slide slide_image">
+                {{ block.settings.image_slide | image_url: height: 400| image_tag: class:"slide_image" }}
+            </div>
+            {% endif %}
+    {% endfor %}
+      
+    </div>    
+  </div>
+    <div class="swiper-pagination"></div>
+
+</section>
+
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        clickable:true,
+        centeredSlides: true,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+        },   
+        breakpoints: {
+            350: {
+              slidesPerView: 2.25,
+            },
+            430: {
+                slidesPerView: 2.25,
+              },
+            820: {
+              slidesPerView: 4.25,
+            },
+            1024: {
+              slidesPerView: 5.25,
+            },
+            1224: {
+                slidesPerView: 6.25,
+              },
+        }
+      });
+</script>
+
+{% schema %}
+    {
+        "name": "Image carrousel",
+        "tag": "section",
+        "class": "image-carrousel",
+        "settings": [
+            {
+            "type": "text",
+            "label": "Section title",
+            "id": "section_title"
+            },
+            {
+                "type": "header",
+                "content": "Add at least 15 images to the carroussel"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 128,
+                "step": 8,
+                "unit": "px",
+                "label": "padding-top",
+                "default": 0
+              },
+              {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 128,
+                "step": 8,
+                "unit": "px",
+                "label": "padding-bottom",
+                "default": 0
+              }
+        ],
+        "blocks": [
+            {
+            "type": "image",
+            "name": "Image slide",
+            "settings": [
+                {
+                "type": "image_picker",
+                "id": "image_slide",
+                "label": "Image",
+                },
+        ],
+            },
+
+        ],
+        "presets": [
+            {
+                "name": "Image carrousel"
+            }
+        ]
+    }
+{% endschema %}
