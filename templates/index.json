@@ -9,121 +9,6 @@
  */
 {
   "sections": {
-    "image_carrousel_qHYUa3": {
-      "type": "image-carrousel",
-      "blocks": {
-        "image_dyL4h9": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
-          }
-        },
-        "image_xb3dQm": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
-          }
-        },
-        "image_4EfYxf": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
-          }
-        },
-        "image_Gz4MY7": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
-          }
-        },
-        "image_qFL3na": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
-          }
-        },
-        "image_RtWBbE": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
-          }
-        },
-        "image_36QjK3": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
-          }
-        },
-        "image_748mAm": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
-          }
-        },
-        "image_hVeVFf": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
-          }
-        },
-        "image_c7TVWD": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
-          }
-        },
-        "image_HpzWJC": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
-          }
-        },
-        "image_UUYmpQ": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
-          }
-        },
-        "image_bdmzng": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
-          }
-        },
-        "image_NpWCdk": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
-          }
-        },
-        "image_wENJN7": {
-          "type": "image",
-          "settings": {
-            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_dyL4h9",
-        "image_xb3dQm",
-        "image_4EfYxf",
-        "image_Gz4MY7",
-        "image_qFL3na",
-        "image_RtWBbE",
-        "image_36QjK3",
-        "image_748mAm",
-        "image_hVeVFf",
-        "image_c7TVWD",
-        "image_HpzWJC",
-        "image_UUYmpQ",
-        "image_bdmzng",
-        "image_NpWCdk",
-        "image_wENJN7"
-      ],
-      "settings": {
-        "section_title": "Duizenden mensen gingen je voor!"
-      }
-    },
     "c8302c56-2cac-48db-960d-b6f1f3cd15c5": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -396,6 +281,121 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_carrousel_qHYUa3": {
+      "type": "image-carrousel",
+      "blocks": {
+        "image_dyL4h9": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
+          }
+        },
+        "image_xb3dQm": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
+          }
+        },
+        "image_4EfYxf": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
+          }
+        },
+        "image_Gz4MY7": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
+          }
+        },
+        "image_qFL3na": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
+          }
+        },
+        "image_RtWBbE": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
+          }
+        },
+        "image_36QjK3": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
+          }
+        },
+        "image_748mAm": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
+          }
+        },
+        "image_hVeVFf": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
+          }
+        },
+        "image_c7TVWD": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_6337f42a-1333-4403-8417-b8a13f522d52.jpg"
+          }
+        },
+        "image_HpzWJC": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
+          }
+        },
+        "image_UUYmpQ": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
+          }
+        },
+        "image_bdmzng": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_a1f5c05e-da23-4bfd-a39f-797442e3011d.jpg"
+          }
+        },
+        "image_NpWCdk": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
+          }
+        },
+        "image_wENJN7": {
+          "type": "image",
+          "settings": {
+            "image_slide": "shopify://shop_images/bdwuTD5zo_1500x1500_fd091c3b-16ea-4030-a4d2-7c80bf397a5b.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_dyL4h9",
+        "image_xb3dQm",
+        "image_4EfYxf",
+        "image_Gz4MY7",
+        "image_qFL3na",
+        "image_RtWBbE",
+        "image_36QjK3",
+        "image_748mAm",
+        "image_hVeVFf",
+        "image_c7TVWD",
+        "image_HpzWJC",
+        "image_UUYmpQ",
+        "image_bdmzng",
+        "image_NpWCdk",
+        "image_wENJN7"
+      ],
+      "settings": {
+        "section_title": "Duizenden mensen gingen je voor!"
       }
     },
     "before_after_image_mVejg4": {
@@ -721,12 +721,12 @@
     }
   },
   "order": [
-    "image_carrousel_qHYUa3",
     "c8302c56-2cac-48db-960d-b6f1f3cd15c5",
     "featured-collection",
     "featured_collection_WiDV4C",
     "press",
     "featured_product_zHLkiD",
+    "image_carrousel_qHYUa3",
     "before_after_image_mVejg4",
     "71c5521d-e18c-40a8-a0f0-725ce5dd7e5f",
     "f068b901-4672-4f20-853e-a00dcd7d1c26",

@@ -1,0 +1,21 @@
+<div class="main-product-pricing">
+    <span class="main-product-price">{{ product_main_price | money }}</span>
+    <span class="main-product-compare-price">{{ product_compare_price | money }}</span>
+</div>
+
+<style>
+    .main-product-pricing {
+        display: flex;
+        gap: 12px;
+        margin: 12px 0;
+      }
+      
+      .main-product-price {
+        font-weight: 400;
+      }
+      
+      .main-product-compare-price {
+        text-decoration: line-through;
+      }
+
+</style>

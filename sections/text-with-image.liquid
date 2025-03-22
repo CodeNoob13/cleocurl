@@ -5,7 +5,9 @@
         <div class="text-content">
             <h2 class="h2">{{ section.settings.title }}</h2>
             <p class="text-with-image-description">{{ section.settings.description }}</p>
-            <button style="background-color:{{ section.settings.button_color }};" class="button text-with-image-button">{{ section.settings.button_text }}</button>
+            {% if section.settings.button_text %}
+                <button style="background-color:{{ section.settings.button_color }};color: {{ section.settings.text_color }}; padding:10px 20px; border-radius:18px; font-weight:bold" class="text-with-image-button">{{ section.settings.button_text }}</button>
+            {% endif %}
         </div>
 
         {{ section.settings.image | image_url: width: 1920 | image_tag: class: "full-width-image" }}
@@ -45,6 +47,11 @@
             "type": "color",
             "id": "button_color",
             "label": "Button color"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color"
         },
         {
             "type": "range",

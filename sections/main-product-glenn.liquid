@@ -1,0 +1,127 @@
+{{ 'main-product-glenn.css' | asset_url| stylesheet_tag}}
+
+
+
+<div class="main-product-container">
+    <div class="main-product-image-container">
+        {%  for image in product.images  %}
+            {{ image | image_url: width: 1080 | image_tag: alt:image.alt, loading: "lazy", class:"main-product-image" }}
+        {% endfor %} 
+    </div>
+    <div class="main-product-content-container">
+        <span class="category-subtitle">{{ product.metafields.custom.category_product_subtitle }}</span>
+        <h1 class="h1">{{ product.title }}</h1>
+
+
+        {% for block in section.blocks %}
+            {% case block.type %}
+              {% when "usp-section" %}
+                {% render 'usps', 
+                    usp_caption1: block.settings.usp_caption1,
+                    usp_caption2: block.settings.usp_caption2,
+                    usp_caption3: block.settings.usp_caption3,
+                    usp_title1: block.settings.usp_title1,
+                    usp_title2: block.settings.usp_title2,
+                    usp_title3: block.settings.usp_title3,
+                    svg_icon1: block.settings.svg_icon1,
+                    svg_icon2: block.settings.svg_icon2,
+                    svg_icon3: block.settings.svg_icon3,
+                 %}
+
+                {% when 'product_description'%}
+                    {% render 'product-description', product_description: product.description %}
+
+                {% when 'product_pricing'%} 
+                    {% render 'main-product-pricing', product_main_price: product.price ,product_compare_price:  product.compare_at_price  %}
+
+            {% endcase %}
+        {% endfor %}
+
+        <button class="button" style="margin: 32px 0;">Add to cart</button>
+
+
+        
+
+</div>
+</div>
+
+{% schema %}
+{
+    "name": "Main product Glenn",
+    "tag": "section",
+    "class": "main-product-glenn",
+    "settings": [],
+    "blocks": [
+        {
+        "type": "@app"
+        },
+        {
+        "type": "usps",
+        "name": "USPs",
+        "settings": [
+            {
+                "type": "text",
+                "id": "usp_caption1",
+                "label": "USP Text1"
+            },
+            {
+                "type": "text",
+                "id": "usp_title1",
+                "label": "USP Title 1"
+            },
+            {
+                "type": "html",
+                "id": "svg_icon1",
+                "label": "SVG Icon1"
+            },
+            {
+                "type": "text",
+                "id": "usp_caption2",
+                "label": "USP Text2"
+            },
+            {
+                "type": "text",
+                "id": "usp_title2",
+                "label": "USP Title 2"
+            },
+            {
+                "type": "html",
+                "id": "svg_icon2",
+                "label": "SVG Icon2"
+            },
+            {
+                "type": "text",
+                "id": "usp_caption3",
+                "label": "USP Text3"
+            },
+            {
+                    "type": "text",
+                    "id": "usp_title3",
+                    "label": "USP Title 3"
+            },
+            {
+                "type": "html",
+                "id": "svg_icon3",
+                "label": "SVG Icon3"
+            },
+        ]
+        },
+        {
+            "name":"product description",
+            "type": "product_description",
+        },
+        {
+            "name":"product pricing",
+            "type": "product_pricing",
+        }
+    ],
+    "presets": [
+        {
+        "name": "Main product Glenn"
+        }
+    ],
+    "enabled_on": {
+        "templates": ["product"]
+    }
+}
+{% endschema %}

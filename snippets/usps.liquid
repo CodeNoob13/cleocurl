@@ -1,0 +1,56 @@
+
+
+<div class="usps-container">
+    <div class="usp-items">
+        <div>{{ svg_icon1 }}</div>
+        <div class="usp-items-captions">
+            <h3 class="usp-items-title">{{ usp_caption1 }}</h3>
+            <div>{{ usp_title1 }}</div>
+        </div>
+    </div>
+    <div class="usp-items">
+        <div>{{ svg_icon2 }}</div>
+        <div class="usp-items-captions">
+            <h3 class="usp-items-title">{{ usp_caption2 }}</h3>
+            <div>{{ usp_title2 }}</div>
+        </div>
+    </div>
+    <div class="usp-items">
+    <div>{{ svg_icon3}}</div>
+        <div class="usp-items-captions">
+            <h3 class="usp-items-title">{{ usp_caption3 }}</h3>
+            <div>{{ usp_title3 }}</div>
+        </div>
+    </div>
+  </div>
+
+<style>
+    .usps-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 20px;
+      }
+      
+      .usp-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2px;
+        max-width: 140px;
+      }
+      
+      .usp-items-title {
+        min-height: 40px;
+        align-items: center;
+        display: flex;
+        font-weight: 400;
+      }
+      
+      .usp-items-captions {
+        display:flex
+        flex-description:column;
+        gap:2px;
+}
+    
+</style>
