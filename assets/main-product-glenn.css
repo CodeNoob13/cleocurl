@@ -1,10 +1,11 @@
 .main-product-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 48px;
+  gap: 100px;
   padding: 2.5vh 5vw;
   max-width: var(--container-max-width);
   margin: auto;
+  position: relative;
 }
 
 .main-product-image-container {
@@ -23,11 +24,16 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  background-color: #f5f0e8;
 }
 
 .main-product-content-container {
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 10vh;
+  align-self: start;
+  max-width: 60rem;
 }
 
 .category-subtitle {

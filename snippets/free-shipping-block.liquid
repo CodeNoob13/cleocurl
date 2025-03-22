@@ -1,0 +1,40 @@
+<div class="shipping-block">
+    {% if svg_icon != blank %}
+        <div class="shipping-svg-icon">
+            {{ svg_icon }}
+        </div>
+    {% endif %}
+        <p>{{ block_text }}</p>
+</div>
+
+<style>
+.shipping-block {
+    color: {{ text_color }};
+    background-color: {{ background_color }};
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    width:100%;
+    padding:14px 0;
+    border-radius:6px;
+    font-size:.8rem;
+    gap:14px;
+    margin: 12px 0;
+    font-weight:400;
+    letter-spacing: .03rem;
+    line-height: 1.6;
+}
+
+.shipping-svg-icon {
+    display:flex;
+}
+
+</style>
+
+
+{% comment %} svg_icon: block.settings.svg_icon,
+block_text: block.settings.block_text,
+text_color: block.settings.text_color,
+background_color: block.settings.background_color {% endcomment %}
+

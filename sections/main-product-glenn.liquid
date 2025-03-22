@@ -10,11 +10,12 @@
     </div>
     <div class="main-product-content-container">
         <span class="category-subtitle">{{ product.metafields.custom.category_product_subtitle }}</span>
-        <h1 class="h1">{{ product.title }}</h1>
-
 
         {% for block in section.blocks %}
             {% case block.type %}
+            {%  when "product_title" %}
+                {% render 'product-title', product_title: product.title %}
+
               {% when "usp-section" %}
                 {% render 'usps', 
                     usp_caption1: block.settings.usp_caption1,
@@ -34,10 +35,24 @@
                 {% when 'product_pricing'%} 
                     {% render 'main-product-pricing', product_main_price: product.price ,product_compare_price:  product.compare_at_price  %}
 
+            {% when 'shipping_block' %}
+                {% render 'free-shipping-block'.
+                    svg_icon: block.settings.svg_icon,
+                    block_text: block.settings.block_text,
+                    text_color: block.settings.text_color,
+                    background_color: block.settings.background_color
+                %}
+
+            {% when 'buy_button' %}
+                {% render 'buy-button-glenn', button_color: block.settings.button_color %}
+
+            {% when "single_usp" %}
+                {% render 'single-usp', title: block.settings.title, usp: block.settings.usp %}
+
             {% endcase %}
         {% endfor %}
 
-        <button class="button" style="margin: 32px 0;">Add to cart</button>
+       
 
 
         
@@ -107,13 +122,70 @@
         ]
         },
         {
-            "name":"product description",
+            "name":"Buy button",
+            "type": "buy_button",
+            "settings": [
+                {
+                    "type": "color",
+                    "id": "button_color",
+                    "label": "Button color"
+                }
+            ]
+        },
+        {
+            "name":"Product title",
+            "type": "product_title",
+        },
+        {
+            "name":"Product description",
             "type": "product_description",
         },
         {
-            "name":"product pricing",
+            "name":"Product pricing",
             "type": "product_pricing",
-        }
+        },
+        {
+            "name": "Shipping block",
+            "type": "shipping_block",
+            "settings": [
+                {
+                    "type": "html",
+                    "id": "svg_icon",
+                    "label": "SVG Icon"
+                },
+                {
+                    "type": "text",
+                    "id": "block_text",
+                    "label": "Text"
+                },
+                {
+                    "type": "color",
+                    "id": "text_color",
+                    "label": "Text color"
+                },
+                {
+                    "type": "color",
+                    "id": "background_color",
+                    "label": "Background color"
+                }
+            ]
+        },
+        {
+            "name": "Single usp",
+            "type": "single_usp",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Dikgedrukt stuk"
+                },
+                {
+                    "type": "text",
+                    "id": "usp",
+                    "label": "USP"
+                }
+            ]
+        },
     ],
     "presets": [
         {
