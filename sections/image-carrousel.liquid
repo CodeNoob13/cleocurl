@@ -1,92 +1,109 @@
 {{ 'image-carrousel.css' | asset_url | stylesheet_tag }}
 
-<section class="image-carrousel">
+<script async src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
 
-    <div class="image-carrousel-title" style="text-align:center;">
-        <h2 class="h2">{{ section.settings.section_title }}</h2>
-    </div>
-   
-<div class="swiper">
+{{ 'image-carrousel.css' | asset_url | stylesheet_tag }}
+<section class="image-carrousel">
+  <div class="image-carrousel-title" style="text-align:center;">
+    <h2 class="h2">{{ section.settings.section_title }}</h2>
+  </div>
+  <div id="carousel" class="swiper-container">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
-          {% if block.settings.image_slide %}
-            <div class="swiper-slide slide_image">
-                {{ block.settings.image_slide | image_url: height: 400| image_tag: class:"slide_image" }}
-            </div>
-            {% endif %}
-    {% endfor %}
-      
-    </div>   
-
+        {% if block.settings.image_slide %}
+          <div class="swiper-slide">
+            {{ block.settings.image_slide | image_url: height: 400 | image_tag: class: "slide_image", loading: "lazy" }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
     <div class="swiper-pagination"></div>
-
   </div>
-
 </section>
-
-
 <script>
-    const swiper = new Swiper('.swiper', {
-        centeredSlides: true,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable:true,
-        },   
-        breakpoints: {
-            350: {
-              slidesPerView: 2.25,
-            },
-            430: {
-                slidesPerView: 2.25,
-              },
-            560: {
-              slidesPerView: 4.25,
-            },
-            1024: {
-              slidesPerView: 5.25,
-            },
-            1224: {
-                slidesPerView: 6.25,
-              },
-        }
-      });
-</script>
-
-{% schema %}
-    {
-        "name": "Image carrousel",
-        "tag": "section",
-        "class": "image-carrousel",
-        "settings": [
-            {
-            "type": "text",
-            "label": "Section title",
-            "id": "section_title"
-            },
-            {
-                "type": "header",
-                "content": "Add at least 15 images to the carroussel"
-            },
-        ],
-        "blocks": [
-            {
-            "type": "image",
-            "name": "Image slide",
-            "settings": [
-                {
-                "type": "image_picker",
-                "id": "image_slide",
-                "label": "Image",
-                },
-        ],
-            },
-
-        ],
-        "presets": [
-            {
-                "name": "Image carrousel"
-            }
-        ]
+  // Wait for DOM to load ( probably problem was in this )
+  document.addEventListener('DOMContentLoaded', function() {
+    // Variable for the Swiper instance
+    var swiperContainer = document.getElementById('carousel');
+    // If Swiper instance doesn't exist, return
+    if (!swiperContainer) {
+      console.error('Swiper container not found');
+      return;
     }
+    // Swiper initialization
+    var mySwiper = new Swiper(swiperContainer, {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      centeredSlides: true,
+      loop: true,
+      grabCursor: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        // Better do something like this because you can have multiple sliders on one page
+        el: swiperContainer.querySelector('.swiper-pagination'),
+        clickable: true,
+      },
+      breakpoints: {
+        350: {
+          slidesPerView: 2.25,
+          spaceBetween: 10,
+        },
+        430: {
+          slidesPerView: 2.25,
+          spaceBetween: 15,
+        },
+        560: {
+          slidesPerView: 4.25,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 5.25,
+          spaceBetween: 20,
+        },
+        1224: {
+          slidesPerView: 6.25,
+          spaceBetween: 30,
+        },
+      }
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "Image carrousel",
+  "tag": "section",
+  "class": "image-carrousel",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Section title",
+      "id": "section_title"
+    },
+    {
+      "type": "header",
+      "content": "Add at least 15 images to the carroussel"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_slide",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image carrousel"
+    }
+  ]
+}
 {% endschema %}
