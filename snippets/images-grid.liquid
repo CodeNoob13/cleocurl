@@ -1,0 +1,121 @@
+<div class="swiper-container" id="mobile-carrousel">
+    <div class="main-product-image-container swiper-wrapper" >
+        {%  for image in product.images limit:6 %}
+            <div class="swiper-slide">
+                {{ image | image_url: width: 1080 | image_tag: alt:image.alt, loading: "lazy", class:"main-product-image" }}
+            </div>
+        {% endfor %} 
+    </div>
+</div>
+
+
+<div class="swiper-container" id="thumbnail-carrousel">
+    <div class="main-product-image-container swiper-wrapper" >
+        {%  for image in product.images limit:6 %}
+            <div class="swiper-slide">
+                {{ image | image_url: width: 1080 | image_tag: alt:image.alt, loading: "lazy", class:"main-product-image" }}
+            </div>
+        {% endfor %} 
+    </div>
+</div>
+
+<style>
+      .main-product-image-container div:first-child,
+      .main-product-image-container div:last-child {
+        grid-column: span 2;
+      }
+
+      .main-product-image-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+      
+      .main-product-image {
+        border-radius: 12px; 
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-color:rgba(193, 225, 226, 0.24);
+      }
+
+      #mobile-carrousel .swiper-slide {
+        width:100%!important;
+        height:100%!important;
+      }
+      
+
+      @media screen and (max-width: 768px) {
+        .main-product-image-container {
+            display: flex;
+          }
+
+        .main-product-image-container div {
+            flex-shrink:0;
+            width:100%;
+        }
+
+        .swiper-container {
+        overflow:hidden;
+        }
+
+        .main-product-image-container {
+            gap:0;
+      } 
+    }
+
+    @media screen and (min-width:768px) {
+      #thumbnail-carrousel {
+        display:none;
+      }
+    }
+
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const swiperContainer = document.getElementById("mobile-carrousel");
+    const thumbnailContainer = document.getElementById("thumbnail-carrousel");
+    
+    let thumbnailSwiper;
+    let mainSwiper;
+
+    function initSwiper() {
+      if (thumbnailSwiper) thumbnailSwiper.destroy(true, true);
+      if (mainSwiper) mainSwiper.destroy(true, true);
+      
+      if (window.innerWidth < 768) {
+        thumbnailSwiper = new Swiper(thumbnailContainer, {
+          spaceBetween: 10,
+          slidesPerView: 4.25,
+          loop: true,
+          watchSlidesProgress: true,
+          loop: true,
+          breakpoints: {
+            768: {
+              enabled: false,
+            },
+          },
+        });
+      }
+      
+      mainSwiper = new Swiper(swiperContainer, {
+        loop: true,
+        thumbs: {
+          swiper: thumbnailSwiper,
+        },
+        breakpoints: {
+          768: {
+            thumbs: { swiper: null },
+          },
+        },
+      });
+    }
+    
+    initSwiper()
+    
+    window.addEventListener('resize', initSwiper)
+  })
+  
+</script>
+

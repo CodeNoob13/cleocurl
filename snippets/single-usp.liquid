@@ -1,3 +1,13 @@
-<div>
-    <b>{{ title }}</b><p>{{ usp }}</p>
-</div>
+<dl class="single-usp-container">
+    <dt><strong>{{ title }}:</strong></dt><dd>{{ usp }}</dd>
+</dl>
+
+<style>
+.single-usp-container {
+    display:flex;
+    gap:12px;
+    letter-spacing: .03rem;
+    line-height: 1.6;
+}
+
+</style>

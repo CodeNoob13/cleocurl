@@ -1,1 +1,26 @@
-<button class="button" style="margin: 12px 0; background-color: {{ button_color }}">Add to cart</button>
+{% form 'product', product_item %}
+    <button class="button" type="submit"
+        style="margin: 12px 0;
+         background-color: {{ button_color }};
+         width:100%;
+         ">
+        Add to cart
+    </button>
+{% endform %}
+
+<script>
+    let addToCartForm = document.querySelector('form[action$="/cart/add"]');
+    let formData = new FormData(addToCartForm);
+    
+    fetch(window.Shopify.routes.root + 'cart/add.js', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => {
+      return response.json();
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+
+</script>

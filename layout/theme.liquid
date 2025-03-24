@@ -28,37 +28,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 <link rel='preconnect dns-prefetch' href='https://api.config-security.com/' crossorigin />
 <link rel='preconnect dns-prefetch' href='https://conf.config-security.com/' crossorigin />
 <link rel='preconnect dns-prefetch' href='https://triplewhale-pixel.web.app/' crossorigin />
-<script>
 
-  
-/* >> TriplePixel :: start*/
-window.TriplePixelData={TripleName:"happybed-nederland.myshopify.com",ver:"1.9"},function(W,H,A,L,E,_,B,N){function O(U,T,P,H,R){void 0===R&&(R=!1),H=new XMLHttpRequest,P?(H.open("POST",U,!0),H.setRequestHeader("Content-Type","application/json")):H.open("GET",U,!0),H.send(JSON.stringify(P||{})),H.onreadystatechange=function(){4===H.readyState&&200===H.status?(R=H.responseText,U.includes(".txt")?eval(R):P||(N[B]=R)):(299<H.status||H.status<200)&&T&&!R&&(R=!0,O(U,T-1))}}if(N=window,!N[H+"sn"]){N[H+"sn"]=1;try{A.setItem(H,1+(0|A.getItem(H)||0)),(E=JSON.parse(A.getItem(H+"U")||"[]")).push(location.href),A.setItem(H+"U",JSON.stringify(E))}catch(e){}var i,m,p;A.getItem('"!nC`')||(_=A,A=N,A[H]||(L=function(){return Date.now().toString(36)+"_"+Math.random().toString(36)},E=A[H]=function(t,e){return"State"==t?E.s:(W=L(),(E._q=E._q||[]).push([W,t,e]),W)},E.s="Installed",E._q=[],E.ch=W,B="configSecurityConfModel",N[B]=1,O("https://conf.config-security.com/model",5),i=L(),m=A[atob("c2NyZWVu")],_.setItem("di_pmt_wt",i),p={id:i,action:"profile",avatar:_.getItem("auth-security_rand_salt_"),time:m[atob("d2lkdGg=")]+":"+m[atob("aGVpZ2h0")],host:A.TriplePixelData.TripleName,url:window.location.href,ref:document.referrer,ver:window.TriplePixelData.ver},O("https://api.config-security.com/",5,p),O("https://triplewhale-pixel.web.app/dot1.9.txt",5)))}}("","TriplePixel",localStorage);
-/* << TriplePixel :: end*/
-</script>
-<!-- begin Clarity code-->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ja0ng2qyhf");
-</script>
-<!-- end Clarity code-->
-
-    <!-- Begin Linktree conversion tracking code -->
-<script>
-(function (l, i, n, k, t, r, ee) {
-  l[t] = l[t] || function () { (l[t].q = l[t].q || []).push(arguments) },
-  l[t].l = 1 * new Date(); r = i.createElement(n); ee = i.getElementsByTagName(n)[0];
-  r.async = 1; r.src = k; ee.parentNode.insertBefore(r, ee)
-})
-(window, document, 'script', 'https://assets.production.linktr.ee/ltpixel/ltpix.min.js?t=' + 864e5*Math.ceil(new Date/864e5), 'lti')
-</script>
-<script>
-  lti('init', 'LTU-5f82e6a7-0cbd-4932-abdc-a9b4ba8a30bb')
-  lti('pageloaded')
-</script>
-<!-- End Linktree conversion tracking code -->
     
 {% include 'hyperspeed-imports' %}
 
@@ -122,7 +92,7 @@ window.TriplePixelData={TripleName:"happybed-nederland.myshopify.com",ver:"1.9"}
  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin> 
  <link rel="preconnect" href="https://ajax.googleapis.com" crossorigin> 
  <meta http-equiv="Cache-control" content="public, max-age=31536000"> 
- {% include 'hulk_po_vd.liquid' %}
+
 <script type="text/javascript">
  var _conv_page_type = "{{ request.page_type }}";
  var _conv_category_id = "{{ collection.id }}";
@@ -156,9 +126,15 @@ window.TriplePixelData={TripleName:"happybed-nederland.myshopify.com",ver:"1.9"}
 
 {% comment %} If page has swiper class load script otherwise don't {% endcomment %}
 
-<link rel="stylesheet" type="text/css" href="{{ 'swiper-bundle.min.css' | asset_url }}">
 
+{% comment %} Keep swiper on own website so we prevent bugs when something updates {% endcomment %}
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script async src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
 </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
@@ -195,6 +171,5 @@ window.TriplePixelData={TripleName:"happybed-nederland.myshopify.com",ver:"1.9"}
     </main>
   {% include 'appikon-pre-order-helper' %}{% include 'appikon-pre-order-cart-items-liquid-helper' %}{% include 'appikon-pre-order-product-liquid-helper' %}{% render 'spurit_po2_theme_snippet' %}
 <script src="https://platform.getqonfi.com/build-wizard/wizard.js"></script>
-
   </body>
 </html>

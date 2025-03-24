@@ -2,12 +2,8 @@
 
 
 
-<div class="main-product-container">
-    <div class="main-product-image-container">
-        {%  for image in product.images  %}
-            {{ image | image_url: width: 1080 | image_tag: alt:image.alt, loading: "lazy", class:"main-product-image" }}
-        {% endfor %} 
-    </div>
+<div class="main-product-container" style="background-color: {{ section.settings.section_color }}">
+    {%render 'images-grid': image:product.images  %}
     <div class="main-product-content-container">
         <span class="category-subtitle">{{ product.metafields.custom.category_product_subtitle }}</span>
 
@@ -37,14 +33,14 @@
 
             {% when 'shipping_block' %}
                 {% render 'free-shipping-block'.
-                    svg_icon: block.settings.svg_icon,
+                    svg_icon: block.settings.svg_icon, 
                     block_text: block.settings.block_text,
                     text_color: block.settings.text_color,
                     background_color: block.settings.background_color
                 %}
 
-            {% when 'buy_button' %}
-                {% render 'buy-button-glenn', button_color: block.settings.button_color %}
+            {%- when 'buy_buttons' -%}
+                {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, button_size: 'lg' -%}
 
             {% when "single_usp" %}
                 {% render 'single-usp', title: block.settings.title, usp: block.settings.usp %}
@@ -65,7 +61,13 @@
     "name": "Main product Glenn",
     "tag": "section",
     "class": "main-product-glenn",
-    "settings": [],
+    "settings": [
+        {
+            "type": "color",
+            "id": "section_color",
+            "label": "Background Color"
+        }
+    ],
     "blocks": [
         {
         "type": "@app"
@@ -122,17 +124,6 @@
         ]
         },
         {
-            "name":"Buy button",
-            "type": "buy_button",
-            "settings": [
-                {
-                    "type": "color",
-                    "id": "button_color",
-                    "label": "Button color"
-                }
-            ]
-        },
-        {
             "name":"Product title",
             "type": "product_title",
         },
@@ -186,6 +177,48 @@
                 }
             ]
         },
+        {
+            "type": "buy_buttons",
+            "name": "Buy buttons",
+            "limit": 1,
+            "settings": [
+              {
+                "type": "checkbox",
+                "id": "show_payment_button",
+                "label": "Show dynamic checkout button",
+                "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+                "default": true
+              },
+              {
+                "type": "checkbox",
+                "id": "show_gift_card_recipient",
+                "label": "Show recipient information form for gift cards",
+                "info": "Allow buyers to send gift cards along with a personal message. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)",
+                "default": true
+              },
+              {
+                "type": "color",
+                "id": "atc_button_background",
+                "label": "Add to cart background"
+              },
+              {
+                "type": "color",
+                "id": "atc_button_text_color",
+                "label": "Add to cart color"
+              },
+              {
+                "type": "color",
+                "id": "payment_button_background",
+                "label": "Buy now button background"
+              },
+              {
+                "type": "color",
+                "id": "payment_button_text_color",
+                "label": "Buy now button color"
+              }
+            ]
+          },
+
     ],
     "presets": [
         {

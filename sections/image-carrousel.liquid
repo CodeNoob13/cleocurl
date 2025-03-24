@@ -1,8 +1,5 @@
 {{ 'image-carrousel.css' | asset_url | stylesheet_tag }}
 
-<script async src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
-
-{{ 'image-carrousel.css' | asset_url | stylesheet_tag }}
 <section class="image-carrousel">
   <div class="image-carrousel-title" style="text-align:center;">
     <h2 class="h2">{{ section.settings.section_title }}</h2>
@@ -24,14 +21,14 @@
   // Wait for DOM to load ( probably problem was in this )
   document.addEventListener('DOMContentLoaded', function() {
     // Variable for the Swiper instance
-    var swiperContainer = document.getElementById('carousel');
+    let swiperContainer = document.getElementById('carousel');
     // If Swiper instance doesn't exist, return
     if (!swiperContainer) {
       console.error('Swiper container not found');
       return;
     }
     // Swiper initialization
-    var mySwiper = new Swiper(swiperContainer, {
+    let mySwiper = new Swiper(swiperContainer, {
       slidesPerView: 1,
       spaceBetween: 10,
       centeredSlides: true,

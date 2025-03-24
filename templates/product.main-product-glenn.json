@@ -47,10 +47,15 @@
             "usp": "Bescherming"
           }
         },
-        "buy_button_gakzmA": {
-          "type": "buy_button",
+        "buy_buttons_PC8JaX": {
+          "type": "buy_buttons",
           "settings": {
-            "button_color": "#58585b"
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
           }
         }
       },
@@ -61,7 +66,7 @@
         "shipping_block_9k7xqY",
         "single_usp_nwFmwY",
         "single_usp_P3dy9h",
-        "buy_button_gakzmA"
+        "buy_buttons_PC8JaX"
       ],
       "settings": {}
     },
@@ -79,8 +84,5 @@
       }
     }
   },
-  "order": [
-    "main_product_glenn_CF9BaG",
-    "revealed_image_on_scroll_cPHb3X"
-  ]
+  "order": ["main_product_glenn_CF9BaG", "revealed_image_on_scroll_cPHb3X"]
 }
