@@ -43,11 +43,15 @@
         width:100%!important;
         height:100%!important;
       }
+
+      
       
 
       @media screen and (max-width: 768px) {
         .main-product-image-container {
             display: flex;
+            gap:0;
+            width:100%;
           }
 
         .main-product-image-container div {
@@ -77,45 +81,55 @@
     const swiperContainer = document.getElementById("mobile-carrousel");
     const thumbnailContainer = document.getElementById("thumbnail-carrousel");
     
-    let thumbnailSwiper;
-    let mainSwiper;
+    let thumbnailSwiper = null;
+    let mainSwiper = null;
 
     function initSwiper() {
-      if (thumbnailSwiper) thumbnailSwiper.destroy(true, true);
-      if (mainSwiper) mainSwiper.destroy(true, true);
+  
+      console.log(mainSwiper)
+
+        if (thumbnailSwiper != null) {
+          console.log("ThumbnailSwiper Destroyed")
+          thumbnailSwiper.destroy(true, true)
+          thumbnailSwiper = null
+        };
+        if (mainSwiper != null) {
+          console.log("mainSwiper Destroyed")
+          mainSwiper.destroy(true, true);
+          mainSwiper = null
+        }
       
-      if (window.innerWidth < 768) {
+      if (window.innerWidth <= 768) {
         thumbnailSwiper = new Swiper(thumbnailContainer, {
           spaceBetween: 10,
           slidesPerView: 4.25,
-          loop: true,
-          watchSlidesProgress: true,
-          loop: true,
           breakpoints: {
             768: {
               enabled: false,
             },
           },
         });
-      }
-      
-      mainSwiper = new Swiper(swiperContainer, {
-        loop: true,
-        thumbs: {
-          swiper: thumbnailSwiper,
-        },
-        breakpoints: {
-          768: {
-            thumbs: { swiper: null },
+        
+        mainSwiper = new Swiper(swiperContainer, {
+          watchSlidesProgress: true,
+          centeredSlides: true,
+          thumbs: {
+            swiper: thumbnailSwiper,
           },
-        },
-      });
-    }
-    
+          breakpoints: {
+            768: {
+              thumbs: { swiper: null },
+              enabled: false,
+            },
+          },
+        });
+      } 
+  }
+
     initSwiper()
     
-    window.addEventListener('resize', initSwiper)
+      window.addEventListener('resize', initSwiper)
+
   })
-  
 </script>
 

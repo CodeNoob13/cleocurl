@@ -157,8 +157,8 @@
       "settings": {
         "full_width": true,
         "content_size": "large",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)",
+        "background": "#fcfaf6",
+        "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
@@ -276,8 +276,8 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 183, 74, 0.1), rgba(255, 255, 255, 1) 50%, rgba(222, 240, 239, 0.6) 100%)",
+        "background": "#fcfaf6",
+        "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": "rgba(0,0,0,0)"
@@ -394,6 +394,7 @@
         "image_NpWCdk",
         "image_wENJN7"
       ],
+      "custom_css": [],
       "settings": {
         "section_title": "Duizenden mensen gingen je voor!"
       }
@@ -413,8 +414,8 @@
         "before_text": "Before",
         "after_text": "After",
         "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1) 22%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 94.245%)",
+        "background": "#fcfaf6",
+        "background_gradient": "",
         "text_color": "",
         "before_text_color": "#ffffff",
         "after_text_color": "#ffffff",
@@ -566,6 +567,7 @@
         "841b9cdd-d4bf-4512-86b7-958a1926d3e9",
         "image_CpFCJx"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "spacing": "small"
@@ -629,8 +631,8 @@
         "button_text": "",
         "button_url": "shopify://pages/contact",
         "text_position": "start",
-        "background": "#f6f6f6",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%)",
+        "background": "#fcfaf6",
+        "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
@@ -667,8 +669,8 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#f6f6f6",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 62%)",
+        "background": "#fcfaf6",
+        "background_gradient": "",
         "text_color": ""
       }
     },

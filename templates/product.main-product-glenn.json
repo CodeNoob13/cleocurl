@@ -68,7 +68,9 @@
         "single_usp_P3dy9h",
         "buy_buttons_PC8JaX"
       ],
-      "settings": {}
+      "settings": {
+        "section_color": "#fcfaf6"
+      }
     },
     "revealed_image_on_scroll_cPHb3X": {
       "type": "revealed-image-on-scroll",
@@ -84,5 +86,8 @@
       }
     }
   },
-  "order": ["main_product_glenn_CF9BaG", "revealed_image_on_scroll_cPHb3X"]
+  "order": [
+    "main_product_glenn_CF9BaG",
+    "revealed_image_on_scroll_cPHb3X"
+  ]
 }
