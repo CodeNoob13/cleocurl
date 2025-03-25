@@ -24,15 +24,6 @@
           "type": "product_pricing",
           "settings": {}
         },
-        "shipping_block_9k7xqY": {
-          "type": "shipping_block",
-          "settings": {
-            "svg_icon": "",
-            "block_text": "shipping on orders over £40 / 65€*",
-            "text_color": "#000000",
-            "background_color": "#f8decd"
-          }
-        },
         "single_usp_nwFmwY": {
           "type": "single_usp",
           "settings": {
@@ -45,6 +36,15 @@
           "settings": {
             "title": "Zorgt voor",
             "usp": "Bescherming"
+          }
+        },
+        "shipping_block_9k7xqY": {
+          "type": "shipping_block",
+          "settings": {
+            "svg_icon": "",
+            "block_text": "shipping on orders over £40 / 65€*",
+            "text_color": "#000000",
+            "background_color": "#f8decd"
           }
         },
         "buy_buttons_PC8JaX": {
@@ -63,9 +63,9 @@
         "product_title_M88yfp",
         "product_description_3FCecb",
         "product_pricing_JCgPtD",
-        "shipping_block_9k7xqY",
         "single_usp_nwFmwY",
         "single_usp_P3dy9h",
+        "shipping_block_9k7xqY",
         "buy_buttons_PC8JaX"
       ],
       "settings": {
@@ -84,10 +84,53 @@
         "text_color_inside": "#ffffff",
         "text_color_outside": "#000000"
       }
+    },
+    "product_usp_section_LXhcti": {
+      "type": "product-usp-section",
+      "blocks": {
+        "usp_QCyLfM": {
+          "type": "Usp",
+          "settings": {
+            "usp_image": "shopify://shop_images/USPs-30_Day_Guarantee-100x100_ab3be7d5-b341-48f2-962e-449bb26cf95c.png",
+            "usp_text": "30 dagen garantie"
+          }
+        },
+        "usp_y46UdL": {
+          "type": "Usp",
+          "settings": {
+            "usp_image": "shopify://shop_images/Cruelty_Free_Icon-100x100_3d750476-2a25-4d6c-9abd-74979f0f97ec.png",
+            "usp_text": "Cruelty free"
+          }
+        },
+        "usp_HbkXJw": {
+          "type": "Usp",
+          "settings": {
+            "usp_image": "shopify://shop_images/Made_From_Plants_Icon-100x100_a3983684-6c47-42e9-bd89-a69f35276e92.png",
+            "usp_text": "natuurlijk & krachtig"
+          }
+        },
+        "usp_khJKfQ": {
+          "type": "Usp",
+          "settings": {
+            "usp_image": "shopify://shop_images/Cruelty_Free_Icon-100x100_62571c70-2054-497f-acf7-422c37530b91.png",
+            "usp_text": "Veganistisch"
+          }
+        }
+      },
+      "block_order": [
+        "usp_QCyLfM",
+        "usp_y46UdL",
+        "usp_HbkXJw",
+        "usp_khJKfQ"
+      ],
+      "settings": {
+        "background_color": ""
+      }
     }
   },
   "order": [
     "main_product_glenn_CF9BaG",
-    "revealed_image_on_scroll_cPHb3X"
+    "revealed_image_on_scroll_cPHb3X",
+    "product_usp_section_LXhcti"
   ]
 }

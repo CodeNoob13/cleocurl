@@ -1,0 +1,165 @@
+<div {{ section.shopify_attributes }} class="swiper main-container__usps">
+<div class="swiper-wrapper ">
+    
+    {% for block in section.blocks %}
+        <div class="single-usp__container swiper-slide">
+            
+            {{ block.settings.usp_image | image_url: width: 50 | image_tag: loading: "lazy", class:"usp_image__section" }}
+            <h3>{{ block.settings.usp_text }}</h3>
+        </div>
+    {% endfor %}
+</div>
+</div>
+
+{% style %}
+    .main-container__usps{ 
+        background:#FCFAF6;
+        display:grid;
+        padding:48px 48px;
+        width:100%;
+        position:relative;
+        grid-template-columns: repeat(1,1fr);
+        overflow:hidden;
+    }
+
+    .main-container__usps::before {
+        background:black;
+        height:0.5px;
+        content: "";
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        transform: scaleY(0.15);
+        
+    }
+
+  .single-usp__container {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:100%;
+        gap:16px;
+        text-transform:uppercase;
+        font-weight:400;
+        font-size: 12px;
+  }
+
+  .usp_image__section {
+    width:40px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .main-container__usps{ 
+        background:#FCFAF6;
+        width:100%;
+    }
+
+  }
+
+  @media screen and (min-width:1024px) {
+    .main-container__usps{ 
+        grid-template-columns: repeat(4,1fr)
+        
+    }
+
+
+    .single-usp__container:nth-child(2), .single-usp__container:nth-child(3), .single-usp__container:first-child {
+    position: relative;
+    }   
+
+    .single-usp__container:nth-child(2)::after, .single-usp__container:nth-child(3)::after, .single-usp__container:first-child::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 5%;    /* Adjust to reduce border height */
+        bottom: 0; /* Adjust to reduce border height */
+        width: 0.5px; /* Half-pixel (gets scaled down further) */
+        background: black;
+        transform: scaleX(0.15); /* Makes it visually thinner */
+        transform-origin: right;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .main-container__usps{ 
+        grid-template-columns: repeat(4,1fr)
+        
+    }
+
+  }
+{% endstyle %}
+
+<script>
+const swiperContainer = document.querySelector(".swiper");
+console.log(swiperContainer);
+let swiper = null;
+
+function initSwiperUsps() {
+    if (swiper != null) {
+      swiper.destroy(true, true);
+      swiper = null;
+    }
+    console.log("Hello its working");
+  
+    if (window.innerWidth < 1240) {
+      swiper = new Swiper(swiperContainer, {
+        direction: "horizontal",
+        loop: true,
+        slidesPerView: 1,
+        breakpoints: {
+          1024: {
+            slidesPerView: 2,
+          },
+          1240: {
+            enabled: false,
+          },
+        },
+      });
+    }
+  }
+  
+
+initSwiperUsps();
+
+window.addEventListener('resize', initSwiperUsps);
+
+</script>
+
+{% schema %}
+{
+    "name": "Product usps",
+    "tag": "section",
+    "class": "product-usps",
+    "settings": [
+        {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background color"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Usp",
+            "type": "Usp",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "usp_image",
+                    "label": "Usp image"
+                },
+                {
+                    "type": "text",
+                    "id": "usp_text",
+                    "label": "Usp text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Product usps"
+        }
+    ]
+}
+{% endschema %}

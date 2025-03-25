@@ -85,16 +85,11 @@
     let mainSwiper = null;
 
     function initSwiper() {
-  
-      console.log(mainSwiper)
-
         if (thumbnailSwiper != null) {
-          console.log("ThumbnailSwiper Destroyed")
           thumbnailSwiper.destroy(true, true)
           thumbnailSwiper = null
         };
         if (mainSwiper != null) {
-          console.log("mainSwiper Destroyed")
           mainSwiper.destroy(true, true);
           mainSwiper = null
         }

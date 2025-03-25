@@ -396,7 +396,8 @@
       ],
       "custom_css": [],
       "settings": {
-        "section_title": "Duizenden mensen gingen je voor!"
+        "section_title": "Duizenden mensen gingen je voor!",
+        "background_color": "#fcfaf6"
       }
     },
     "before_after_image_mVejg4": {

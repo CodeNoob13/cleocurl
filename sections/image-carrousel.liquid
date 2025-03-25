@@ -1,6 +1,6 @@
 {{ 'image-carrousel.css' | asset_url | stylesheet_tag }}
 
-<section class="image-carrousel">
+<section class="image-carrousel" style="background-color: {{ section.settings.background_color }}">
   <div class="image-carrousel-title" style="text-align:center;">
     <h2 class="h2">{{ section.settings.section_title }}</h2>
   </div>
@@ -82,6 +82,11 @@
     {
       "type": "header",
       "content": "Add at least 15 images to the carroussel"
+    },
+    {
+      "type": "color",
+      "label": "Background color",
+      "id": "background_color"
     }
   ],
   "blocks": [

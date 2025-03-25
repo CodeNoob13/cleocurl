@@ -8,6 +8,7 @@
         <span class="category-subtitle">{{ product.metafields.custom.category_product_subtitle }}</span>
 
         {% for block in section.blocks %}
+            <div {{ block.shopify_attributes }}>
             {% case block.type %}
             {%  when "product_title" %}
                 {% render 'product-title', product_title: product.title %}
@@ -46,6 +47,7 @@
                 {% render 'single-usp', title: block.settings.title, usp: block.settings.usp %}
 
             {% endcase %}
+        </div>
         {% endfor %}
 
        
