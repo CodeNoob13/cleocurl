@@ -30,8 +30,12 @@
         position:absolute;
         top:0;
         left:0;
-        transform: scaleY(0.15);
+        transform: scaleY(0.20);
         
+    }
+
+    .background-red {
+        background:red;
     }
 
   .single-usp__container {
@@ -49,54 +53,64 @@
     width:40px;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .main-container__usps{ 
         background:#FCFAF6;
         width:100%;
+        grid-template-columns: repeat(2,1fr);
     }
 
+    .swiper-slide-active::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 5%;    
+        bottom: 0; 
+        width: 0.5px;
+        background: black;
+        transform: scaleX(0.15); 
+        transform-origin: right;
+    }
   }
 
-  @media screen and (min-width:1024px) {
+
+  @media screen and (min-width:1240px) {
     .main-container__usps{ 
-        grid-template-columns: repeat(4,1fr)
-        
+        grid-template-columns: repeat(4,1fr);
     }
 
 
-    .single-usp__container:nth-child(2), .single-usp__container:nth-child(3), .single-usp__container:first-child {
-    position: relative;
+
+    @media screen and (min-width:1240px) {
+        .single-usp__container:nth-child(2), .single-usp__container:nth-child(3), .single-usp__container:first-child {
+        position: relative;
     }   
 
     .single-usp__container:nth-child(2)::after, .single-usp__container:nth-child(3)::after, .single-usp__container:first-child::after{
         content: "";
         position: absolute;
         right: 0;
-        top: 5%;    /* Adjust to reduce border height */
-        bottom: 0; /* Adjust to reduce border height */
-        width: 0.5px; /* Half-pixel (gets scaled down further) */
+        top: 5%;    
+        bottom: 0; 
+        width: 0.5px;
         background: black;
-        transform: scaleX(0.15); /* Makes it visually thinner */
+        transform: scaleX(0.15); 
         transform-origin: right;
     }
-  }
-
-  @media screen and (min-width:1024px) {
-    .main-container__usps{ 
-        grid-template-columns: repeat(4,1fr)
-        
     }
 
   }
 {% endstyle %}
 
-<script>
+{% javascript %}
 const swiperContainer = document.querySelector(".swiper");
-console.log(swiperContainer);
+const slide = document.querySelector(".single-usp__container");
+
 let swiper = null;
 
 function initSwiperUsps() {
     if (swiper != null) {
+        console.log("hi")
       swiper.destroy(true, true);
       swiper = null;
     }
@@ -107,6 +121,10 @@ function initSwiperUsps() {
         direction: "horizontal",
         loop: true,
         slidesPerView: 1,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
         breakpoints: {
           1024: {
             slidesPerView: 2,
@@ -118,13 +136,12 @@ function initSwiperUsps() {
       });
     }
   }
-  
 
 initSwiperUsps();
 
 window.addEventListener('resize', initSwiperUsps);
 
-</script>
+{%  endjavascript %}
 
 {% schema %}
 {

@@ -2,7 +2,10 @@
 
 
 
-<div class="main-product-container" style="background-color: {{ section.settings.section_color }}">
+<div  style="background-color: {{ section.settings.section_color }}">
+    <div class="main-product-container">
+
+
     {%render 'images-grid': image:product.images  %}
     <div class="main-product-content-container">
         <span class="category-subtitle">{{ product.metafields.custom.category_product_subtitle }}</span>
@@ -48,7 +51,8 @@
 
             {% endcase %}
         </div>
-        {% endfor %}
+    {% endfor %}
+</div>
 
        
 
