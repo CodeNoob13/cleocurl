@@ -135,6 +135,11 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 <script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script async src="{{ 'swiper-bundle.min.js' | asset_url }}"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+{% comment %} Alpine js {% endcomment %}
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+{{ 'tailwind.outputs.css' | asset_url | stylesheet_tag }}
 </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
@@ -171,5 +176,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     </main>
   {% include 'appikon-pre-order-helper' %}{% include 'appikon-pre-order-cart-items-liquid-helper' %}{% include 'appikon-pre-order-product-liquid-helper' %}{% render 'spurit_po2_theme_snippet' %}
 <script src="https://platform.getqonfi.com/build-wizard/wizard.js"></script>
+
+<script async src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

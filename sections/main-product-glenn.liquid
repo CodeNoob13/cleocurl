@@ -49,6 +49,11 @@
             {% when "single_usp" %}
                 {% render 'single-usp', title: block.settings.title, usp: block.settings.usp %}
 
+            {% when "accordion" %}
+                    {% render "product-accordion",
+                        title: block.settings.accordion_title,
+                        description: block.settings.accordion_description,
+                    %}
             {% endcase %}
         </div>
     {% endfor %}
@@ -77,6 +82,22 @@
     "blocks": [
         {
         "type": "@app"
+        },
+        {
+            "type": "accordion",
+            "name": "accordion",
+            "settings": [
+                {
+                    "type": "textarea",
+                    "label": "Accordion title",
+                    "id": "accordion_title"
+                },
+                {
+                    "type": "richtext",
+                    "label": "Accordion description",
+                    "id": "accordion_description"
+                }
+            ]
         },
         {
         "type": "usps",

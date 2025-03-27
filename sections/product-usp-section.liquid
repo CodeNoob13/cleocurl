@@ -1,5 +1,5 @@
-<div {{ section.shopify_attributes }} class="swiper main-container__usps">
-<div class="swiper-wrapper ">
+<div {{ section.shopify_attributes }} class="swiper main-container__usps" >
+<div class="swiper-wrapper" data-aos="fade-up">
     
     {% for block in section.blocks %}
         <div class="single-usp__container swiper-slide">
@@ -103,6 +103,8 @@
 {% endstyle %}
 
 {% javascript %}
+AOS.init();
+
 const swiperContainer = document.querySelector(".swiper");
 const slide = document.querySelector(".single-usp__container");
 
@@ -114,7 +116,6 @@ function initSwiperUsps() {
       swiper.destroy(true, true);
       swiper = null;
     }
-    console.log("Hello its working");
   
     if (window.innerWidth < 1240) {
       swiper = new Swiper(swiperContainer, {

@@ -1,0 +1,61 @@
+<div class="product_accordion_container" x-data="{isOpen: false}">
+    <div x-on:click="isOpen = !isOpen" class="product_accordion_content">
+        <span  class="product_accordion_title ">{{ title }}</span>
+        <div class="plus_icon">+</div>
+    </div>
+    <div class="product_accordion_description"x-cloak x-show="isOpen">{{ description }}</div>
+    
+</div>
+
+<style>
+  .product_accordion_container {
+    width:100%;
+  }
+
+  .product_accordion_content {
+    display:flex;
+    cursor:pointer;
+  }
+
+  .product_accordion_content{
+    position:relative;
+    padding: 14px 0;
+    }
+
+  .product_accordion_content::after {
+    content: "";
+    width:100%;
+    height:0.5px;
+    transform:scaleY(0.25);
+    background-color:#000;
+    position:absolute;
+    bottom:0;
+  }
+
+  .product_accordion_description {
+    padding-top:12px;
+    padding-bottom:32px;
+    height:auto;
+    transition: 
+    opacity 0.3s ease-in-out,
+    height 0.3s ease-in-out;
+    }
+
+  .product_accordion_content div {
+    margin-left:auto;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+
+.visible {
+    opacity: 1;
+}
+</style>
+
+<script>
+
+    
+</script> 
