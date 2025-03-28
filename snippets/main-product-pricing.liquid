@@ -1,6 +1,7 @@
 <div class="main-product-pricing">
     <span class="main-product-price">{{ product_main_price | money }}</span>
     <span class="main-product-compare-price">{{ product_compare_price | money }}</span>
+  {% comment %} <p>{{ product_compare_price - product_main_price }}</p> {% endcomment %}
 </div>
 
 <style>
