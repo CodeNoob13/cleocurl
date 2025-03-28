@@ -1,11 +1,15 @@
-<div class="product_accordion_container" x-data="{isOpen: false}">
+{% comment %} <div class="product_accordion_container" x-data="{isOpen: false}">
     <div x-on:click="isOpen = !isOpen" class="product_accordion_content">
         <span  class="product_accordion_title ">{{ title }}</span>
-        <div class="plus_icon">+</div>
     </div>
     <div class="product_accordion_description"x-cloak x-show="isOpen">{{ description }}</div>
     
-</div>
+</div> {% endcomment %}
+
+<details class="product_accordion_container">
+  <summary style="display:flex;" class="product_accordion_content">{{ title }}<div style="margin-left:auto;">+</div></summary>
+  <p class="product_accordion_description">{{description }}</p>
+</details>
 
 <style>
   .product_accordion_container {
@@ -33,29 +37,11 @@
   }
 
   .product_accordion_description {
-    padding-top:12px;
-    padding-bottom:32px;
-    height:auto;
-    transition: 
-    opacity 0.3s ease-in-out,
-    height 0.3s ease-in-out;
+    padding-bottom:14px;
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     }
 
-  .product_accordion_content div {
-    margin-left:auto;
-  }
-
-  .hidden {
-    opacity: 0;
-  }
-
-
-.visible {
-    opacity: 1;
 }
 </style>
-
-<script>
-
-    
-</script> 
