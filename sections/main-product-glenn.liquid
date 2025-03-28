@@ -54,7 +54,6 @@
                     {% render "product-accordion",
                         title: block.settings.accordion_title,
                         description: block.settings.accordion_description,
-                        margin_top:block.settings.margin_top,
                     %}
             {% endcase %}
         </div>
@@ -89,15 +88,6 @@
             "type": "accordion",
             "name": "accordion",
             "settings": [
-                {
-                    "type": "range",
-                    "min": 0,
-                    "max": 24,
-                    "step": 4,
-                    "label": "Margin top",
-                    "id": "margin_top",
-                    "default":0,
-                },
                 {
                     "type": "textarea",
                     "label": "Accordion title",

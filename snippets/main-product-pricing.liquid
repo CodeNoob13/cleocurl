@@ -1,8 +1,14 @@
+{% assign discount = product_compare_price | minus: product_main_price %}
+{% assign old_hundred_percent = product_compare_price | divided_by:100 %}
+
 <div class="main-product-pricing">
-    <span class="main-product-price">{{ product_main_price | money }}</span>
+    <span class="main-product-price" style="{% if product_compare_price %}color:red; {% endif %}">{{ product_main_price | money }}</span>
     <span class="main-product-compare-price">{{ product_compare_price | money }}</span>
-  {% comment %} <p>{{ product_compare_price - product_main_price }}</p> {% endcomment %}
+    {% if product_compare_price > product_main_price %}
+      <div class="product-save-badge">{{ discount | divided_by:old_hundred_percent }}% discount</div>
+    {% endif %}
 </div>
+
 
 <style>
     .main-product-pricing {
@@ -20,6 +26,15 @@
       .main-product-compare-price {
         text-decoration: line-through;
         font-size:18px;
+      }
+
+      .product-save-badge {
+        margin-left:8px;
+        padding:4px 12px;
+        font-size:14px;
+        color:#fff;
+        border-radius:100px;
+        background-color:red;
       }
 
 </style>

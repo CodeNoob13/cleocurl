@@ -191,6 +191,9 @@
     white-space: nowrap;
     border-width: 0;
   }
+  .fixed {
+    position: fixed;
+  }
   .relative {
     position: relative;
   }

@@ -61,7 +61,6 @@
         "accordion_aCaiak": {
           "type": "accordion",
           "settings": {
-            "margin_top": 16,
             "accordion_title": "Hoe te gebruiken",
             "accordion_description": "<p>Zorg dat je haar goed nat is.</p><p>Breng de Leave-In Conditioner aan op je natte haar en scrunch om je krullen vorm te geven.</p><p>Na de Leave-In Conditioner breng je de Curl Defining Cream aan op je haar en scrunch je nogmaals.</p><p>Breng enkele druppels Silky Finishing Oil aan op het uiteinde van je krullen.</p><p>Maak gebruik van een diffuser of laat je haar zelf drogen. Kies wat je zelf het fijnst vindt. :)</p><p>Geniet van je prachtige krullen.</p>"
           }
@@ -69,7 +68,6 @@
         "accordion_FhWyWt": {
           "type": "accordion",
           "settings": {
-            "margin_top": 0,
             "accordion_title": "Ingrediënten",
             "accordion_description": "<p><strong>Leave-In Conditioner: <br/></strong>AQUA, ORYZA SATIVA BRAN OIL, CETYL ALCOHOL, STEARYL ALCOHOL, DISTEAROYLETHYL DIMONIUM CHLORIDE, GLYCERIN, PHENOXYETHANOL, PARFUME, ETHYLHEXYLGLYCERIN, ORYZANOL, LINALOOL, BENZYL SALICYLATE, D LIMONENE, CITRONELLOL, COUMARIN, TOCOPHEROL.  <br/><br/><strong>Curl Defining Cream: <br/></strong>AQUA, GLYCERIN, ORYZA SATIVA BRAN OIL, CETYL ALCOHOL, STEARYL ALCOHOL, HYDROGENATED VEGETABLE OIL, PHENOXYETHANOL, PALMITAMIDOPROPYLTRIMONIUM CHLORIDE, PARFUME, PROPYLENE GLYCOL, ETHYLHEXYLGLYCERIN, ORYZANOL, LINALOOL, BENZYL SALICYLATE, D-LIMONENE, CITRONELLOL, COUMARIN, TOCOPHEROL  <br/><br/><strong>Silky Finishing Oil: <br/></strong>ORYZA SATIVA BRAN OIL, C13-15 ALKANE, PARFUME, ORYZANOL, TOCOPHEROL, LINALOOL, BENZYL SALICYLATE, D-LIMONENE, CITRONELLOL, COUMARIN, HYDROXYCITRONELLAL, CITRAL</p><p></p><p><strong>Ingrediënten die we niet gebruiken:</strong><br/>SULFATEN, PARABENEN, SILICONEN.</p>"
           }
@@ -77,7 +75,6 @@
         "accordion_f8DpAi": {
           "type": "accordion",
           "settings": {
-            "margin_top": 0,
             "accordion_title": "Verzending en retour",
             "accordion_description": "<p>Gratis verzending boven de €60. <br/><br/>We hanteren de volgende bezorgtijden:</p><p>Nederland: Voor 23:59 besteld = Morgen in huis<br/>België = Voor 22:00 besteld = Morgen in huis<br/>Duitsland = 2-3 werkdagen<br/>Rest van Europa = 2-6 werkdagen<br/>Verenigd Koninkrijk = 4-6 werkdagen<br/>Verenigde Staten = 5-9 werkdagen</p>"
           }
