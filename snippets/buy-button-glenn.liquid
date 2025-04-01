@@ -1,26 +1,76 @@
-{% form 'product', product_item %}
-    <button class="button" type="submit"
-        style="margin: 12px 0;
-         background-color: {{ button_color }};
-         width:100%;
-         ">
-        Add to cart
-    </button>
-{% endform %}
 
+
+  {% comment %} <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"> {% endcomment %}
+
+<button class="button" id="glenn_button" type="submit"
+  style="margin-bottom: 12px; background-color: {{ color }}!important; width:100%;">
+ {{ text }}
+</button>
+
+
+
+
+{% comment %} Ajax API {% endcomment %}
 <script>
-    let addToCartForm = document.querySelector('form[action$="/cart/add"]');
-    let formData = new FormData(addToCartForm);
-    
-    fetch(window.Shopify.routes.root + 'cart/add.js', {
-      method: 'POST',
-      body: formData
-    })
-    .then(response => {
-      return response.json();
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-    });
+const produdctId = {{ product_item.selected_or_first_available_variant.id | json }}
+const itemCount = document.querySelector('.count-bubble')
+const formData = {
+  items: [{
+    id:  produdctId,
+    quantity: 1
+  }]
+};
 
+async function updateCartCount() {
+  const response = await fetch(window.Shopify.routes.root + 'cart.js')
+  const data = await response.json()
+  itemCount.innerText = data.item_count + 1
+}
+
+async function addToCart(formData) {
+  try {
+    const response = await fetch(window.Shopify.routes.root + 'cart/add.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData)
+    });
+    
+    if(!response.ok) {
+      throw new Error('Error ' + response.status + response.statusText);
+      return;
+    }
+  
+    const data = await response.json()
+    return data;
+  } catch(error) {
+    console.error("Error " + Error)
+  }
+
+
+
+}
+
+document.getElementById('glenn_button').addEventListener('click',() => {
+  addToCart(formData)
+  
+  updateCartCount()
+
+}); 
+
+{% comment %} document.getElementById('glenn_button').addEventListener('click', function() {
+  const response = fetch(window.Shopify.routes.root + 'cart/add.js', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(response => response.json())
+  .then(data => console.log('Added to cart:', data))
+  .catch(error => console.error('Error:', error));
+});  {% endcomment %}
 </script>
+
+

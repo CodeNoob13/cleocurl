@@ -150,11 +150,20 @@
       "settings": {
         "background_color": ""
       }
+    },
+    "bundle_products_4J97QL": {
+      "type": "bundle-products",
+      "settings": {
+        "first_product": "curl-styling-cream",
+        "second_product": "test",
+        "third_product": "curl-styling-cream"
+      }
     }
   },
   "order": [
     "main_product_glenn_CF9BaG",
     "revealed_image_on_scroll_cPHb3X",
-    "product_usp_section_LXhcti"
+    "product_usp_section_LXhcti",
+    "bundle_products_4J97QL"
   ]
 }

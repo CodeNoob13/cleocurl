@@ -32,7 +32,7 @@
             "style": "fill",
             "size": "base",
             "text": "SHOP NOW",
-            "url": "shopify://products/curl-styling-cream",
+            "url": "shopify://products/test",
             "background": "#ee9824",
             "text_color": "#ffffff"
           }

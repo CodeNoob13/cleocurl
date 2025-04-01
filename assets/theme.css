@@ -60,8 +60,15 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    Liberation Mono,
+    Courier New,
+    monospace;
   font-size: 1em;
 }
 
@@ -314,7 +321,9 @@ recently-viewed-products {
 }
 
 .pswp--click-to-zoom.pswp--zoom-allowed .pswp__img {
-  cursor: var(--cursor-zoom-in-svg-url) 28 28, zoom-in;
+  cursor:
+    var(--cursor-zoom-in-svg-url) 28 28,
+    zoom-in;
 }
 
 .pswp--click-to-zoom.pswp--zoomed-in .pswp__img {
@@ -328,7 +337,9 @@ recently-viewed-products {
 .pswp--no-mouse-drag.pswp--zoomed-in .pswp__img,
 .pswp--no-mouse-drag.pswp--zoomed-in .pswp__img:active,
 .pswp__img {
-  cursor: var(--cursor-zoom-out-svg-url) 28 28, zoom-out;
+  cursor:
+    var(--cursor-zoom-out-svg-url) 28 28,
+    zoom-out;
 }
 
 .pswp__container,
@@ -665,7 +676,9 @@ recently-viewed-products {
   padding-inline-end: var(--spacing-5);
   font-weight: bold;
   line-height: 1.6;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+  transition:
+    background-color 0.15s ease-in-out,
+    color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
   display: inline-block;
   position: relative;
@@ -684,6 +697,7 @@ recently-viewed-products {
   padding-block-end: 0.8125rem;
   padding-inline-start: var(--spacing-6);
   padding-inline-end: var(--spacing-6);
+  margin-bottom: 16px;
 }
 
 .button--xl {
@@ -967,7 +981,8 @@ scroll-carousel {
           var(
             --content-over-media-gap,
             var(--content-over-media-column-gap, var(--container-gutter))
-          ) * 2
+          ) *
+          2
       )
     )
     minmax(0, 1fr);
@@ -1034,7 +1049,9 @@ scroll-carousel {
 }
 
 .content-over-media > video-media:not([autoplay]) ~ * {
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    visibility 0.2s ease-in-out;
 }
 
 .content-over-media > video-media:not([autoplay])[loaded] ~ * {
@@ -1167,7 +1184,8 @@ scroll-carousel {
   border-radius: var(--spacing-2);
   opacity: 0.5;
   background: currentColor;
-  transition: opacity 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+  transition:
+    opacity 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
     width 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
@@ -1215,8 +1233,8 @@ scroll-carousel {
   --radius: 15;
   --circumference: calc(2px * (22 / 7) * var(--radius));
   stroke-opacity: 1;
-  stroke-dasharray: calc(var(--circumference) * var(--progress, 1)),
-    var(--circumference);
+  stroke-dasharray:
+    calc(var(--circumference) * var(--progress, 1)), var(--circumference);
 }
 
 .prev-next-buttons {
@@ -1291,7 +1309,9 @@ scroll-carousel {
 
 .popover::part(overlay) {
   min-height: 100lvh;
-  cursor: var(--cursor-close-svg-url) 28 28, auto;
+  cursor:
+    var(--cursor-close-svg-url) 28 28,
+    auto;
   background: #0006;
   position: fixed;
   top: 0;
@@ -1415,7 +1435,9 @@ scroll-carousel {
 }
 
 .drawer.show-close-cursor::part(overlay) {
-  cursor: var(--cursor-close-svg-url) 28 28, auto;
+  cursor:
+    var(--cursor-close-svg-url) 28 28,
+    auto;
 }
 
 .drawer::part(content) {
@@ -2538,7 +2560,10 @@ scroll-carousel {
     var(--container-max-width)
   );
   --container-outer-width: calc(
-    ((100vw - var(--scrollbar-width, 0px)) - var(--container-inner-width, 0px)) /
+    (
+        (100vw - var(--scrollbar-width, 0px)) -
+          var(--container-inner-width, 0px)
+      ) /
       2
   );
   --section-stack-spacing-inline: var(--section-inner-spacing-inline, 0px);
@@ -3034,7 +3059,9 @@ video-media > :is(video, iframe, img, svg) {
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    visibility 0.2s ease-in-out;
 }
 
 video-media > video[controls] {
@@ -3078,7 +3105,9 @@ video-media[suspended] ~ * {
 video-media::part(play-button) {
   z-index: 1;
   will-change: transform;
-  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out,
+  transition:
+    transform 0.2s ease-in-out,
+    opacity 0.2s ease-in-out,
     visibility 0.2s ease-in-out;
   position: absolute;
   top: 50%;
@@ -3833,7 +3862,9 @@ model-media .shopify-model-viewer-ui {
   .product-card__quick-buy {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out,
+    transition:
+      opacity 0.2s ease-in-out,
+      transform 0.2s ease-in-out,
       visibility 0.2s ease-in-out;
     transform: translateY(5px);
   }
@@ -3990,7 +4021,9 @@ model-media .shopify-model-viewer-ui {
   visibility: hidden;
   opacity: 0;
   padding: 1.25rem;
-  transition: visibility 0.15s ease-in, opacity 0.15s ease-in,
+  transition:
+    visibility 0.15s ease-in,
+    opacity 0.15s ease-in,
     transform 0.15s ease-in;
   position: fixed;
   bottom: 0;
@@ -4402,7 +4435,9 @@ model-media .shopify-model-viewer-ui {
   text-underline: none;
   background: linear-gradient(to right, currentColor, currentColor) 0
     min(100%, 1.35em) / 100% 1px no-repeat;
-  transition: background-size 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition:
+    background-size 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 
 @media screen and (pointer: fine) {
@@ -4714,7 +4749,8 @@ tfoot td {
 
 :disabled + .color-swatch,
 .color-swatch.is-disabled {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       to bottom right,
       transparent calc(50% - 1px),
       rgb(var(--background)) calc(50% - 1px) calc(50% + 1px),
@@ -4729,7 +4765,9 @@ tfoot td {
   opacity: 0;
   border-radius: inherit;
   will-change: transform;
-  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    transform 0.2s ease-in-out;
   position: absolute;
   transform: scale(0.75);
   box-shadow: 0 0 0 2px;
@@ -4842,7 +4880,9 @@ tfoot td {
   border-radius: inherit;
   opacity: 0;
   will-change: transform;
-  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    transform 0.2s ease-in-out;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -4926,7 +4966,9 @@ tfoot td {
   border-radius: inherit;
   opacity: 0;
   will-change: transform;
-  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    transform 0.2s ease-in-out;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -4986,7 +5028,9 @@ tfoot td {
     padding: 2px 10px;
     font-size: 12px;
     font-weight: bold;
-    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out,
+    transition:
+      opacity 0.2s ease-in-out,
+      visibility 0.2s ease-in-out,
       transform 0.2s ease-in-out;
     position: absolute;
     left: 50%;
@@ -5064,7 +5108,9 @@ tfoot td {
   background: rgb(var(--text-color) / 0);
   border-radius: var(--rounded-full);
   place-content: center;
-  transition: opacity 0.2s ease-in-out, background 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    background 0.2s ease-in-out;
   display: grid;
 }
 
@@ -5081,7 +5127,9 @@ tfoot td {
   opacity: 0;
   visibility: hidden;
   z-index: 1;
-  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out,
+  transition:
+    opacity 0.1s ease-in-out,
+    transform 0.1s ease-in-out,
     visibility 0.1s ease-in-out;
   position: absolute;
   top: calc(50% - 24px);
@@ -5247,7 +5295,10 @@ custom-cursor {
   top: 0;
   left: 0;
   scale: 0.5;
-  transition: opacity 0.1s, scale 0.1s, visibility 0.1s !important;
+  transition:
+    opacity 0.1s,
+    scale 0.1s,
+    visibility 0.1s !important;
 }
 
 @media screen and (pointer: fine) {
@@ -6766,7 +6817,9 @@ split-lines {
   opacity: 0;
   z-index: 1;
   border-width: 1px;
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    visibility 0.2s ease-in-out;
   position: absolute;
   top: calc(100% + var(--spacing-6));
 }
@@ -6885,7 +6938,9 @@ split-lines {
   padding: var(--spacing-3) var(--spacing-6);
   border-radius: var(--rounded-full);
   opacity: 0.7;
-  transition: opacity 0.2s ease-in-out, background 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    background 0.2s ease-in-out;
   display: block;
 }
 
@@ -6952,7 +7007,10 @@ split-lines {
 .collection-card__content-wrapper svg {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+  transition:
+    opacity 0.2s,
+    visibility 0.2s,
+    transform 0.2s;
   display: inline-block;
 }
 
@@ -7139,7 +7197,9 @@ split-lines {
   background: rgb(var(--background));
   padding-block: var(--spacing-5);
   border-bottom-width: 1px;
-  transition: opacity 0.2s, visibility 0.2s;
+  transition:
+    opacity 0.2s,
+    visibility 0.2s;
   position: fixed;
   top: var(--sticky-area-height);
   border-top-width: 0 !important;
@@ -7424,7 +7484,9 @@ footer {
 .privacy-bar {
   margin: var(--spacing-2);
   z-index: 1;
-  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition:
+    opacity 0.2s ease-in-out,
+    visibility 0.2s ease-in-out;
   position: fixed;
   bottom: 0;
   display: block !important;
@@ -7897,7 +7959,10 @@ footer {
 }
 
 .js .header[allow-transparency] {
-  transition: color 0.25s, background 0.25s, -webkit-backdrop-filter 0.25s,
+  transition:
+    color 0.25s,
+    background 0.25s,
+    -webkit-backdrop-filter 0.25s,
     backdrop-filter 0.25s;
 }
 
@@ -7941,7 +8006,9 @@ footer {
   background: rgb(var(--header-background));
   color: rgb(var(--header-text));
   border-radius: var(--rounded-sm);
-  box-shadow: var(--shadow), 0 0 0 1px rgb(var(--text-color) / 0.12);
+  box-shadow:
+    var(--shadow),
+    0 0 0 1px rgb(var(--text-color) / 0.12);
   z-index: 1;
   display: grid;
   position: absolute;
@@ -10012,7 +10079,9 @@ footer {
     z-index: 1;
     opacity: 0;
     margin-top: -3px;
-    transition: opacity 0.1s, transform 0.1s;
+    transition:
+      opacity 0.1s,
+      transform 0.1s;
     position: absolute;
     transform: scale(0.6);
   }
@@ -10201,7 +10270,9 @@ footer {
   }
 
   .product-gallery--desktop-grid .product-gallery__zoom {
-    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    transition:
+      opacity 0.2s ease-in-out,
+      transform 0.2s ease-in-out;
   }
 
   .product-gallery--desktop-grid
@@ -10899,8 +10970,8 @@ footer {
 .slideshow__cursor-ring circle {
   stroke-opacity: 1;
   stroke-dashoffset: 0;
-  stroke-dasharray: calc(var(--circumference) * var(--progress, 0)),
-    var(--circumference);
+  stroke-dasharray:
+    calc(var(--circumference) * var(--progress, 0)), var(--circumference);
   transform: rotate(-90deg);
 }
 
@@ -11034,7 +11105,9 @@ footer {
   line-height: inherit !important;
   letter-spacing: var(--text-letter-spacing) !important;
   text-decoration: none !important;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+  transition:
+    background-color 0.15s ease-in-out,
+    color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out !important;
   display: inline-block !important;
   position: relative !important;
@@ -11404,7 +11477,9 @@ footer {
   background-color: rgb(var(--background));
   border-width: 2px;
   margin-block-start: calc((var(--timeline-dot-size) / 2) * -1);
-  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition:
+    border-color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
 }
 
 .timeline__nav-item[aria-current="true"]:before {
