@@ -48,16 +48,16 @@
                 <div class="cart-bar__line-inner" style="width:calc({{percent }}%)"></div>
             </div>
             <div class="cart-bar__tier cart-bar__tier-1">
-                <div class="cart-bar__label">Gratis bezorging</div>
+                <div class="cart-bar__label">Free shipping</div>
                 <div class="cart-bar__point"></div>
                 <span class="cart-bar__treshold">{{ship_treshold}} {{ cart.currency.iso_code }}</span>
             </div>
 
-            <div class="cart-bar__tier cart-bar__tier-2">
+            {% comment %} <div class="cart-bar__tier cart-bar__tier-2">
                 <div class="cart-bar__label">Gratis gift</div>
                 <div class="cart-bar__point"></div>
                 <div class="cart-bar__treshold">{{gift_treshold}} {{ cart.currency.iso_code }}</div>     
-            </div>
+            </div> {% endcomment %}
         </div>
 
 
@@ -73,11 +73,11 @@
                 });
  
                 
-                if (newArray.length === 0) {
+                {% comment %} if (newArray.length === 0) {
                      cart.total_price < parseInt(giftSlider.dataset.gift)?giftSlider.style.display ='none':giftSlider.style.display ='block'
                 } else {
                     giftSlider.style.display ='none'
-                }
+                } {% endcomment %}
                
                 fetch(`/?section_id=cart-bar`)
                 .then(response => response.text()).then(data => { 

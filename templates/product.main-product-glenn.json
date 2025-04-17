@@ -24,25 +24,39 @@
           "type": "product_pricing",
           "settings": {}
         },
+        "single_usp_Q4yHXM": {
+          "type": "single_usp",
+          "settings": {
+            "title": "✓",
+            "usp": "CG proof"
+          }
+        },
         "single_usp_nwFmwY": {
           "type": "single_usp",
           "settings": {
-            "title": "Goed voor",
-            "usp": "Golven · Krullen · Spiraalkrullen"
+            "title": "✓",
+            "usp": "Best for hair type 3a - 4c"
           }
         },
         "single_usp_P3dy9h": {
           "type": "single_usp",
           "settings": {
-            "title": "Zorgt voor",
-            "usp": "Bescherming"
+            "title": "✓",
+            "usp": "Premium ingredients"
+          }
+        },
+        "single_usp_Bkdrq6": {
+          "type": "single_usp",
+          "settings": {
+            "title": "✓",
+            "usp": "Nourishes & hydrates your hair"
           }
         },
         "shipping_block_9k7xqY": {
           "type": "shipping_block",
           "settings": {
             "svg_icon": "",
-            "block_text": "shipping on orders over £40 / 65€*",
+            "block_text": "free shipping on orders over €40",
             "text_color": "#000000",
             "background_color": "#f8decd"
           }
@@ -58,25 +72,40 @@
             "payment_button_text_color": ""
           }
         },
+        "shipping_time_dJatxE": {
+          "type": "shipping_time",
+          "settings": {
+            "delivery_time": "Delivery time: 1 - 3 working days!",
+            "dot_color": "#ff3b30"
+          }
+        },
         "accordion_aCaiak": {
           "type": "accordion",
           "settings": {
-            "accordion_title": "Hoe te gebruiken",
-            "accordion_description": "<p>Zorg dat je haar goed nat is.</p><p>Breng de Leave-In Conditioner aan op je natte haar en scrunch om je krullen vorm te geven.</p><p>Na de Leave-In Conditioner breng je de Curl Defining Cream aan op je haar en scrunch je nogmaals.</p><p>Breng enkele druppels Silky Finishing Oil aan op het uiteinde van je krullen.</p><p>Maak gebruik van een diffuser of laat je haar zelf drogen. Kies wat je zelf het fijnst vindt. :)</p><p>Geniet van je prachtige krullen.</p>"
+            "accordion_title": "Ingredients",
+            "accordion_description": "<p><em>• </em><strong>Aloe Vera:</strong> hydrates and soothes the scalp while enhancing curl definition.</p><p> </p><p><em>• </em><strong>Argan Oil:</strong> rich in vitamins and antioxidants, it nourishes and strengthens hair.</p><p> </p><p><em>• </em><strong>Shea Butter:</strong> deeply moisturizes and adds shine to your curls.</p><p> </p><p><em>• </em><strong>Coconut Oil:</strong> penetrates hair shafts to provide lasting moisture and reduce breakage.</p><p><em>• </em><strong>Jojoba Oil:</strong> balances scalp oil production and promotes healthy hair growth.</p><p><em>• </em><strong>Vitamin E:</strong> protects hair from environmental damage and promotes a healthy scalp.</p><p><em>• </em><strong>Rosemary Extract:</strong> stimulates hair follicles and improves circulation to the scalp.</p><p>&nbsp;</p><p><em>• </em><strong>Chamomile Extract:</strong> soothes the scalp and enhances hair's natural highlights.</p><p> </p><p><em>• </em><strong>Hydrolyzed Silk Protein:</strong> strengthens hair and improves its elasticity.</p><p> </p><p><em>• </em><strong>Panthenol (Pro-Vitamin B5):</strong> adds volume and shine while reducing split ends.</p><p> </p>"
           }
         },
         "accordion_FhWyWt": {
           "type": "accordion",
           "settings": {
-            "accordion_title": "Ingrediënten",
-            "accordion_description": "<p><strong>Leave-In Conditioner: <br/></strong>AQUA, ORYZA SATIVA BRAN OIL, CETYL ALCOHOL, STEARYL ALCOHOL, DISTEAROYLETHYL DIMONIUM CHLORIDE, GLYCERIN, PHENOXYETHANOL, PARFUME, ETHYLHEXYLGLYCERIN, ORYZANOL, LINALOOL, BENZYL SALICYLATE, D LIMONENE, CITRONELLOL, COUMARIN, TOCOPHEROL.  <br/><br/><strong>Curl Defining Cream: <br/></strong>AQUA, GLYCERIN, ORYZA SATIVA BRAN OIL, CETYL ALCOHOL, STEARYL ALCOHOL, HYDROGENATED VEGETABLE OIL, PHENOXYETHANOL, PALMITAMIDOPROPYLTRIMONIUM CHLORIDE, PARFUME, PROPYLENE GLYCOL, ETHYLHEXYLGLYCERIN, ORYZANOL, LINALOOL, BENZYL SALICYLATE, D-LIMONENE, CITRONELLOL, COUMARIN, TOCOPHEROL  <br/><br/><strong>Silky Finishing Oil: <br/></strong>ORYZA SATIVA BRAN OIL, C13-15 ALKANE, PARFUME, ORYZANOL, TOCOPHEROL, LINALOOL, BENZYL SALICYLATE, D-LIMONENE, CITRONELLOL, COUMARIN, HYDROXYCITRONELLAL, CITRAL</p><p></p><p><strong>Ingrediënten die we niet gebruiken:</strong><br/>SULFATEN, PARABENEN, SILICONEN.</p>"
+            "accordion_title": "Free shipping on order over €40,-",
+            "accordion_description": "<p>Spend €40 or more and your shipping’s on us. Because great curls should come with great perks.</p>"
           }
         },
         "accordion_f8DpAi": {
           "type": "accordion",
           "settings": {
-            "accordion_title": "Verzending en retour",
-            "accordion_description": "<p>Gratis verzending boven de €60. <br/><br/>We hanteren de volgende bezorgtijden:</p><p>Nederland: Voor 23:59 besteld = Morgen in huis<br/>België = Voor 22:00 besteld = Morgen in huis<br/>Duitsland = 2-3 werkdagen<br/>Rest van Europa = 2-6 werkdagen<br/>Verenigd Koninkrijk = 4-6 werkdagen<br/>Verenigde Staten = 5-9 werkdagen</p>"
+            "accordion_title": "Pay later with Klarna",
+            "accordion_description": "<p>At checkout, simply select <strong>Klarna</strong> as your payment method.<br/><br/>You’ll receive your order right away, and pay <strong>later in 30 days</strong> — no interest, no hidden fees.</p><p>Perfect if you want to try first and pay once you’re sure.<br/><br/><strong>Fast. Flexible. Completely secure.</strong></p>"
+          }
+        },
+        "glenn_button_az3mme": {
+          "type": "glenn_button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Add to cart",
+            "button_color": "#da0000"
           }
         }
       },
@@ -84,16 +113,21 @@
         "product_title_M88yfp",
         "product_description_3FCecb",
         "product_pricing_JCgPtD",
+        "single_usp_Q4yHXM",
         "single_usp_nwFmwY",
         "single_usp_P3dy9h",
+        "single_usp_Bkdrq6",
         "shipping_block_9k7xqY",
         "buy_buttons_PC8JaX",
+        "shipping_time_dJatxE",
         "accordion_aCaiak",
         "accordion_FhWyWt",
-        "accordion_f8DpAi"
+        "accordion_f8DpAi",
+        "glenn_button_az3mme"
       ],
       "settings": {
-        "section_color": "#fcfaf6"
+        "section_color": "#fcfaf6",
+        "show_payment_icons": true
       }
     },
     "revealed_image_on_scroll_cPHb3X": {
@@ -147,16 +181,252 @@
         "usp_HbkXJw",
         "usp_khJKfQ"
       ],
+      "custom_css": [],
       "settings": {
         "background_color": ""
       }
     },
-    "bundle_products_4J97QL": {
-      "type": "bundle-products",
+    "images_with_text_scrolling_xjtpr8": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_JKbDpB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avocado-CleoCurl_1_34416b47-134e-430f-9983-153e72a22468.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Premium Ingredients for Healthy Curls",
+            "content": "<p>At CLEO CURL, we believe that your hair deserves the very best. That’s why we only select the highest quality, natural ingredients for our styling cream. The combination of natural fruit extracts and Mediterranean oils hydrate, strengthen and define your curls. You can trust that every ingredient is chosen with your hair’s health and beauty in mind.</p>"
+          }
+        },
+        "item_wwH887": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/DSC00491.heic",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Makes Styling Your Curls Easy",
+            "content": "<p>Our products are designed to make styling your curls easy, helping you achieve the most beautiful, defined curls you've ever had. They provide long-lasting hold while maintaining the health of your hair, so your curls stay soft, bouncy, and naturally shiny. Plus, they're free from silicones, mineral oils and dehydrating alcohols, ensuring your curls stay healthy.</p>"
+          }
+        },
+        "item_bU7MkW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pexels-alexazabache-3723031.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Makes You Authentic",
+            "content": "<p>Inspired by the timeless beauty of the ancient Egyptian queen Cleopatra, CLEO CURL empowers you to wear your curls with pride and authenticity. Too often, we see women neglect their curls. We want you to wear them with confidence!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_JKbDpB",
+        "item_wwH887",
+        "item_bU7MkW"
+      ],
       "settings": {
-        "first_product": "curl-styling-cream",
-        "second_product": "test",
-        "third_product": "curl-styling-cream"
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#fcfaf6",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "before_after_image_FYyRYQ": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p><strong>Still not convinced?</strong><br/><br/>Try CLEO Curl Styling Cream for 30 days, completely risk-free.<br/><br/>If your curls don’t love it, we’ll give you your money back.<br/><br/>No hassle. No pressure. Just results you can feel.</p>",
+        "before_image": "shopify://shop_images/DSC01553_2_a1120daa-0493-4612-a0a5-bbfdabd1d776.jpg",
+        "after_image": "shopify://shop_images/DSC01553_1_2abfc57d-646b-4842-b06d-d56674452eb5.jpg",
+        "expand_image": false,
+        "text_position": "end",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "#fcfaf6",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "scrolling_text_nGEbBc": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "All natural ingredients",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#fcfaf6",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "accordion_content_WNKity": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_8FRxRH": {
+          "type": "item",
+          "settings": {
+            "title": "What hair types is CLEO CURL suitable for?",
+            "content": "<p>CLEO CURL is designed to work beautifully on all curly hair types, from loose waves to tight coils. Our formula enhances your natural curl pattern, providing definition and shine.</p>"
+          }
+        },
+        "item_dTWaVt": {
+          "type": "item",
+          "settings": {
+            "title": "What makes CLEO CURL different from other curling creams?",
+            "content": "<p>CLEO CURL stands out due to its premium, natural ingredients and non-toxic formula. We focus on delivering hydration, strength, and definition while ensuring your scalp remains healthy and irritation-free.</p>"
+          }
+        },
+        "item_E48ELG": {
+          "type": "item",
+          "settings": {
+            "title": "How do I use CLEO CURL for the best results?",
+            "content": "<p>Apply a generous amount of CLEO CURL to damp hair, distributing it evenly from root to tip. Use your fingers or a wide-tooth comb to define your curls. For extra definition, scrunch your hair and let it air dry or use a diffuser.</p>"
+          }
+        },
+        "item_bWLFNK": {
+          "type": "item",
+          "settings": {
+            "title": "Is CLEO CURL Curly Girl Method–approved?",
+            "content": "<p>Yes — CLEO CURL is 100% <strong>CG proof</strong>, meaning it’s free from sulfates, silicones, drying alcohols, and other no-go ingredients for curly hair care.</p>"
+          }
+        },
+        "item_Ce3U8p": {
+          "type": "item",
+          "settings": {
+            "title": "Can I use CLEO CURL daily?",
+            "content": "<p>Absolutely. CLEO CURL is lightweight and non-greasy, so it’s perfect for daily styling or refreshing your curls in between wash days.</p>"
+          }
+        },
+        "item_nejAn4": {
+          "type": "item",
+          "settings": {
+            "title": "Is CLEO CURL vegan and cruelty-free?",
+            "content": "<p>Yes. Our formula is proudly <strong>vegan, cruelty-free</strong>, and made with clean ingredients you can trust.</p>"
+          }
+        },
+        "item_APtpAc": {
+          "type": "item",
+          "settings": {
+            "title": "What if it doesn’t work for me?",
+            "content": "<p>No worries — we offer a <strong>30-day money-back guarantee</strong>. If CLEO CURL isn’t a match for your curls, we’ll refund you. Simple as that.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8FRxRH",
+        "item_dTWaVt",
+        "item_E48ELG",
+        "item_bWLFNK",
+        "item_Ce3U8p",
+        "item_nejAn4",
+        "item_APtpAc"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Most Asked Questions",
+        "content": "<p>Everything you need to know about CLEO CURL, from ingredients and hair types to how to use it and what makes it different. If you’re wondering, chances are it’s answered right here.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#fcfaf6",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "revealed_image_on_scroll_gdyUDw": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify://shop_images/DSC01362.heic",
+        "mobile_image": "shopify://shop_images/DSC01362.heic",
+        "subheading": "",
+        "title": "Wear Your Curls Proudly!",
+        "background": "#fcfaf6",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "testimonials_efGn9H": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_9A8gHr": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Melissa J.",
+            "title": "Finally found the curl cream",
+            "content": "<p>I’ve tried everything for my 3C hair and nothing worked like CLEO Curl. It defines without the crunch, and my curls stay soft <em>all day</em>. Total game changer.</p>"
+          }
+        },
+        "testimonial_4UfL8V": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Aisha R.",
+            "title": "My curls have never felt this healthy",
+            "content": "<p>After just one week, I noticed less frizz and more definition. It’s lightweight, smells amazing, and actually <em>nourishes</em> my hair instead of just sitting on it.</p>"
+          }
+        },
+        "testimonial_MWAhGz": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Lina M.",
+            "title": "It does exactly what it promises",
+            "content": "<p>I was skeptical, but the 30-day trial convinced me. My 4A curls are hydrated, shiny, and so easy to style now.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_9A8gHr",
+        "testimonial_4UfL8V",
+        "testimonial_MWAhGz"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "See what others say",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     }
   },
@@ -164,6 +434,11 @@
     "main_product_glenn_CF9BaG",
     "revealed_image_on_scroll_cPHb3X",
     "product_usp_section_LXhcti",
-    "bundle_products_4J97QL"
+    "images_with_text_scrolling_xjtpr8",
+    "before_after_image_FYyRYQ",
+    "scrolling_text_nGEbBc",
+    "accordion_content_WNKity",
+    "revealed_image_on_scroll_gdyUDw",
+    "testimonials_efGn9H"
   ]
 }

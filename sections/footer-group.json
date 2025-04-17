@@ -123,7 +123,7 @@
           "type": "text",
           "settings": {
             "title": "Contact",
-            "content": "<p>info@cleocurl.com<br/>Street 1<br/>(<strong>let op:</strong> geen bezoekadres!)<br/>KVK: 8127389<br/>Btw-nr: NL12321312B01<br/></p>",
+            "content": "<p><strong>Email:</strong><a>info@cleocurl.com</a></p><p><strong>Address:</strong> Street 1 <em>(Please note: not a visiting address)</em></p><p><strong>Chamber of Commerce (KVK):</strong> 8127389<br/><br/><strong>VAT Number:</strong> NL12321312B01</p>",
             "enable_follow_on_shop": true
           }
         }

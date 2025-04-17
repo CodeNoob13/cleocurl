@@ -40,7 +40,7 @@ LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
-<div {% render 'section-properties' %}>
+<div {% render 'section-properties' %} style="background-color:{{ section.settings.background_color }}">
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
       <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item" {{ block.shopify_attributes }}>
@@ -140,6 +140,13 @@ LIQUID
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "info": "Section background color",
+      "default": "#FCFAF6",
+    },
     {
       "type": "checkbox",
       "id": "full_width",

@@ -1,0 +1,39 @@
+<div style="display: flex; align-items: center; gap: 0.5rem; justify-content:center; padding:4px;">
+    <span style="
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: {{ color | color_modify: 'alpha', 0.3 }};
+      animation: pulse 1.5s infinite;
+    ">
+      <span style="
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: {{ color }};
+      "></span>
+    </span>
+    <span>{{ delivery_time }}</span>
+  </div>
+  
+  <style>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+  

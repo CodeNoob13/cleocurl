@@ -59,9 +59,25 @@
                         description: block.settings.accordion_description,
                     %}
 
+                {% when "shipping_time" %}
+                    {% render "shipping_time", delivery_time: block.settings.delivery_time, color:block.settings.dot_color 
+                    %}
+
+           
+
             {% endcase %}
+
+            
         </div>
+        
     {% endfor %}
+    {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+        <div class="footer__payment-icons" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content:center; padding: 24px">
+            {%- for type in shop.enabled_payment_types -%}
+            {{- type | payment_type_svg_tag -}}
+            {%- endfor -%}
+        </div>
+        {%- endif -%}
 </div>
 
        
@@ -82,7 +98,13 @@
             "type": "color",
             "id": "section_color",
             "label": "Background Color"
-        }
+        },
+        {
+            "type": "checkbox",
+            "id": "show_payment_icons",
+            "label": "Show payment icons",
+            "default": true
+          },
     ],
     "blocks": [
         {
@@ -102,6 +124,24 @@
                     "id": "button_color",
                     "label": "Button color"
                 },
+            ]
+        },
+        {
+            "type": "shipping_time",
+            "name": "Shipping time",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "delivery_time",
+                    "label": "Delivery time",
+                    "default":"Delivery time: 1 - 3 working days!"
+                },
+                {
+                    "type": "color",
+                    "id": "dot_color",
+                    "label": "Dot color",
+                    "default":"#ff3b30"
+                }
             ]
         },
         {

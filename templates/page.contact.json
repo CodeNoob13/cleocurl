@@ -44,7 +44,21 @@
           "type": "item",
           "settings": {
             "title": "Can I use CLEO CURL daily?",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>"
+            "content": "<p>Absolutely. CLEO CURL is lightweight and non-greasy, so it’s perfect for daily styling or refreshing your curls in between wash days.</p>"
+          }
+        },
+        "item_FnAfqz": {
+          "type": "item",
+          "settings": {
+            "title": "Is CLEO CURL vegan and cruelty-free?",
+            "content": "<p>Yes. Our formula is proudly<strong>vegan, cruelty-free</strong>, and made with clean ingredients you can trust.</p>"
+          }
+        },
+        "item_X6Fe4r": {
+          "type": "item",
+          "settings": {
+            "title": "What if it doesn't work for me?",
+            "content": "<p>No worries — we offer a 30-day money-back guarantee. If CLEO CURL isn’t a match for your curls, we’ll refund you. Simple as that. Just fill out the form below and we’ll take care of the rest.</p>"
           }
         }
       },
@@ -53,21 +67,22 @@
         "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-2",
         "template--19341625164106__355c81a0-c94f-4d93-af30-28190b3352fb-item-3",
         "591b83b9-0dce-4c67-99b5-defb6498b138",
-        "fdafa308-8a7e-4d17-b153-2d4319bbfb74"
+        "fdafa308-8a7e-4d17-b153-2d4319bbfb74",
+        "item_FnAfqz",
+        "item_X6Fe4r"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "Frequently Asked Questions",
-        "title": "Veelgestelde vragen",
-        "content": "<p>Do you have a question or comment? Then take a look at our frequently asked questions first. Often, the question you have can be answered easily. If you still need help, you can easily contact us via our contact form. We are ready to help you.</p>",
+        "title": "Do you have a question or comment?",
+        "content": "<p>Then take a look at our frequently asked questions first. Often, the question you have can be answered easily. If you still need help, you can easily contact us via our contact form. We are ready to help you.</p>",
         "team_avatar_width": 70,
         "support_hours": "Is your question not listed?",
         "answer_time": "Then scroll down for the contact form.",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "",
+        "background": "#fcfaf6",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -115,8 +130,8 @@
         "content": "<p>We'll do our best to reply to your message as soon as possible.</p>",
         "text_position": "start",
         "contact_form_size": "small",
-        "background": "",
-        "background_gradient": "linear-gradient(180deg, rgba(222, 240, 239, 1), rgba(255, 255, 255, 1) 50%, rgba(255, 183, 74, 1) 100%)",
+        "background": "#fcfaf6",
+        "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",

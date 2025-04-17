@@ -14,7 +14,6 @@
       "blocks": {
         "template--19341625033034__c8302c56-2cac-48db-960d-b6f1f3cd15c5-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "text": "Embrace Your Curls!",
             "heading_tag": "h2"
@@ -32,7 +31,7 @@
             "style": "fill",
             "size": "base",
             "text": "SHOP NOW",
-            "url": "shopify://products/test",
+            "url": "shopify://products/curl-styling-cream",
             "background": "#ee9824",
             "text_color": "#ffffff"
           }
@@ -47,8 +46,8 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "enable_parallax": false,
-        "image_size": "lg",
+        "enable_parallax": true,
+        "image_size": "fill",
         "image": "shopify://shop_images/DSC01775.heic",
         "mobile_image": "shopify://shop_images/DSC01502.jpg",
         "mobile_text_position": "place-self-end-center text-center",
@@ -84,6 +83,21 @@
         "product_card_text_color": "#2a2e45"
       }
     },
+    "scrolling_text_FmfQCB": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "All natural ingredients",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#fcfaf6",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "featured_collection_WiDV4C": {
       "type": "featured-collection",
       "disabled": true,
@@ -110,60 +124,6 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Daniëlle",
-            "content": "\"I absolutely love Cleo Curl's styling creme. My curls last long and it took me less time to style.\"",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "560e9122-7d85-436e-98ae-c41814b26f4b": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Chiara",
-            "content": "\"I think Cleo Curl really did an amazing job in creating a product that makes my curls look good and healthy at the same time.\"",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "7945d376-eff5-4e80-8b37-0493768df3cd": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 120,
-            "author": "Elara",
-            "content": "\"I only need to use just a little bit of styling creme and my curls are already beautiful.\"",
-            "show_rating": true,
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "560e9122-7d85-436e-98ae-c41814b26f4b",
-        "7945d376-eff5-4e80-8b37-0493768df3cd"
-      ],
-      "custom_css": [
-        ".rating__star {color: #ffdf00;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "large",
-        "background": "#fcfaf6",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
       }
     },
     "featured_product_zHLkiD": {
@@ -226,7 +186,7 @@
           "type": "button",
           "settings": {
             "link": "shopify://products/curl-styling-cream",
-            "text": "READ MORE",
+            "text": "Read more",
             "size": "xl",
             "style": "fill",
             "stretch": true,
@@ -265,17 +225,18 @@
         "buy_buttons_7pFNkr",
         "pickup_availability_TRBadU"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "product": "curl-styling-cream",
-        "desktop_media_width": 35,
-        "desktop_media_layout": "grid_highlight",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "contained",
-        "mobile_carousel_control": "dots",
-        "enable_video_autoplay": true,
+        "mobile_carousel_control": "free_scroll",
+        "enable_video_autoplay": false,
         "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 2.5,
         "background": "#fcfaf6",
         "background_gradient": "",
         "text_color": "",
@@ -394,10 +355,93 @@
         "image_NpWCdk",
         "image_wENJN7"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "section_title": "Duizenden mensen gingen je voor!",
         "background_color": "#fcfaf6"
+      }
+    },
+    "f068b901-4672-4f20-853e-a00dcd7d1c26": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19965247881546__f068b901-4672-4f20-853e-a00dcd7d1c26-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Scherm_afbeelding_2024-12-20_om_19.20.43.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Nature’s Finest for Your Curls",
+            "title": "Premium Ingredients for Healthy Curls",
+            "content": "<p>At CLEO CURL, we believe that your hair deserves the very best. That’s why we only select the highest quality, natural ingredients for our styling cream. The combination of natural fruit extracts and Mediterranean oils hydrate, strengthen and define your curls. You can trust that every ingredient is chosen with your hair’s health and beauty in mind.</p>",
+            "link_text": "Shop now",
+            "link_url": "shopify://products/curl-styling-cream",
+            "background": "#ecf4f3",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "841b9cdd-d4bf-4512-86b7-958a1926d3e9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC01276.heic",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Creates The Best Curls You Ever Had",
+            "title": "Makes Styling Your Curls Easy",
+            "content": "<p>Our products are designed to make styling your curls easy, helping you achieve the most beautiful, defined curls you've ever had. They provide long-lasting hold while maintaining the health of your hair, so your curls stay soft, bouncy, and naturally shiny. Plus, they're free from silicones, mineral oils and dehydrating alcohols, ensuring your curls stay healthy.</p>",
+            "link_text": "",
+            "link_url": "shopify://collections/bedrukte-dekbedden",
+            "background": "#fff6e9",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "#fff6e9",
+            "button_text_color": ""
+          }
+        },
+        "image_CpFCJx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pexels-alexazabache-3723031.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Embrace Your Curls",
+            "title": "Makes You Authentic",
+            "content": "<p>Inspired by the timeless beauty of the ancient Egyptian queen Cleopatra, CLEO CURL empowers you to wear your curls with pride and authenticity. Too often, we see women neglect their curls. We want you to wear them with confidence!</p>",
+            "link_text": "Shop now",
+            "link_url": "shopify://products/curl-styling-cream",
+            "background": "#ecf4f3",
+            "background_gradient": "",
+            "text_color": "#2a2e45",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19965247881546__f068b901-4672-4f20-853e-a00dcd7d1c26-image-1",
+        "841b9cdd-d4bf-4512-86b7-958a1926d3e9",
+        "image_CpFCJx"
+      ],
+      "custom_css": [],
+      "settings": {
+        "background_color": "#FCFAF6",
+        "full_width": true,
+        "spacing": "small"
       }
     },
     "before_after_image_mVejg4": {
@@ -407,8 +451,8 @@
         "subheading": "",
         "title": "Before/after",
         "content": "<p>The results are fantastic!</p>",
-        "before_image": "shopify://shop_images/IMG_7075_2.jpg",
-        "after_image": "shopify://shop_images/DSC01584.heic",
+        "before_image": "shopify://shop_images/DSC01553_2_a1120daa-0493-4612-a0a5-bbfdabd1d776.jpg",
+        "after_image": "shopify://shop_images/DSC01553_1_2abfc57d-646b-4842-b06d-d56674452eb5.jpg",
         "expand_image": false,
         "text_position": "start",
         "before_after_text_position": "top",
@@ -493,85 +537,58 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "f068b901-4672-4f20-853e-a00dcd7d1c26": {
-      "type": "media-with-text",
+    "press": {
+      "type": "press",
       "blocks": {
-        "template--19965247881546__f068b901-4672-4f20-853e-a00dcd7d1c26-image-1": {
-          "type": "image",
+        "16644243327ba53d2a-0": {
+          "type": "quote",
           "settings": {
-            "image": "shopify://shop_images/Scherm_afbeelding_2024-12-20_om_19.20.43.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "Nature’s Finest for Your Curls",
-            "title": "Premium Ingredients for Healthy Curls",
-            "content": "<p>At CLEO CURL, we believe that your hair deserves the very best. That’s why we only select the highest quality, natural ingredients for our styling cream. The combination of natural fruit extracts and Mediterranean oils hydrate, strengthen and define your curls. You can trust that every ingredient is chosen with your hair’s health and beauty in mind.</p>",
-            "link_text": "",
-            "link_url": "shopify://pages/duurzaamheid",
-            "background": "#ecf4f3",
-            "background_gradient": "",
-            "text_color": "#2a2e45",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "logo_width": 100,
+            "author": "Daniëlle",
+            "content": "\"I absolutely love Cleo Curl's styling creme. My curls last long and it took me less time to style.\"",
+            "show_rating": true,
+            "rating": 5
           }
         },
-        "841b9cdd-d4bf-4512-86b7-958a1926d3e9": {
-          "type": "image",
+        "560e9122-7d85-436e-98ae-c41814b26f4b": {
+          "type": "quote",
           "settings": {
-            "image": "shopify://shop_images/DSC01276.heic",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "Creates The Best Curls You Ever Had",
-            "title": "Makes Styling Your Curls Easy",
-            "content": "<p>Our products are designed to make styling your curls easy, helping you achieve the most beautiful, defined curls you've ever had. They provide long-lasting hold while maintaining the health of your hair, so your curls stay soft, bouncy, and naturally shiny. Plus, they're free from silicones, mineral oils and dehydrating alcohols, ensuring your curls stay healthy.</p>",
-            "link_text": "",
-            "link_url": "shopify://collections/bedrukte-dekbedden",
-            "background": "#fff6e9",
-            "background_gradient": "",
-            "text_color": "#2a2e45",
-            "text_gradient": "",
-            "button_background": "#fff6e9",
-            "button_text_color": ""
+            "logo_width": 100,
+            "author": "Chiara",
+            "content": "\"I think Cleo Curl really did an amazing job in creating a product that makes my curls look good and healthy at the same time.\"",
+            "show_rating": true,
+            "rating": 5
           }
         },
-        "image_CpFCJx": {
-          "type": "image",
+        "7945d376-eff5-4e80-8b37-0493768df3cd": {
+          "type": "quote",
           "settings": {
-            "image": "shopify://shop_images/pexels-alexazabache-3723031.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "Embrace Your Curls",
-            "title": "Makes You Authentic",
-            "content": "<p>Inspired by the timeless beauty of the ancient Egyptian queen Cleopatra, CLEO CURL empowers you to wear your curls with pride and authenticity. Too often, we see women neglect their curls. We want you to wear them with confidence!</p>",
-            "link_text": "",
-            "link_url": "shopify://pages/duurzaamheid",
-            "background": "#ecf4f3",
-            "background_gradient": "",
-            "text_color": "#2a2e45",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "logo_width": 120,
+            "author": "Elara",
+            "content": "\"I only need to use just a little bit of styling creme and my curls are already beautiful.\"",
+            "show_rating": true,
+            "rating": 5
           }
         }
       },
       "block_order": [
-        "template--19965247881546__f068b901-4672-4f20-853e-a00dcd7d1c26-image-1",
-        "841b9cdd-d4bf-4512-86b7-958a1926d3e9",
-        "image_CpFCJx"
+        "16644243327ba53d2a-0",
+        "560e9122-7d85-436e-98ae-c41814b26f4b",
+        "7945d376-eff5-4e80-8b37-0493768df3cd"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".rating__star {color: #ffdf00;}"
+      ],
       "settings": {
         "full_width": true,
-        "spacing": "small"
+        "content_size": "large",
+        "background": "#fcfaf6",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "faq": {
@@ -612,6 +629,34 @@
             "title": "How do I use CLEO CURL for the best results?",
             "content": "<p>Apply a generous amount of CLEO CURL to damp hair, distributing it evenly from root to tip. Use your fingers or a wide-tooth comb to define your curls. For extra definition, scrunch your hair and let it air dry or use a diffuser.</p>"
           }
+        },
+        "item_LzXEYR": {
+          "type": "item",
+          "settings": {
+            "title": "Is CLEO CURL Curly Girl Method–approved?",
+            "content": "<p>Yes — CLEO CURL is 100% <strong>CG proof</strong>, meaning it’s free from sulfates, silicones, drying alcohols, and other no-go ingredients for curly hair care.</p>"
+          }
+        },
+        "item_rMGrbm": {
+          "type": "item",
+          "settings": {
+            "title": "Can I use CLEO CURL daily?",
+            "content": "<p>Absolutely. CLEO CURL is lightweight and non-greasy, so it’s perfect for daily styling or refreshing your curls in between wash days.</p>"
+          }
+        },
+        "item_7zChnB": {
+          "type": "item",
+          "settings": {
+            "title": "Is CLEO CURL vegan and cruelty-free?",
+            "content": "<p>Yes. Our formula is proudly <strong>vegan, cruelty-free</strong>, and made with clean ingredients you can trust.</p>"
+          }
+        },
+        "item_bLEegt": {
+          "type": "item",
+          "settings": {
+            "title": "What if it doesn’t work for me?",
+            "content": "<p>No worries — we offer a <strong>30-day money-back guarantee</strong>. If CLEO CURL isn’t a match for your curls, we’ll refund you. Simple as that.</p>"
+          }
         }
       },
       "block_order": [
@@ -619,13 +664,20 @@
         "item_qrCGCB",
         "cc95405b-a253-4f2a-8600-0741e621aa70",
         "29e8a086-218a-4bb0-a598-1e15a1141b07",
-        "166442457738b23caf-0"
+        "166442457738b23caf-0",
+        "item_LzXEYR",
+        "item_rMGrbm",
+        "item_7zChnB",
+        "item_bLEegt"
+      ],
+      "custom_css": [
+        "h2 {padding-top: 24px;}"
       ],
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "Frequently Asked Questions",
-        "content": "<p>Answers to the most asked questions about CleoCurl.</p>",
+        "content": "<p>Everything you need to know about CLEO CURL, from ingredients and hair types to how to use it and what makes it different. If you’re wondering, chances are it’s answered right here.</p>",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",
@@ -726,13 +778,14 @@
   "order": [
     "c8302c56-2cac-48db-960d-b6f1f3cd15c5",
     "featured-collection",
+    "scrolling_text_FmfQCB",
     "featured_collection_WiDV4C",
-    "press",
     "featured_product_zHLkiD",
     "image_carrousel_qHYUa3",
+    "f068b901-4672-4f20-853e-a00dcd7d1c26",
     "before_after_image_mVejg4",
     "71c5521d-e18c-40a8-a0f0-725ce5dd7e5f",
-    "f068b901-4672-4f20-853e-a00dcd7d1c26",
+    "press",
     "faq",
     "d0ea91b0-291e-4332-bff2-161b21b2cb87",
     "34226d25-4782-4ebc-a403-9a6555d6483d"

@@ -49,11 +49,11 @@
         <span class="cart-bar__treshold">{{ ship_treshold }} {{ cart.currency.iso_code }}</span>
     </div>
 
-    <div class="cart-bar__tier cart-bar__tier-2">
+ {% comment %} <div class="cart-bar__tier cart-bar__tier-2">
         <div class="cart-bar__label">Gratis cadeau</div>
         <div class="cart-bar__point"></div>
         <div class="cart-bar__treshold">{{ gift_treshold }} {{ cart.currency.iso_code }}</div>     
-    </div>
+    </div>  {% endcomment %}
 </div>
 <script>  
     document.addEventListener("cart:change", (e)=>{

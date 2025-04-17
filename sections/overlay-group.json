@@ -39,7 +39,7 @@
         "show_shipping_text": true,
         "show_view_cart_button": false,
         "show_checkout_button": true,
-        "recommendations_title": "Populair deze maand",
+        "recommendations_title": "",
         "products": [],
         "product_card_background": "#ffffff",
         "product_card_text_color": "#2a2e45"

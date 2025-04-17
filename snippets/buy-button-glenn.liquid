@@ -1,19 +1,12 @@
-
-
-  {% comment %} <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}"> {% endcomment %}
-
-<button class="button" id="glenn_button" type="submit"
-  style="margin-bottom: 12px; background-color: {{ color }}!important; width:100%;">
+<button class="button" id="glenn_button" type="button"
+  style="margin: 12px 0; background-color: {{ color }}; width:100%;">
  {{ text }}
 </button>
 
-
-
-
-{% comment %} Ajax API {% endcomment %}
 <script>
 const produdctId = {{ product_item.selected_or_first_available_variant.id | json }}
-const itemCount = document.querySelector('.count-bubble')
+console.log(produdctId)
+
 const formData = {
   items: [{
     id:  produdctId,
@@ -21,46 +14,8 @@ const formData = {
   }]
 };
 
-async function updateCartCount() {
-  const response = await fetch(window.Shopify.routes.root + 'cart.js')
-  const data = await response.json()
-  itemCount.innerText = data.item_count + 1
-}
-
-async function addToCart(formData) {
-  try {
-    const response = await fetch(window.Shopify.routes.root + 'cart/add.js', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData)
-    });
-    
-    if(!response.ok) {
-      throw new Error('Error ' + response.status + response.statusText);
-      return;
-    }
-  
-    const data = await response.json()
-    return data;
-  } catch(error) {
-    console.error("Error " + Error)
-  }
-
-
-
-}
-
-document.getElementById('glenn_button').addEventListener('click',() => {
-  addToCart(formData)
-  
-  updateCartCount()
-
-}); 
-
-{% comment %} document.getElementById('glenn_button').addEventListener('click', function() {
-  const response = fetch(window.Shopify.routes.root + 'cart/add.js', {
+document.getElementById('glenn_button').addEventListener('click', function() {
+  fetch(window.Shopify.routes.root + 'cart/add.js', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -70,7 +25,5 @@ document.getElementById('glenn_button').addEventListener('click',() => {
   .then(response => response.json())
   .then(data => console.log('Added to cart:', data))
   .catch(error => console.error('Error:', error));
-});  {% endcomment %}
+}); 
 </script>
-
-
